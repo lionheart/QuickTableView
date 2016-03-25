@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'QuickTableView_Example', :exclusive => true do
+  pod 'QuickTableView', :path => '../'
+end
+
+target 'QuickTableView_Tests', :exclusive => true do
+  pod 'QuickTableView', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end
