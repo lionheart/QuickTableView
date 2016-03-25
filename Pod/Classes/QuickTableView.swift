@@ -9,31 +9,29 @@ import UIKit
 import KeyboardAdjuster
 import LionheartTableViewCells
 
-public protocol QuickTableViewSectionLike {
-    static var title: String? { get }
+public enum QuickTableViewRow<T: UIContentContainer> {
+    public typealias QuickTableViewHandler = T -> Void
 
-    // A mapping of sections to TableViewRow enums
-    static var rows: [QuickTableViewRow] { get }
-}
-
-public protocol QuickTableViewRowLike {
-    static var count: Int { get }
-    var cell: LionheartTableViewCell.Type { get }
-    init?(rawValue: Int)
-}
-
-public typealias QuickTableViewHandler = UIViewController -> Void
-
-public enum QuickTableViewRow {
     case Default(String?, QuickTableViewHandler?)
     case Subtitle(String?, String?, QuickTableViewHandler?)
     case Value1(String?, String?, QuickTableViewHandler?)
     case Value2(String?, String?, QuickTableViewHandler?)
     case Custom(LionheartTableViewCell.Type, (UITableViewCell) -> UITableViewCell, QuickTableViewHandler?)
+
+    indirect case RowWithHandler(QuickTableViewRow<T>, QuickTableViewHandler)
+
+    public func with(handler: QuickTableViewHandler) -> QuickTableViewRow<T> {
+        if case .RowWithHandler(let row, _) = self {
+            return .RowWithHandler(row, handler)
+        }
+        else {
+            return .RowWithHandler(self, handler)
+        }
+    }
 }
 
-public enum QuickTableViewSection {
-    case Default(String?, [QuickTableViewRow])
+public enum QuickTableViewSection<T: UIContentContainer> {
+    case Default(String?, [QuickTableViewRow<T>])
 
     var count: Int {
         switch self {
@@ -42,7 +40,7 @@ public enum QuickTableViewSection {
         }
     }
 
-    var rows: [QuickTableViewRow] {
+    var rows: [QuickTableViewRow<T>] {
         if case .Default(_, let rows) = self {
             return rows
         }
@@ -51,7 +49,7 @@ public enum QuickTableViewSection {
         }
     }
 
-    subscript(index: Int) -> QuickTableViewRow? {
+    subscript(index: Int) -> QuickTableViewRow<T>? {
         if case .Default(_, let rows) = self {
             return rows[index]
         }
@@ -82,7 +80,8 @@ public enum QuickTableViewSection {
 }
 
 public protocol QuickTableViewContainer {
-    static var sections: [QuickTableViewSection] { get }
+    associatedtype T: UIContentContainer
+    static var sections: [QuickTableViewSection<T>] { get }
     static var style: UITableViewStyle { get }
 }
 
@@ -195,19 +194,19 @@ public class QuickTableViewController<SectionType: QuickTableViewContainer>: Bas
         if let row = section[indexPath.row] {
             switch row {
             case .Default(_, let handler?):
-                handler(self)
+                handler(self as! SectionType.T)
 
             case .Subtitle(_, _, let handler?):
-                handler(self)
+                handler(self as! SectionType.T)
 
             case .Value1(_, _, let handler?):
-                handler(self)
+                handler(self as! SectionType.T)
                 
             case .Value2(_, _, let handler?):
-                handler(self)
+                handler(self as! SectionType.T)
                 
             case .Custom(_, _, let handler?):
-                handler(self)
+                handler(self as! SectionType.T)
                 
             default:
                 break
