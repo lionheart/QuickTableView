@@ -1,0 +1,30 @@
+{
+  "name": "QuickTableView",
+  "version": "0.1.0",
+  "summary": "A short description of QuickTableView.",
+  "description": "",
+  "homepage": "https://github.com/lionheart/QuickTableView",
+  "license": "MIT",
+  "authors": {
+    "Dan Loewenherz": "dloewenherz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lionheart/QuickTableView.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/lionheartsw",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "LionheartTableViewCells": [
+
+    ],
+    "KeyboardAdjuster": [
+
+    ]
+  }
+}

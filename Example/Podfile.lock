@@ -1,0 +1,39 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - KeyboardAdjuster (1.1.2)
+  - LionheartTableViewCells (1.0.0)
+  - Nimble (3.2.0)
+  - Nimble-Snapshots (3.0.0):
+    - FBSnapshotTestCase (~> 2.0.7)
+    - Nimble
+    - Quick
+  - Quick (0.9.1)
+  - QuickTableView (0.1.0):
+    - KeyboardAdjuster
+    - LionheartTableViewCells
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Nimble (~> 3.0)
+  - Nimble-Snapshots
+  - Quick (~> 0.8)
+  - QuickTableView (from `../`)
+
+EXTERNAL SOURCES:
+  QuickTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  KeyboardAdjuster: 41bb3982d948480d275c91d762c01c13b4af8570
+  LionheartTableViewCells: b8bfe8920e0f6abb99fb3030a25d7bd164ad4c54
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Nimble-Snapshots: ab41dd737dcd33a0b0cb005a30465fef70b7207a
+  Quick: a5221fc21788b6aeda934805e68b061839bc3165
+  QuickTableView: 9a6e0a50be35b2084a9a76ef5be3933542055a4c
+
+COCOAPODS: 0.39.0
