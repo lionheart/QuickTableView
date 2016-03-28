@@ -9,15 +9,29 @@ import UIKit
 import KeyboardAdjuster
 import LionheartTableViewCells
 
-public enum QuickTableViewRow {
+public protocol QuickTableViewRowLike {
+    var title: String? { get }
+    var detail: String? { get }
+    var type: UITableViewCellIdentifiable.Type { get }
+}
+
+public protocol QuickTableViewRowLikeExtended: QuickTableViewRowLike {
+    associatedtype C
+    func prepareCell(cell: C) -> C
+    func dequeueReusableCellWithIdentifier(tableView: UITableView, forIndexPath indexPath: NSIndexPath) -> C
+}
+
+public enum QuickTableViewRow<T: UITableViewCell where T: UITableViewCellIdentifiable>: QuickTableViewRowLikeExtended {
+    public typealias C = T
     public typealias QuickTableViewHandler = UIViewController -> Void
 
     case Default(String?)
     case Subtitle(String?, String?)
     case Value1(String?, String?)
     case Value2(String?, String?)
-    case Custom(LionheartTableViewCell.Type, (UITableViewCell) -> UITableViewCell)
+    case Custom(UITableViewCellIdentifiable.Type, (C) -> C)
 
+    indirect case RowWithSetup(QuickTableViewRow, (C) -> C)
     indirect case RowWithHandler(QuickTableViewRow, QuickTableViewHandler)
 
     public func onSelection(handler: QuickTableViewHandler) -> QuickTableViewRow {
@@ -27,6 +41,26 @@ public enum QuickTableViewRow {
         else {
             return .RowWithHandler(self, handler)
         }
+    }
+
+    public func dequeueReusableCellWithIdentifier(tableView: UITableView, forIndexPath indexPath: NSIndexPath) -> C {
+        return prepareCell(tableView.dequeueReusableCellWithIndexPath(indexPath)!)
+    }
+
+    public func prepareCell(cell: C) -> C {
+        cell.textLabel?.text = self.title
+        cell.detailTextLabel?.text = self.detail
+
+        if case .Custom(_, let callback) = self {
+            return callback(cell)
+        }
+        else if case .RowWithSetup(let row, let callback) = self {
+            return row.prepareCell(callback(cell))
+        }
+        else if case .RowWithHandler(let row, _) = self {
+            return row.prepareCell(cell)
+        }
+        return cell
     }
 
     public var title: String? {
@@ -47,6 +81,9 @@ public enum QuickTableViewRow {
             return nil
 
         case .RowWithHandler(let row, _):
+            return row.title
+
+        case .RowWithSetup(let row, _):
             return row.title
         }
     }
@@ -70,54 +107,61 @@ public enum QuickTableViewRow {
 
         case .RowWithHandler(let row, _):
             return row.detail
+
+        case .RowWithSetup(let row, _):
+            return row.detail
         }
     }
 
-    public var type: LionheartTableViewCell.Type {
-        switch self {
-        case .Default, .Custom:
-            return TableViewCellDefault.self
-
-        case .Subtitle:
-            return TableViewCellSubtitle.self
-
-        case .Value1:
-            return TableViewCellValue1.self
-
-        case .Value2:
-            return TableViewCellValue2.self
-
-        case .RowWithHandler(let row, _):
-            return row.type
-        }
+    var type: C.Type {
+        return C.self
     }
 }
 
-public struct QuickTableViewSection: ArrayLiteralConvertible {
-    public typealias Element = QuickTableViewRow
-    var name: String?
-    var rows: [QuickTableViewRow]
-
+public enum QuickTableViewSection: ArrayLiteralConvertible {
+    public typealias Row = QuickTableViewRowLike
+    public typealias Element = Row
     var count: Int { return rows.count }
 
-    public init(name theName: String, rows theRows: [QuickTableViewRow]) {
-        name = theName
-        rows = theRows
+    case Default([Row])
+    case Title(String, [Row])
+
+    public init(name theName: String, rows theRows: [Row]) {
+        self = .Title(theName, theRows)
     }
 
-    public init(_ rows: [QuickTableViewRow]) {
-        self.rows = rows
+    public init(_ rows: [Row]) {
+        self = .Default(rows)
     }
 
     public init(arrayLiteral elements: Element...) {
-        rows = elements
+        self = .Default(elements)
     }
 
-    subscript(index: Int) -> QuickTableViewRow {
+    subscript(index: Int) -> Row {
         return rows[index]
     }
 
-    var TableViewCellClasses: [LionheartTableViewCell.Type] {
+    var name: String? {
+        if case .Title(let title, _) = self {
+            return title
+        }
+        else {
+            return nil
+        }
+    }
+
+    var rows: [QuickTableViewRow<TableViewCellDefault>] {
+        switch self {
+        case .Default(let rows):
+            return rows
+
+        case .Title(_, let rows):
+            return rows
+        }
+    }
+
+    var TableViewCellClasses: [UITableViewCellIdentifiable.Type] {
         return rows.map { $0.type }
     }
 }
@@ -125,6 +169,7 @@ public struct QuickTableViewSection: ArrayLiteralConvertible {
 public protocol QuickTableViewContainer {
     static var sections: [QuickTableViewSection] { get }
     static var style: UITableViewStyle { get }
+    static var shouldAutoResizeCells: Bool { get }
 }
 
 public class BaseTableViewController: UIViewController, KeyboardAdjuster {
@@ -165,11 +210,25 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster {
         tableView.topAnchor.constraintEqualToAnchor(view.topAnchor).active = true
         keyboardAdjusterConstraint = view.bottomAnchor.constraintEqualToAnchor(tableView.bottomAnchor)
     }
+
+    // MARK: -
+    public func leftBarButtonItemDidTouchUpInside(sender: AnyObject?) {
+        parentViewController?.dismissViewControllerAnimated(true, completion: nil)
+    }
+
+    public func rightBarButtonItemDidTouchUpInside(sender: AnyObject?) {
+        parentViewController?.dismissViewControllerAnimated(true, completion: nil)
+    }
 }
 
 public class QuickTableViewController<Container: QuickTableViewContainer>: BaseTableViewController, UITableViewDataSource, UITableViewDelegate {
     required public init() {
         super.init(style: Container.style)
+
+        if Container.shouldAutoResizeCells {
+            tableView.estimatedRowHeight = 44
+            tableView.rowHeight = UITableViewAutomaticDimension
+        }
     }
 
     override public func viewDidLoad() {
@@ -179,7 +238,7 @@ public class QuickTableViewController<Container: QuickTableViewContainer>: BaseT
         for section in Container.sections {
             for type in section.TableViewCellClasses {
                 if !registeredClassIdentifiers.contains(type.identifier) {
-                    tableView.registerClass(type as! UITableViewCell.Type, forCellReuseIdentifier: type.identifier)
+                    tableView.registerClass(type)
                     registeredClassIdentifiers.insert(type.identifier)
                 }
             }
@@ -194,23 +253,31 @@ public class QuickTableViewController<Container: QuickTableViewContainer>: BaseT
         return Container.sections[section].count
     }
 
+    public func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return Container.sections[section].name
+    }
+
     public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let section = Container.sections[indexPath.section]
-        let row = section[indexPath.row]
+        let row = section[indexPath.row] as! QuickTableViewRow<TableViewCellDefault>
+        return row.dequeueReusableCellWithIdentifier(tableView, forIndexPath: indexPath)
+
+        /*
         switch row {
         case .Custom(let CellType, let callback):
             let cell = tableView.dequeueReusableCellWithIdentifier(CellType.identifier, forIndexPath: indexPath)
-            return callback(cell)
+            return row.prepareCell(cell)
 
         default:
             let cell = tableView.dequeueReusableCellWithIdentifier(row.type.identifier, forIndexPath: indexPath)
-            cell.textLabel?.text = row.title
-            cell.detailTextLabel?.text = row.detail
-            return cell
+            return row.prepareCell(cell)
         }
+ */
     }
 
     public func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+
         let section = Container.sections[indexPath.section]
         if case .RowWithHandler(_, let handler) = section[indexPath.row] {
             handler(self)
