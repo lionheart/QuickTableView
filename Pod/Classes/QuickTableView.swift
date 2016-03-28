@@ -21,8 +21,8 @@ public protocol QuickTableViewRowLikeExtended: QuickTableViewRowLike {
     func dequeueReusableCellWithIdentifier(tableView: UITableView, forIndexPath indexPath: NSIndexPath) -> C
 }
 
-public enum QuickTableViewRow<T: UITableViewCell where T: UITableViewCellIdentifiable>: QuickTableViewRowLikeExtended {
-    public typealias C = T
+public enum QuickTableViewRow: QuickTableViewRowLikeExtended {
+    public typealias C = UITableViewCell
     public typealias QuickTableViewHandler = UIViewController -> Void
 
     case Default(String?)
@@ -44,7 +44,7 @@ public enum QuickTableViewRow<T: UITableViewCell where T: UITableViewCellIdentif
     }
 
     public func dequeueReusableCellWithIdentifier(tableView: UITableView, forIndexPath indexPath: NSIndexPath) -> C {
-        return prepareCell(tableView.dequeueReusableCellWithIndexPath(indexPath)!)
+        return prepareCell(tableView.dequeueReusableCellWithIdentifier(type.identifier, forIndexPath: indexPath))
     }
 
     public func prepareCell(cell: C) -> C {
@@ -113,13 +113,34 @@ public enum QuickTableViewRow<T: UITableViewCell where T: UITableViewCellIdentif
         }
     }
 
-    var type: C.Type {
-        return C.self
+    public var type: UITableViewCellIdentifiable.Type {
+        switch self {
+        case .Default:
+            return TableViewCellDefault.self
+
+        case .Subtitle:
+            return TableViewCellSubtitle.self
+
+        case .Value1:
+            return TableViewCellValue1.self
+
+        case .Value2:
+            return TableViewCellValue2.self
+
+        case .Custom(let type, _):
+            return type
+
+        case .RowWithHandler(let row, _):
+            return row.type
+
+        case .RowWithSetup(let row, _):
+            return row.type
+        }
     }
 }
 
 public enum QuickTableViewSection: ArrayLiteralConvertible {
-    public typealias Row = QuickTableViewRowLike
+    public typealias Row = QuickTableViewRow
     public typealias Element = Row
     var count: Int { return rows.count }
 
@@ -151,7 +172,7 @@ public enum QuickTableViewSection: ArrayLiteralConvertible {
         }
     }
 
-    var rows: [QuickTableViewRow<TableViewCellDefault>] {
+    var rows: [QuickTableViewRow] {
         switch self {
         case .Default(let rows):
             return rows
@@ -259,10 +280,7 @@ public class QuickTableViewController<Container: QuickTableViewContainer>: BaseT
 
     public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let section = Container.sections[indexPath.section]
-        let row = section[indexPath.row] as! QuickTableViewRow<TableViewCellDefault>
-        return row.dequeueReusableCellWithIdentifier(tableView, forIndexPath: indexPath)
-
-        /*
+        let row = section.rows[indexPath.row]
         switch row {
         case .Custom(let CellType, let callback):
             let cell = tableView.dequeueReusableCellWithIdentifier(CellType.identifier, forIndexPath: indexPath)
@@ -272,7 +290,6 @@ public class QuickTableViewController<Container: QuickTableViewContainer>: BaseT
             let cell = tableView.dequeueReusableCellWithIdentifier(row.type.identifier, forIndexPath: indexPath)
             return row.prepareCell(cell)
         }
- */
     }
 
     public func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
