@@ -9,19 +9,7 @@ import UIKit
 import KeyboardAdjuster
 import LionheartTableViewCells
 
-public protocol QuickTableViewRowLike {
-    var title: String? { get }
-    var detail: String? { get }
-    var type: UITableViewCellIdentifiable.Type { get }
-}
-
-public protocol QuickTableViewRowLikeExtended: QuickTableViewRowLike {
-    associatedtype C
-    func prepareCell(cell: C) -> C
-    func dequeueReusableCellWithIdentifier(tableView: UITableView, forIndexPath indexPath: NSIndexPath) -> C
-}
-
-public enum QuickTableViewRow: QuickTableViewRowLikeExtended {
+public enum QuickTableViewRow {
     public typealias C = UITableViewCell
     public typealias QuickTableViewHandler = UIViewController -> Void
 
@@ -33,6 +21,7 @@ public enum QuickTableViewRow: QuickTableViewRowLikeExtended {
 
     indirect case RowWithSetup(QuickTableViewRow, (C) -> C)
     indirect case RowWithHandler(QuickTableViewRow, QuickTableViewHandler)
+    indirect case RowWithHandler2(QuickTableViewRow, (UIViewController, CGPoint) -> Void)
 
     public func onSelection(handler: QuickTableViewHandler) -> QuickTableViewRow {
         if case .RowWithHandler(let row, _) = self {
@@ -48,17 +37,24 @@ public enum QuickTableViewRow: QuickTableViewRowLikeExtended {
     }
 
     public func prepareCell(cell: C) -> C {
-        cell.textLabel?.text = self.title
-        cell.detailTextLabel?.text = self.detail
+        cell.textLabel?.text = title
+        cell.detailTextLabel?.text = detail
 
-        if case .Custom(_, let callback) = self {
+        switch self {
+        case .Custom(_, let callback):
             return callback(cell)
-        }
-        else if case .RowWithSetup(let row, let callback) = self {
-            return row.prepareCell(callback(cell))
-        }
-        else if case .RowWithHandler(let row, _) = self {
+
+        case .RowWithHandler(let row, _):
             return row.prepareCell(cell)
+
+        case .RowWithHandler2(let row, _):
+            return row.prepareCell(cell)
+
+        case .RowWithSetup(let row, let callback):
+            return row.prepareCell(callback(cell))
+
+        default:
+            break
         }
         return cell
     }
@@ -85,6 +81,9 @@ public enum QuickTableViewRow: QuickTableViewRowLikeExtended {
 
         case .RowWithSetup(let row, _):
             return row.title
+
+        case .RowWithHandler2(let row, _):
+            return row.title
         }
     }
 
@@ -110,6 +109,9 @@ public enum QuickTableViewRow: QuickTableViewRowLikeExtended {
 
         case .RowWithSetup(let row, _):
             return row.detail
+
+        case .RowWithHandler2(let row, _):
+            return row.detail
         }
     }
 
@@ -134,6 +136,9 @@ public enum QuickTableViewRow: QuickTableViewRowLikeExtended {
             return row.type
 
         case .RowWithSetup(let row, _):
+            return row.type
+
+        case .RowWithHandler2(let row, _):
             return row.type
         }
     }
@@ -246,6 +251,8 @@ public class QuickTableViewController<Container: QuickTableViewContainer>: BaseT
     required public init() {
         super.init(style: Container.style)
 
+        edgesForExtendedLayout = .None
+
         if Container.shouldAutoResizeCells {
             tableView.estimatedRowHeight = 44
             tableView.rowHeight = UITableViewAutomaticDimension
@@ -281,15 +288,8 @@ public class QuickTableViewController<Container: QuickTableViewContainer>: BaseT
     public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let section = Container.sections[indexPath.section]
         let row = section.rows[indexPath.row]
-        switch row {
-        case .Custom(let CellType, let callback):
-            let cell = tableView.dequeueReusableCellWithIdentifier(CellType.identifier, forIndexPath: indexPath)
-            return row.prepareCell(cell)
-
-        default:
-            let cell = tableView.dequeueReusableCellWithIdentifier(row.type.identifier, forIndexPath: indexPath)
-            return row.prepareCell(cell)
-        }
+        let cell = tableView.dequeueReusableCellWithIdentifier(row.type.identifier, forIndexPath: indexPath)
+        return row.prepareCell(cell)
     }
 
     public func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -298,6 +298,13 @@ public class QuickTableViewController<Container: QuickTableViewContainer>: BaseT
         let section = Container.sections[indexPath.section]
         if case .RowWithHandler(_, let handler) = section[indexPath.row] {
             handler(self)
+        }
+        else if case .RowWithHandler2(_, let handler) = section[indexPath.row] {
+            let rect = tableView.rectForRowAtIndexPath(indexPath)
+            let newRect = view.convertRect(rect, toView: view)
+            let maxX = CGRectGetMaxX(newRect)
+            let midY = CGRectGetMidY(newRect)
+            handler(self, CGPoint(x: maxX - 70, y: midY + 10))
         }
     }
 }
