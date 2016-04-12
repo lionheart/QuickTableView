@@ -87,17 +87,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-QuickTableView_Tests/KeyboardAdjuster.framework"
   install_framework "Pods-QuickTableView_Tests/LionheartTableViewCells.framework"
   install_framework "Pods-QuickTableView_Tests/QuickTableView.framework"
-  install_framework "Pods-QuickTableView_Tests/FBSnapshotTestCase.framework"
   install_framework "Pods-QuickTableView_Tests/Nimble.framework"
-  install_framework "Pods-QuickTableView_Tests/Nimble_Snapshots.framework"
   install_framework "Pods-QuickTableView_Tests/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-QuickTableView_Tests/KeyboardAdjuster.framework"
   install_framework "Pods-QuickTableView_Tests/LionheartTableViewCells.framework"
   install_framework "Pods-QuickTableView_Tests/QuickTableView.framework"
-  install_framework "Pods-QuickTableView_Tests/FBSnapshotTestCase.framework"
   install_framework "Pods-QuickTableView_Tests/Nimble.framework"
-  install_framework "Pods-QuickTableView_Tests/Nimble_Snapshots.framework"
   install_framework "Pods-QuickTableView_Tests/Quick.framework"
 fi
