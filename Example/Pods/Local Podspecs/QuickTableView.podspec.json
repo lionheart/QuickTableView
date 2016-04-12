@@ -20,9 +20,6 @@
   "source_files": "Pod/Classes/**/*",
   "frameworks": "UIKit",
   "dependencies": {
-    "LionheartTableViewCells": [
-
-    ],
     "KeyboardAdjuster": [
 
     ]
