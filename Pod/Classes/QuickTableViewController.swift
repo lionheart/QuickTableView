@@ -7,7 +7,6 @@
 
 import UIKit
 import KeyboardAdjuster
-import LionheartTableViewCells
 
 public enum QuickTableViewRow {
     public typealias C = UITableViewCell
@@ -17,7 +16,7 @@ public enum QuickTableViewRow {
     case Subtitle(String?, String?)
     case Value1(String?, String?)
     case Value2(String?, String?)
-    case Custom(UITableViewCellIdentifiable.Type, (C) -> C)
+    case Custom(QuickTableViewCellIdentifiable.Type, (C) -> C)
 
     indirect case RowWithSetup(QuickTableViewRow, (C) -> C)
     indirect case RowWithHandler(QuickTableViewRow, QuickTableViewHandler)
@@ -115,19 +114,19 @@ public enum QuickTableViewRow {
         }
     }
 
-    public var type: UITableViewCellIdentifiable.Type {
+    public var type: QuickTableViewCellIdentifiable.Type {
         switch self {
         case .Default:
-            return TableViewCellDefault.self
+            return QuickTableViewCellDefault.self
 
         case .Subtitle:
-            return TableViewCellSubtitle.self
+            return QuickTableViewCellSubtitle.self
 
         case .Value1:
-            return TableViewCellValue1.self
+            return QuickTableViewCellValue1.self
 
         case .Value2:
-            return TableViewCellValue2.self
+            return QuickTableViewCellValue2.self
 
         case .Custom(let type, _):
             return type
@@ -187,66 +186,8 @@ public enum QuickTableViewSection: ArrayLiteralConvertible {
         }
     }
 
-    var TableViewCellClasses: [UITableViewCellIdentifiable.Type] {
+    var TableViewCellClasses: [QuickTableViewCellIdentifiable.Type] {
         return rows.map { $0.type }
-    }
-}
-
-public protocol QuickTableViewContainer {
-    static var sections: [QuickTableViewSection] { get }
-    static var style: UITableViewStyle { get }
-    static var shouldAutoResizeCells: Bool { get }
-}
-
-public class BaseTableViewController: UIViewController, KeyboardAdjuster {
-    public var keyboardAdjusterConstraint: NSLayoutConstraint?
-    public var keyboardAdjusterAnimated: Bool? = false
-    public var tableView: UITableView!
-
-    public init(style: UITableViewStyle = .Grouped) {
-        super.init(nibName: nil, bundle: nil)
-
-        edgesForExtendedLayout = .None
-
-        tableView = UITableView(frame: CGRect.zero, style: style)
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.delegate = self as? UITableViewDelegate
-        tableView.dataSource = self as? UITableViewDataSource
-    }
-    
-    required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
-    override public func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        activateKeyboardAdjuster()
-    }
-
-    override public func viewWillDisappear(animated: Bool) {
-        super.viewWillDisappear(animated)
-        deactivateKeyboardAdjuster()
-    }
-
-    override public func viewDidLoad() {
-        super.viewDidLoad()
-
-        view.addSubview(tableView)
-
-        tableView.leftAnchor.constraintEqualToAnchor(view.leftAnchor).active = true
-        tableView.rightAnchor.constraintEqualToAnchor(view.rightAnchor).active = true
-        tableView.topAnchor.constraintEqualToAnchor(view.topAnchor).active = true
-
-        keyboardAdjusterConstraint = view.bottomAnchor.constraintEqualToAnchor(tableView.bottomAnchor)
-    }
-
-    // MARK: -
-    public func leftBarButtonItemDidTouchUpInside(sender: AnyObject?) {
-        parentViewController?.dismissViewControllerAnimated(true, completion: nil)
-    }
-
-    public func rightBarButtonItemDidTouchUpInside(sender: AnyObject?) {
-        parentViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
 }
 
