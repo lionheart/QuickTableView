@@ -76,10 +76,10 @@ public enum QuickTableViewRow {
         case .Custom:
             return nil
 
-        case .RowWithHandler(let row, _):
-            return row.title
-
         case .RowWithSetup(let row, _):
+            return nil
+
+        case .RowWithHandler(let row, _):
             return row.title
 
         case .RowWithHandler2(let row, _):
@@ -108,7 +108,7 @@ public enum QuickTableViewRow {
             return row.detail
 
         case .RowWithSetup(let row, _):
-            return row.detail
+            return nil
 
         case .RowWithHandler2(let row, _):
             return row.detail
@@ -206,6 +206,8 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster {
     public init(style: UITableViewStyle = .Grouped) {
         super.init(nibName: nil, bundle: nil)
 
+        edgesForExtendedLayout = .None
+
         tableView = UITableView(frame: CGRect.zero, style: style)
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.delegate = self as? UITableViewDelegate
@@ -234,6 +236,7 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster {
         tableView.leftAnchor.constraintEqualToAnchor(view.leftAnchor).active = true
         tableView.rightAnchor.constraintEqualToAnchor(view.rightAnchor).active = true
         tableView.topAnchor.constraintEqualToAnchor(view.topAnchor).active = true
+
         keyboardAdjusterConstraint = view.bottomAnchor.constraintEqualToAnchor(tableView.bottomAnchor)
     }
 
@@ -250,8 +253,6 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster {
 public class QuickTableViewController<Container: QuickTableViewContainer>: BaseTableViewController, UITableViewDataSource, UITableViewDelegate {
     required public init() {
         super.init(style: Container.style)
-
-        edgesForExtendedLayout = .None
 
         if Container.shouldAutoResizeCells {
             tableView.estimatedRowHeight = 44
@@ -304,7 +305,15 @@ public class QuickTableViewController<Container: QuickTableViewContainer>: BaseT
             let newRect = view.convertRect(rect, toView: view)
             let maxX = CGRectGetMaxX(newRect)
             let midY = CGRectGetMidY(newRect)
-            handler(self, CGPoint(x: maxX - 70, y: midY + 10))
+            handler(self, CGPoint(x: maxX - 70, y: midY - tableView.contentOffset.y))
         }
+    }
+
+    public override func rightBarButtonItemDidTouchUpInside(sender: AnyObject?) {
+        super.rightBarButtonItemDidTouchUpInside(sender)
+    }
+
+    public override func leftBarButtonItemDidTouchUpInside(sender: AnyObject?) {
+        super.leftBarButtonItemDidTouchUpInside(sender)
     }
 }
