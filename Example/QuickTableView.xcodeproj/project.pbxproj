@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335A0BDEDEB428D574F8AA56 /* Pods_QuickTableView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C187A9FAFF647411C73DE9F /* Pods_QuickTableView_Tests.framework */; };
+		377576E41CBD6CA200191199 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377576E31CBD6CA200191199 /* SettingsViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6E710ED54F28285F9981111A /* Pods_QuickTableView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7377B22E690BCBAA16228560 /* Pods_QuickTableView_Tests.framework */; };
-		A8F58178514BBF1B6E9206A3 /* Pods_QuickTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EE892F96560BFEC4920E83 /* Pods_QuickTableView_Example.framework */; };
+		E92DC53AADD743328EEFE383 /* Pods_QuickTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFED14FA21E7C737406058E3 /* Pods_QuickTableView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2659C054D4BE59C061C874F7 /* Pods-QuickTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		377576E31CBD6CA200191199 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4C187A9FAFF647411C73DE9F /* Pods_QuickTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D443AB4DF2B709B393B6A0E /* Pods-QuickTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QuickTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +42,12 @@
 		607FACE51AFB9204008FA782 /* QuickTableView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickTableView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		62F36E9EBBC4B154D14FDC17 /* Pods-QuickTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7377B22E690BCBAA16228560 /* Pods_QuickTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85EE892F96560BFEC4920E83 /* Pods_QuickTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86314BEFAB5B88458658F267 /* Pods-QuickTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		62398C3D0CB25B9ED4DBC0C0 /* Pods-QuickTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7374435DF59F614902690299 /* Pods-QuickTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E9C9F069F4EB6C85106BFF6 /* Pods-QuickTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9B127C3B5D39A7D32FA7B234 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AFED14FA21E7C737406058E3 /* Pods_QuickTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03218A4A459478B0B22D6B1 /* QuickTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QuickTableView.podspec; path = ../QuickTableView.podspec; sourceTree = "<group>"; };
-		D908BDE36D335B31F4E68C91 /* Pods-QuickTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBDEAF0C382DE131A2FA3C1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F58178514BBF1B6E9206A3 /* Pods_QuickTableView_Example.framework in Frameworks */,
+				E92DC53AADD743328EEFE383 /* Pods_QuickTableView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,33 +64,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E710ED54F28285F9981111A /* Pods_QuickTableView_Tests.framework in Frameworks */,
+				335A0BDEDEB428D574F8AA56 /* Pods_QuickTableView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C0D364BA4C68A31A21C78DB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				85EE892F96560BFEC4920E83 /* Pods_QuickTableView_Example.framework */,
-				7377B22E690BCBAA16228560 /* Pods_QuickTableView_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		21A471169865460753826488 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				86314BEFAB5B88458658F267 /* Pods-QuickTableView_Example.debug.xcconfig */,
-				D908BDE36D335B31F4E68C91 /* Pods-QuickTableView_Example.release.xcconfig */,
-				2659C054D4BE59C061C874F7 /* Pods-QuickTableView_Tests.debug.xcconfig */,
-				62F36E9EBBC4B154D14FDC17 /* Pods-QuickTableView_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +78,8 @@
 				607FACD21AFB9204008FA782 /* Example for QuickTableView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				21A471169865460753826488 /* Pods */,
-				0C0D364BA4C68A31A21C78DB /* Frameworks */,
+				DAEF5E260CA508EC76423A8D /* Pods */,
+				8FAFFCD803AB8D2A88E90A2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				377576E31CBD6CA200191199 /* SettingsViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -159,6 +142,26 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8FAFFCD803AB8D2A88E90A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFED14FA21E7C737406058E3 /* Pods_QuickTableView_Example.framework */,
+				4C187A9FAFF647411C73DE9F /* Pods_QuickTableView_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEF5E260CA508EC76423A8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E9C9F069F4EB6C85106BFF6 /* Pods-QuickTableView_Example.debug.xcconfig */,
+				62398C3D0CB25B9ED4DBC0C0 /* Pods-QuickTableView_Example.release.xcconfig */,
+				5D443AB4DF2B709B393B6A0E /* Pods-QuickTableView_Tests.debug.xcconfig */,
+				7374435DF59F614902690299 /* Pods-QuickTableView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,12 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "QuickTableView_Example" */;
 			buildPhases = (
-				FF49567EE2BD8FBB8169425E /* Check Pods Manifest.lock */,
+				F70EC231D6E083F410F48B73 /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				DD6820479440E511A61234EE /* Embed Pods Frameworks */,
-				BAE6EB1F21B967E0B526C3FE /* Copy Pods Resources */,
+				30AA77A90060B4514B281C7F /* Embed Pods Frameworks */,
+				7C0D5148901CCC3F05BE9182 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "QuickTableView_Tests" */;
 			buildPhases = (
-				F5C2129176074A441AC5D2C1 /* Check Pods Manifest.lock */,
+				D930972AB26951C729DCFB2E /* Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				CD3CF0072BEEC9D344010C02 /* Embed Pods Frameworks */,
-				E44F5A0CC4BB64FFD9212629 /* Copy Pods Resources */,
+				9BE80F5B0AE544E916BF4D83 /* Embed Pods Frameworks */,
+				1983D8E7AAE35E87A7C30EAA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,52 +265,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BAE6EB1F21B967E0B526C3FE /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD3CF0072BEEC9D344010C02 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD6820479440E511A61234EE /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E44F5A0CC4BB64FFD9212629 /* Copy Pods Resources */ = {
+		1983D8E7AAE35E87A7C30EAA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,7 +280,52 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F5C2129176074A441AC5D2C1 /* Check Pods Manifest.lock */ = {
+		30AA77A90060B4514B281C7F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0D5148901CCC3F05BE9182 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE80F5B0AE544E916BF4D83 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D930972AB26951C729DCFB2E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,7 +340,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		FF49567EE2BD8FBB8169425E /* Check Pods Manifest.lock */ = {
+		F70EC231D6E083F410F48B73 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				377576E41CBD6CA200191199 /* SettingsViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -477,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -486,7 +490,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86314BEFAB5B88458658F267 /* Pods-QuickTableView_Example.debug.xcconfig */;
+			baseConfigurationReference = 7E9C9F069F4EB6C85106BFF6 /* Pods-QuickTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickTableView/Info.plist;
@@ -500,7 +504,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D908BDE36D335B31F4E68C91 /* Pods-QuickTableView_Example.release.xcconfig */;
+			baseConfigurationReference = 62398C3D0CB25B9ED4DBC0C0 /* Pods-QuickTableView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickTableView/Info.plist;
@@ -514,7 +518,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2659C054D4BE59C061C874F7 /* Pods-QuickTableView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5D443AB4DF2B709B393B6A0E /* Pods-QuickTableView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -535,7 +539,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62F36E9EBBC4B154D14FDC17 /* Pods-QuickTableView_Tests.release.xcconfig */;
+			baseConfigurationReference = 7374435DF59F614902690299 /* Pods-QuickTableView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

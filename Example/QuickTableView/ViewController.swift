@@ -7,18 +7,28 @@
 //
 
 import UIKit
+import QuickTableView
 
-class ViewController: UIViewController {
+struct ViewControllerContainer: QuickTableViewContainer {
+    static var sections: [QuickTableViewSection] = [
+        .Default([
+            .RowWithHandler(.Subtitle("Base Table View", "Provides more customization"), { controller in
+                controller.navigationController?.pushViewController(ViewController(), animated: true)
+            }),
+            .RowWithHandler(.Subtitle("Quick Table View", "Great for quick mockups"), { controller in
+                controller.navigationController?.pushViewController(ViewController(), animated: true)
+            })
+        ])
+    ]
+    static var style: UITableViewStyle = .Plain
+    static var shouldAutoResizeCells: Bool = false
+}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+final class ViewController: QuickTableViewController<ViewControllerContainer> {
+    required init() {
+        super.init()
+
+        title = "Quick Table View"
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
