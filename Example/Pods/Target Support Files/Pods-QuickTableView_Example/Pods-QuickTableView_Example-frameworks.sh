@@ -85,11 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-QuickTableView_Example/KeyboardAdjuster.framework"
-  install_framework "Pods-QuickTableView_Example/LionheartTableViewCells.framework"
   install_framework "Pods-QuickTableView_Example/QuickTableView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-QuickTableView_Example/KeyboardAdjuster.framework"
-  install_framework "Pods-QuickTableView_Example/LionheartTableViewCells.framework"
   install_framework "Pods-QuickTableView_Example/QuickTableView.framework"
 fi
