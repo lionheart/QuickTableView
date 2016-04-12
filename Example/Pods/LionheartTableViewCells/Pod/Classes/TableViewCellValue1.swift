@@ -6,7 +6,7 @@
 //
 //
 
-public class TableViewCellValue1: UITableViewCell, LionheartTableViewCell {
+public class TableViewCellValue1: UITableViewCell, UITableViewCellIdentifiable, LionheartTableViewCell {
     public static var identifier: String = "Value1CellIdentifier"
 
     public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
