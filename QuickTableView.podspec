@@ -18,6 +18,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*'
 
   s.frameworks = 'UIKit'
-  s.dependency 'LionheartTableViewCells'
   s.dependency 'KeyboardAdjuster'
 end
