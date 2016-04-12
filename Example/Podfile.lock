@@ -1,11 +1,9 @@
 PODS:
   - KeyboardAdjuster (1.1.2)
-  - LionheartTableViewCells (1.1.0)
   - Nimble (4.0.0)
   - Quick (0.9.2)
   - QuickTableView (0.1.0):
     - KeyboardAdjuster
-    - LionheartTableViewCells
 
 DEPENDENCIES:
   - Nimble (~> 4.0.0)
@@ -18,9 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   KeyboardAdjuster: 41bb3982d948480d275c91d762c01c13b4af8570
-  LionheartTableViewCells: 49d52dda38f7a227ea566dc85297a53eec1891a6
   Nimble: 72bcc3e2f02242e6bfaaf8d9412ca7bfe3d8b417
   Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
-  QuickTableView: 9a6e0a50be35b2084a9a76ef5be3933542055a4c
+  QuickTableView: 819baaf74648a795650eea935982055387dc75c2
 
 COCOAPODS: 0.39.0
