@@ -13,10 +13,10 @@ struct ViewControllerContainer: QuickTableViewContainer {
     static var sections: [QuickTableViewSection] = [
         .Default([
             .RowWithHandler(.Subtitle("Base Table View", "Provides more customization"), { controller in
-                controller.navigationController?.pushViewController(ViewController(), animated: true)
+                controller.navigationController?.pushViewController(HouseViewController(), animated: true)
             }),
             .RowWithHandler(.Subtitle("Quick Table View", "Great for quick mockups"), { controller in
-                controller.navigationController?.pushViewController(ViewController(), animated: true)
+                controller.navigationController?.pushViewController(QuickHouseViewController(), animated: true)
             })
         ])
     ]
