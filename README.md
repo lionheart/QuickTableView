@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/QuickTableView.svg?style=flat)](http://cocoapods.org/pods/QuickTableView)
 [![Platform](https://img.shields.io/cocoapods/p/QuickTableView.svg?style=flat)](http://cocoapods.org/pods/QuickTableView)
 
-QuickTableView is a collection of helpers and tools to make setting up table views in Swift super easy. It comes with a few handy method extensions to `UITableView`, a few `UITableViewCell` subclasses and a protocol that help make registering cells to table views easier, and adds two view controllers to bootstrap table view layouts.
+QuickTableView is a collection of helpers and tools to make setting up table views in Swift quick and easy. It comes bundled with a handy methods added on `UITableView`, a few `UITableViewCell` subclasses and a protocol that help make registering cells to table views easier, and adds two view controllers to bootstrap table view layouts.
 
 ## Usage
 
