@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/lionheart/QuickTableView"
-  s.license          = 'MIT'
-  s.author           = { "Dan Loewenherz" => "dloewenherz@gmail.com" }
+  s.license          = 'Apache 2.0'
+  s.author           = { "Dan Loewenherz" => "dan@lionheartsw.com" }
   s.source           = { :git => "https://github.com/lionheart/QuickTableView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lionheartsw'
 

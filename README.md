@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/QuickTableView.svg?style=flat)](http://cocoapods.org/pods/QuickTableView)
 [![Platform](https://img.shields.io/cocoapods/p/QuickTableView.svg?style=flat)](http://cocoapods.org/pods/QuickTableView)
 
+QuickTableView is a collection of helpers and tools to make setting up table views in Swift super easy. It extends `UITableView` and adds two view controllers.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,8 +24,8 @@ pod "QuickTableView"
 
 ## Author
 
-Dan Loewenherz, dloewenherz@gmail.com
+Dan Loewenherz, dan@lionheartsw.com
 
 ## License
 
-QuickTableView is available under the MIT license. See the LICENSE file for more info.
+QuickTableView is available under the Apache 2.0 license. See the [LICENSE](LICENSE) file for more info.
