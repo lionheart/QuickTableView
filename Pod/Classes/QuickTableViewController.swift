@@ -75,7 +75,7 @@ public enum QuickTableViewRow {
         case .Custom:
             return nil
 
-        case .RowWithSetup(let row, _):
+        case .RowWithSetup:
             return nil
 
         case .RowWithHandler(let row, _):
@@ -106,7 +106,7 @@ public enum QuickTableViewRow {
         case .RowWithHandler(let row, _):
             return row.detail
 
-        case .RowWithSetup(let row, _):
+        case .RowWithSetup:
             return nil
 
         case .RowWithHandler2(let row, _):
