@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "QuickTableView"
-  s.version          =  "0.1.1"
+  s.version          =  "0.1.2"
   s.summary          = "Helper classes and utilities to speed up tableview creation."
   s.homepage         = "https://github.com/lionheart/QuickTableView"
   s.license          = 'Apache 2.0'
