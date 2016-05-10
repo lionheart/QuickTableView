@@ -7,8 +7,9 @@
 //
 
 import KeyboardAdjuster
+import UIKit
 
-public class BaseTableViewController: UIViewController, KeyboardAdjuster {
+public class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTableView {
     /**
      A base table view with built-in support for keyboard display and same initialization defaults.
 
@@ -17,6 +18,10 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster {
      - date: April 12, 2016
      */
     public var keyboardAdjusterConstraint: NSLayoutConstraint?
+    public var tableViewTopConstraint: NSLayoutConstraint!
+    public var tableViewLeftConstraint: NSLayoutConstraint!
+    public var tableViewRightConstraint: NSLayoutConstraint!
+
     public var keyboardAdjusterAnimated: Bool? = false
     public var tableView: UITableView!
 
@@ -50,10 +55,13 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster {
 
         view.addSubview(tableView)
 
-        tableView.leftAnchor.constraintEqualToAnchor(view.leftAnchor).active = true
-        tableView.rightAnchor.constraintEqualToAnchor(view.rightAnchor).active = true
-        tableView.topAnchor.constraintEqualToAnchor(view.topAnchor).active = true
+        tableViewLeftConstraint = tableView.leftAnchor.constraintEqualToAnchor(view.leftAnchor)
+        tableViewRightConstraint = tableView.rightAnchor.constraintEqualToAnchor(view.rightAnchor)
+        tableViewTopConstraint = tableView.topAnchor.constraintEqualToAnchor(view.topAnchor)
 
+        tableViewLeftConstraint.active = true
+        tableViewTopConstraint.active = true
+        tableViewRightConstraint.active = true
         keyboardAdjusterConstraint = view.bottomAnchor.constraintEqualToAnchor(tableView.bottomAnchor)
     }
 

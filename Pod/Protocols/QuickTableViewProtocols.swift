@@ -15,3 +15,7 @@ public protocol QuickTableViewContainer {
     static var style: UITableViewStyle { get }
     static var shouldAutoResizeCells: Bool { get }
 }
+
+public protocol HasTableView {
+    var tableView: UITableView! { get }
+}
