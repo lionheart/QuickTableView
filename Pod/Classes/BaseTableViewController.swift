@@ -29,6 +29,7 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTab
         super.init(nibName: nil, bundle: nil)
 
         edgesForExtendedLayout = .None
+        definesPresentationContext = true
 
         tableView = UITableView(frame: CGRect.zero, style: style)
         tableView.translatesAutoresizingMaskIntoConstraints = false
