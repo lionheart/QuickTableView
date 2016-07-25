@@ -1,9 +1,4 @@
 //
-//  UITableView.swift
-//  QuickTableView
-//
-//  Created by Daniel Loewenherz on 4/12/16.
-//
 //  Copyright 2016 Lionheart Software LLC
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
