@@ -18,7 +18,7 @@
 import UIKit
 import KeyboardAdjuster
 
-public enum QuickTableViewRow {
+public enum QuickTableViewRowBuilder {
     public typealias C = UITableViewCell
     public typealias QuickTableViewHandler = UIViewController -> Void
 
@@ -28,11 +28,11 @@ public enum QuickTableViewRow {
     case Value2(String?, String?)
     case Custom(QuickTableViewCellIdentifiable.Type, (C) -> C)
 
-    indirect case RowWithSetup(QuickTableViewRow, (C) -> C)
-    indirect case RowWithHandler(QuickTableViewRow, QuickTableViewHandler)
-    indirect case RowWithHandler2(QuickTableViewRow, (UIViewController, CGPoint) -> Void)
+    indirect case RowWithSetup(QuickTableViewRowBuilder, (C) -> C)
+    indirect case RowWithHandler(QuickTableViewRowBuilder, QuickTableViewHandler)
+    indirect case RowWithHandler2(QuickTableViewRowBuilder, (UIViewController, CGPoint) -> Void)
 
-    public func onSelection(handler: QuickTableViewHandler) -> QuickTableViewRow {
+    public func onSelection(handler: QuickTableViewHandler) -> QuickTableViewRowBuilder {
         if case .RowWithHandler(let row, _) = self {
             return .RowWithHandler(row, handler)
         }
@@ -153,8 +153,8 @@ public enum QuickTableViewRow {
     }
 }
 
-public enum QuickTableViewSection: ArrayLiteralConvertible {
-    public typealias Row = QuickTableViewRow
+public enum QuickTableViewSectionBuilder: ArrayLiteralConvertible {
+    public typealias Row = QuickTableViewRowBuilder
     public typealias Element = Row
     var count: Int { return rows.count }
 
@@ -186,7 +186,7 @@ public enum QuickTableViewSection: ArrayLiteralConvertible {
         }
     }
 
-    var rows: [QuickTableViewRow] {
+    var rows: [QuickTableViewRowBuilder] {
         switch self {
         case .Default(let rows):
             return rows

@@ -26,6 +26,7 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTab
      - copyright: ©2016 Lionheart Software LLC
      - date: April 12, 2016
      */
+
     public var keyboardAdjusterConstraint: NSLayoutConstraint?
     public var tableViewTopConstraint: NSLayoutConstraint!
     public var tableViewLeftConstraint: NSLayoutConstraint!
@@ -46,6 +47,7 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTab
         tableView.dataSource = self as? UITableViewDataSource
     }
 
+    @available(*, unavailable)
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

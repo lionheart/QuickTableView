@@ -15,16 +15,31 @@
 //
 //
 
+import UIKit
+
 public protocol QuickTableViewCellIdentifiable {
     static var identifier: String { get }
 }
 
 public protocol QuickTableViewContainer {
-    static var sections: [QuickTableViewSection] { get }
+    static var sections: [QuickTableViewSectionBuilder] { get }
     static var style: UITableViewStyle { get }
     static var shouldAutoResizeCells: Bool { get }
 }
 
 public protocol HasTableView {
     var tableView: UITableView! { get }
+}
+
+public protocol QuickTableViewSection {
+    static var count: Int? { get }
+    init(at indexPath: NSIndexPath)
+    init(_ section: Int)
+    var rowType: QuickTableViewRow.Type? { get }
+}
+
+public protocol QuickTableViewRow {
+    static var count: Int? { get }
+    init(at indexPath: NSIndexPath)
+    init(_ row: Int)
 }
