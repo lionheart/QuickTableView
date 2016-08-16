@@ -18,15 +18,14 @@
 import KeyboardAdjuster
 import UIKit
 
+/**
+ A base table view with built-in support for keyboard display and same initialization defaults.
+
+ - author: Daniel Loewenherz
+ - copyright: ©2016 Lionheart Software LLC
+ - date: April 12, 2016
+ */
 public class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTableView {
-    /**
-     A base table view with built-in support for keyboard display and same initialization defaults.
-
-     - author: Daniel Loewenherz
-     - copyright: ©2016 Lionheart Software LLC
-     - date: April 12, 2016
-     */
-
     public var keyboardAdjusterConstraint: NSLayoutConstraint?
     public var tableViewTopConstraint: NSLayoutConstraint!
     public var tableViewLeftConstraint: NSLayoutConstraint!
