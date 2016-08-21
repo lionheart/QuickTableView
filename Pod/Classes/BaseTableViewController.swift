@@ -84,4 +84,9 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTab
     public func rightBarButtonItemDidTouchUpInside(sender: AnyObject?) {
         parentViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
+
+    public func rectForRowAtIndexPath(indexPath: NSIndexPath) -> CGRect {
+        let rect = tableView.rectForRowAtIndexPath(indexPath)
+        return tableView.convertRect(rect, toView: view)
+    }
 }
