@@ -32,14 +32,21 @@ public protocol HasTableView {
 }
 
 public protocol QuickTableViewSection {
-    static var count: Int? { get }
-    init(at indexPath: NSIndexPath)
-    init(_ section: Int)
-    var rowType: QuickTableViewRow.Type? { get }
+    static var lastSection: Self { get }
+}
+
+public protocol QuickTableViewSectionWithConditions {
+    associatedtype Container
+    static func conditionalSections(container: Container) -> [(Self, Bool)]
+    static var lastSection: Self { get }
 }
 
 public protocol QuickTableViewRow {
-    static var count: Int? { get }
-    init(at indexPath: NSIndexPath)
-    init(_ row: Int)
+    static var lastRow: Self { get }
+}
+
+public protocol QuickTableViewRowWithConditions {
+    associatedtype Container
+    static func conditionalRows(container: Container) -> [(Self, Bool)]
+    static var lastRow: Self { get }
 }

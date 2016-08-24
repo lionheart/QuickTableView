@@ -23,4 +23,32 @@ public extension QuickTableViewSection where Self: RawRepresentable, Self.RawVal
     init(_ section: Int) {
         self.init(rawValue: section)!
     }
+
+    static var count: Int {
+        return lastSection.rawValue + 1
+    }
+}
+
+public extension QuickTableViewSectionWithConditions where Self: RawRepresentable, Self.RawValue == Int {
+    init(section: Int, container: Container) {
+        var section = section
+        let _conditionalRows = Self.conditionalSections(container)
+        for (conditionalRow, test) in _conditionalRows {
+            if section >= conditionalRow.rawValue && !test {
+                section += 1
+            }
+        }
+        self.init(rawValue: section)!
+    }
+
+    static func count(container container: Container) -> Int {
+        var count = lastSection.rawValue + 1
+        let _conditionalRows = conditionalSections(container)
+        for (_, test) in _conditionalRows {
+            if !test {
+                count -= 1
+            }
+        }
+        return count
+    }
 }
