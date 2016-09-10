@@ -1,13 +1,23 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'QuickTableView_Example', :exclusive => true do
-  pod 'QuickTableView', :path => '../'
-end
-
-target 'QuickTableView_Tests', :exclusive => true do
+target 'QuickTableView_Example' do
+  pod 'KeyboardAdjuster', :git => "git@github.com:lionheart/keyboardadjuster", :branch => "swift3"
   pod 'QuickTableView', :path => '../'
 
-  pod 'Quick', '~> 0.9.2'
-  pod 'Nimble', '~> 4.0.0'
+  target 'QuickTableView_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', :git => 'https://github.com/Quick/Quick.git', :branch => "swift-3.0"
+    pod 'Nimble', :git => 'https://github.com/Quick/Nimble.git', :branch => "swift-3.0"
+  end
 end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '3.0'
+    end
+  end
+end
+
