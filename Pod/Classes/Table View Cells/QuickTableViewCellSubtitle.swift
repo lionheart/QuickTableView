@@ -15,11 +15,11 @@
 //
 //
 
-public class QuickTableViewCellSubtitle: UITableViewCell, QuickTableViewCellIdentifiable {
-    public static var identifier: String = "QuickTableViewCellSubtitleCellIdentifier"
+open class QuickTableViewCellSubtitle: UITableViewCell, QuickTableViewCellIdentifiable {
+    open static var identifier: String = "QuickTableViewCellSubtitleCellIdentifier"
 
     public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: .Subtitle, reuseIdentifier: reuseIdentifier)
+        super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
     }
 
     public required init?(coder aDecoder: NSCoder) {

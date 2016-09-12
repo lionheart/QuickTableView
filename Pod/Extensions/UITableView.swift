@@ -14,16 +14,16 @@
 //  limitations under the License.
 
 public extension UITableView {
-    func registerClass(cellClass: QuickTableViewCellIdentifiable.Type) {
+    func registerClass(_ cellClass: QuickTableViewCellIdentifiable.Type) {
         let identifier = cellClass.identifier
         guard let cellClass = cellClass as? AnyClass else {
             return
         }
 
-        registerClass(cellClass, forCellReuseIdentifier: identifier)
+        register(cellClass, forCellReuseIdentifier: identifier)
     }
 
-    func dequeueReusableCellWithIndexPath<T where T: QuickTableViewCellIdentifiable>(indexPath: NSIndexPath) -> T? {
-        return dequeueReusableCellWithIdentifier(T.identifier, forIndexPath: indexPath) as? T
+    func dequeueReusableCellWithIndexPath<T>(_ indexPath: IndexPath) -> T? where T: QuickTableViewCellIdentifiable {
+        return dequeueReusableCell(withIdentifier: T.identifier, for: indexPath) as? T
     }
 }
