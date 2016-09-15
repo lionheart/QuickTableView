@@ -37,7 +37,7 @@ public protocol QuickTableViewSection {
 
 public protocol QuickTableViewSectionWithConditions {
     associatedtype Container
-    static func conditionalSections(container: Container) -> [(Self, Bool)]
+    static func conditionalSections(_ container: Container) -> [(Self, Bool)]
     static var lastSection: Self { get }
 }
 
@@ -47,6 +47,6 @@ public protocol QuickTableViewRow {
 
 public protocol QuickTableViewRowWithConditions {
     associatedtype Container
-    static func conditionalRows(container: Container) -> [(Self, Bool)]
+    static func conditionalRows(_ container: Container) -> [(Self, Bool)]
     static var lastRow: Self { get }
 }

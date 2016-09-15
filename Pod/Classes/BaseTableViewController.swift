@@ -25,19 +25,19 @@ import UIKit
  - copyright: ©2016 Lionheart Software LLC
  - date: April 12, 2016
  */
-public class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTableView {
-    public var keyboardAdjusterConstraint: NSLayoutConstraint?
-    public var tableViewTopConstraint: NSLayoutConstraint!
-    public var tableViewLeftConstraint: NSLayoutConstraint!
-    public var tableViewRightConstraint: NSLayoutConstraint!
+open class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTableView {
+    open var keyboardAdjusterConstraint: NSLayoutConstraint?
+    open var tableViewTopConstraint: NSLayoutConstraint!
+    open var tableViewLeftConstraint: NSLayoutConstraint!
+    open var tableViewRightConstraint: NSLayoutConstraint!
 
-    public var keyboardAdjusterAnimated: Bool? = false
-    public var tableView: UITableView!
+    open var keyboardAdjusterAnimated: Bool? = false
+    open var tableView: UITableView!
 
-    public init(style: UITableViewStyle = .Grouped) {
+    public init(style: UITableViewStyle = .grouped) {
         super.init(nibName: nil, bundle: nil)
 
-        edgesForExtendedLayout = .None
+        edgesForExtendedLayout = UIRectEdge()
         definesPresentationContext = true
 
         tableView = UITableView(frame: CGRect.zero, style: style)
@@ -51,42 +51,42 @@ public class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTab
         fatalError("init(coder:) has not been implemented")
     }
 
-    override public func viewWillAppear(animated: Bool) {
+    override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         activateKeyboardAdjuster()
     }
 
-    override public func viewWillDisappear(animated: Bool) {
+    override open func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         deactivateKeyboardAdjuster()
     }
 
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         view.addSubview(tableView)
 
-        tableViewLeftConstraint = tableView.leftAnchor.constraintEqualToAnchor(view.leftAnchor)
-        tableViewRightConstraint = tableView.rightAnchor.constraintEqualToAnchor(view.rightAnchor)
-        tableViewTopConstraint = tableView.topAnchor.constraintEqualToAnchor(view.topAnchor)
+        tableViewLeftConstraint = tableView.leftAnchor.constraint(equalTo: view.leftAnchor)
+        tableViewRightConstraint = tableView.rightAnchor.constraint(equalTo: view.rightAnchor)
+        tableViewTopConstraint = tableView.topAnchor.constraint(equalTo: view.topAnchor)
 
-        tableViewLeftConstraint.active = true
-        tableViewTopConstraint.active = true
-        tableViewRightConstraint.active = true
-        keyboardAdjusterConstraint = view.bottomAnchor.constraintEqualToAnchor(tableView.bottomAnchor)
+        tableViewLeftConstraint.isActive = true
+        tableViewTopConstraint.isActive = true
+        tableViewRightConstraint.isActive = true
+        keyboardAdjusterConstraint = view.bottomAnchor.constraint(equalTo: tableView.bottomAnchor)
     }
 
     // MARK: -
-    public func leftBarButtonItemDidTouchUpInside(sender: AnyObject?) {
-        parentViewController?.dismissViewControllerAnimated(true, completion: nil)
+    open func leftBarButtonItemDidTouchUpInside(_ sender: AnyObject?) {
+        parent?.dismiss(animated: true, completion: nil)
     }
 
-    public func rightBarButtonItemDidTouchUpInside(sender: AnyObject?) {
-        parentViewController?.dismissViewControllerAnimated(true, completion: nil)
+    open func rightBarButtonItemDidTouchUpInside(_ sender: AnyObject?) {
+        parent?.dismiss(animated: true, completion: nil)
     }
 
-    public func rectForRowAtIndexPath(indexPath: NSIndexPath) -> CGRect {
-        let rect = tableView.rectForRowAtIndexPath(indexPath)
-        return tableView.convertRect(rect, toView: view)
+    open func rectForRowAtIndexPath(_ indexPath: IndexPath) -> CGRect {
+        let rect = tableView.rectForRow(at: indexPath)
+        return tableView.convert(rect, to: view)
     }
 }
