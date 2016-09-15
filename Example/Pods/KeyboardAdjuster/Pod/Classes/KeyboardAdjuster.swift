@@ -1,19 +1,111 @@
 //
-//  KeyboardAdjuster.swift
-//  Pods
+//  Copyright 2016 Lionheart Software LLC
 //
-//  Created by Daniel Loewenherz on 2/10/16.
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
 //
+//  http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
 //
 
 import UIKit
 
-public protocol KeyboardAdjuster {
+public protocol KeyboardAdjuster: class {
     var keyboardAdjusterConstraint: NSLayoutConstraint? { get set }
     var keyboardAdjusterAnimated: Bool? { get set }
 }
 
-extension UIViewController {
+private extension UIViewController {
+    enum KeyboardState {
+        case hidden
+        case visible
+    }
+
+    func keyboardChangedAppearance(_ sender: Notification, toState: KeyboardState) {
+        guard let conformingSelf = self as? KeyboardAdjuster,
+            let constraint = conformingSelf.keyboardAdjusterConstraint,
+            let userInfo = (sender as NSNotification).userInfo as? [String: AnyObject],
+            let _curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? Int,
+            let curve = UIViewAnimationCurve(rawValue: _curve),
+            let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? Double else {
+                return
+        }
+
+        if let block = sender.object as? (() -> Void) {
+            block()
+        }
+
+        var curveAnimationOption: UIViewAnimationOptions
+        switch curve {
+        case .easeIn:
+            curveAnimationOption = .curveEaseIn
+
+        case .easeInOut:
+            curveAnimationOption = UIViewAnimationOptions()
+
+        case .easeOut:
+            curveAnimationOption = .curveEaseOut
+
+        case .linear:
+            curveAnimationOption = .curveLinear
+        }
+
+        switch toState {
+        case .hidden:
+            constraint.constant = 0
+
+        case .visible:
+            guard let value = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue else {
+                debugPrint("UIKeyboardFrameEndUserInfoKey not available.")
+                break
+            }
+
+            let frame = value.cgRectValue
+            let keyboardFrameInViewCoordinates = view.convert(frame, from: nil)
+            constraint.constant = view.bounds.height - keyboardFrameInViewCoordinates.origin.y
+        }
+
+        let animated = conformingSelf.keyboardAdjusterAnimated ?? false
+        if animated {
+            let animationOptions: UIViewAnimationOptions = [UIViewAnimationOptions.beginFromCurrentState, curveAnimationOption]
+            UIView.animate(withDuration: duration, delay: 0, options: animationOptions, animations: self.view.layoutIfNeeded, completion:nil)
+        } else {
+            view.layoutIfNeeded()
+        }
+    }
+
+    /**
+     A callback that manages the bottom constraint when the keyboard is about to be hidden.
+
+     - parameter sender: An `NSNotification` containing a `Dictionary` with information regarding the keyboard appearance.
+     - author: Daniel Loewenherz
+     - copyright: ©2016 Lionheart Software LLC
+     - date: February 18, 2016
+     */
+    @objc func keyboardWillHide(_ sender: Notification) {
+        keyboardChangedAppearance(sender, toState: .hidden)
+    }
+
+    /**
+     A callback that manages the bottom constraint after the keyboard is shown.
+
+     - parameter sender: An `NSNotification` containing a `Dictionary` with information regarding the keyboard appearance.
+     - author: Daniel Loewenherz
+     - copyright: ©2016 Lionheart Software LLC
+     - date: February 18, 2016
+     */
+    @objc func keyboardDidShow(_ sender: Notification) {
+        keyboardChangedAppearance(sender, toState: .visible)
+    }
+}
+
+extension KeyboardAdjuster where Self: UIViewController {
     /**
      Activates keyboard adjustment for the calling view controller.
 
@@ -35,24 +127,21 @@ extension UIViewController {
      - copyright: ©2016 Lionheart Software LLC
      - date: February 18, 2016
      */
-    public func activateKeyboardAdjuster(showBlock: AnyObject?, hideBlock: AnyObject?) {
-        if let conformingSelf = self as? KeyboardAdjuster {
-            // Activate the bottom constraint.
-            conformingSelf.keyboardAdjusterConstraint?.active = true
+    public func activateKeyboardAdjuster(_ showBlock: AnyObject?, hideBlock: AnyObject?) {
+        // Activate the bottom constraint.
+        keyboardAdjusterConstraint?.isActive = true
 
-            let notificationCenter = NSNotificationCenter.defaultCenter()
-            notificationCenter.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIKeyboardWillHideNotification, object: hideBlock)
-            notificationCenter.addObserver(self, selector: #selector(keyboardDidShow(_:)), name: UIKeyboardDidShowNotification, object: showBlock)
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: NSNotification.Name.UIKeyboardWillHide, object: hideBlock)
+        notificationCenter.addObserver(self, selector: #selector(keyboardDidShow(_:)), name: NSNotification.Name.UIKeyboardDidShow, object: showBlock)
 
-            if let viewA = conformingSelf.keyboardAdjusterConstraint?.firstItem as? UIView,
-                viewB = conformingSelf.keyboardAdjusterConstraint?.secondItem as? UIView {
-                    if viewB.subviews.contains(viewA) {
-                        assertionFailure("Please reverse the order of arguments in your keyboard Adjuster constraint.")
-                    }
-            }
+        guard let viewA = keyboardAdjusterConstraint?.firstItem as? UIView,
+            let viewB = keyboardAdjusterConstraint?.secondItem as? UIView else {
+                return
         }
-        else {
-            print("You must define `keyboardAdjusterConstraint` on your view controller to activate KeyboardAdjuster.")
+
+        if viewB.subviews.contains(viewA) {
+            assertionFailure("Please reverse the order of arguments in your keyboard Adjuster constraint.")
         }
     }
     
@@ -64,117 +153,8 @@ extension UIViewController {
      - date: February 18, 2016
      */
     public func deactivateKeyboardAdjuster() {
-        let notificationCenter = NSNotificationCenter.defaultCenter()
-        notificationCenter.removeObserver(self, name: UIKeyboardWillHideNotification, object: nil)
-        notificationCenter.removeObserver(self, name: UIKeyboardDidShowNotification, object: nil)
-    }
-
-    /**
-     A private method called when the keyboard is about to be hidden.
-
-     - parameter sender: An `NSNotification` containing a `Dictionary` with information regarding the keyboard appearance.
-     - author: Daniel Loewenherz
-     - copyright: ©2016 Lionheart Software LLC
-     - date: February 18, 2016
-     */
-    func keyboardWillHide(sender: NSNotification) {
-        guard let conformingSelf = self as? KeyboardAdjuster else {
-            return
-        }
-
-        if let constraint = conformingSelf.keyboardAdjusterConstraint {
-            if let block = sender.object as? (() -> Void) {
-                block()
-            }
-
-            if let userInfo = sender.userInfo as? [String: AnyObject],
-                _curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? Int,
-                curve = UIViewAnimationCurve(rawValue: _curve),
-                duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? Double,
-                animated = conformingSelf.keyboardAdjusterAnimated {
-                    var curveAnimationOption: UIViewAnimationOptions
-                    switch curve {
-                    case .EaseIn:
-                        curveAnimationOption = .CurveEaseIn
-
-                    case .EaseInOut:
-                        curveAnimationOption = .CurveEaseInOut
-
-                    case .EaseOut:
-                        curveAnimationOption = .CurveEaseOut
-
-                    case .Linear:
-                        curveAnimationOption = .CurveLinear
-                    }
-
-                    constraint.constant = 0
-                    if animated {
-                        let animationOptions: UIViewAnimationOptions = [UIViewAnimationOptions.BeginFromCurrentState, curveAnimationOption]
-
-                        UIView.animateWithDuration(duration, delay: 0, options: animationOptions, animations: {
-                            self.view.layoutIfNeeded()
-                            }, completion:nil)
-                    }
-                    else {
-                        view.layoutIfNeeded()
-                    }
-            }
-        }
-    }
-    /**
-     A private method called after the keyboard is shown.
-     
-     - parameter sender: An `NSNotification` containing a `Dictionary` with information regarding the keyboard appearance.
-     - author: Daniel Loewenherz
-     - copyright: ©2016 Lionheart Software LLC
-     - date: February 18, 2016
-     */
-    func keyboardDidShow(sender: NSNotification) {
-        guard let conformingSelf = self as? KeyboardAdjuster else {
-            return
-        }
-
-        if let constraint = conformingSelf.keyboardAdjusterConstraint {
-            if let block = sender.object as? (() -> Void) {
-                block()
-            }
-            
-            if let userInfo = sender.userInfo as? [String: AnyObject],
-                value = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue {
-                    let frame = value.CGRectValue()
-                    let keyboardFrameInViewCoordinates = view.convertRect(frame, fromView: nil)
-
-                    if let _curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? Int,
-                        curve = UIViewAnimationCurve(rawValue: _curve),
-                        duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? Double,
-                        animated = conformingSelf.keyboardAdjusterAnimated {
-                            var curveAnimationOption: UIViewAnimationOptions
-                            switch curve {
-                            case .EaseIn:
-                                curveAnimationOption = .CurveEaseIn
-                                
-                            case .EaseInOut:
-                                curveAnimationOption = .CurveEaseInOut
-                                
-                            case .EaseOut:
-                                curveAnimationOption = .CurveEaseOut
-                                
-                            case .Linear:
-                                curveAnimationOption = .CurveLinear
-                            }
-
-                            constraint.constant = CGRectGetHeight(view.bounds) - keyboardFrameInViewCoordinates.origin.y
-                            let animationOptions: UIViewAnimationOptions = [UIViewAnimationOptions.BeginFromCurrentState, curveAnimationOption]
-                            if animated {
-                                UIView.animateWithDuration(duration, delay: 0, options: animationOptions, animations: {
-                                    self.view.layoutIfNeeded()
-                                    }, completion: nil)
-                            }
-                            else {
-                                view.layoutIfNeeded()
-                            }
-                    }
-            }
-        }
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.removeObserver(self, name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        notificationCenter.removeObserver(self, name: NSNotification.Name.UIKeyboardDidShow, object: nil)
     }
 }
