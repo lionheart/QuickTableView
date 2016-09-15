@@ -1,23 +1,39 @@
 PODS:
-  - KeyboardAdjuster (1.1.2)
-  - Nimble (4.0.0)
-  - Quick (0.9.2)
-  - QuickTableView (0.1.0):
+  - KeyboardAdjuster (1.3.3)
+  - Nimble (5.0.0-alpha.30p1)
+  - Quick (0.9.3)
+  - QuickTableView (2.0.0):
     - KeyboardAdjuster
 
 DEPENDENCIES:
-  - Nimble (~> 4.0.0)
-  - Quick (~> 0.9.2)
+  - Nimble (from `https://github.com/Quick/Nimble.git`, commit `fcc28b2`)
+  - Quick (from `https://github.com/Quick/Quick.git`, branch `swift-3.0`)
   - QuickTableView (from `../`)
 
 EXTERNAL SOURCES:
+  Nimble:
+    :commit: fcc28b2
+    :git: https://github.com/Quick/Nimble.git
+  Quick:
+    :branch: swift-3.0
+    :git: https://github.com/Quick/Quick.git
   QuickTableView:
     :path: "../"
 
-SPEC CHECKSUMS:
-  KeyboardAdjuster: 41bb3982d948480d275c91d762c01c13b4af8570
-  Nimble: 72bcc3e2f02242e6bfaaf8d9412ca7bfe3d8b417
-  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
-  QuickTableView: 819baaf74648a795650eea935982055387dc75c2
+CHECKOUT OPTIONS:
+  Nimble:
+    :commit: fcc28b2
+    :git: https://github.com/Quick/Nimble.git
+  Quick:
+    :commit: 8f2bc636ecfa2cc20696f62548b38d4ab943e299
+    :git: https://github.com/Quick/Quick.git
 
-COCOAPODS: 0.39.0
+SPEC CHECKSUMS:
+  KeyboardAdjuster: ddf59f6306f5d0985159f53316ae74f3e9475740
+  Nimble: c5b995b4cd57789ec44b0cfb79640fc00e61a8c7
+  Quick: 31fb576b6cbb6b028cc5e0016e4366accbb346f5
+  QuickTableView: bc105e52cab0778ea5d98ab20547c6f081d3718d
+
+PODFILE CHECKSUM: 249b4a796bf40ead5545d0aad1caf0b79b5a6768
+
+COCOAPODS: 1.1.0.rc.2
