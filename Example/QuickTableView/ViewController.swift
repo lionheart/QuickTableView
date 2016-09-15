@@ -10,17 +10,17 @@ import UIKit
 import QuickTableView
 
 struct ViewControllerContainer: QuickTableViewContainer {
-    static var sections: [QuickTableViewSection] = [
-        .Default([
-            .RowWithHandler(.Subtitle("Base Table View", "Provides more customization"), { controller in
+    static var sections: [QuickTableViewSectionBuilder] = [
+        .default([
+            .rowWithHandler(.subtitle("Base Table View", "Provides more customization"), { controller in
                 controller.navigationController?.pushViewController(HouseViewController(), animated: true)
             }),
-            .RowWithHandler(.Subtitle("Quick Table View", "Great for quick mockups"), { controller in
+            .rowWithHandler(.subtitle("Quick Table View", "Great for quick mockups"), { controller in
                 controller.navigationController?.pushViewController(QuickHouseViewController(), animated: true)
             })
         ])
     ]
-    static var style: UITableViewStyle = .Plain
+    static var style: UITableViewStyle = .plain
     static var shouldAutoResizeCells: Bool = false
 }
 

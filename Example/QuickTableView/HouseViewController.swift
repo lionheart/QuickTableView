@@ -115,19 +115,19 @@ final class HouseViewController: BaseTableViewController, UITableViewDelegate, U
 
     // MARK: -
 
-    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return HouseSection(rawValue: section)!.title
     }
 
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return HouseSection.count
     }
 
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return HouseSection(rawValue: section)!.count
     }
 
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let section = HouseSection(rawValue: indexPath.section)!
         let cell: QuickTableViewCellDefault = tableView.dequeueReusableCellWithIndexPath(indexPath)!
 

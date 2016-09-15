@@ -15,35 +15,35 @@
 
 import UIKit
 
-public extension QuickTableViewSection where Self: RawRepresentable, Self.RawValue == Int {
-    init(at indexPath: NSIndexPath) {
-        self.init(indexPath.section)
+public extension QuickTableViewRow where Self: RawRepresentable, Self.RawValue == Int {
+    init(at indexPath: IndexPath) {
+        self.init((indexPath as NSIndexPath).row)
     }
 
-    init(_ section: Int) {
-        self.init(rawValue: section)!
+    init(_ row: Int) {
+        self.init(rawValue: row)!
     }
 
     static var count: Int {
-        return lastSection.rawValue + 1
+        return lastRow.rawValue + 1
     }
 }
 
-public extension QuickTableViewSectionWithConditions where Self: RawRepresentable, Self.RawValue == Int {
-    init(section: Int, container: Container) {
-        var section = section
-        let _conditionalRows = Self.conditionalSections(container)
+public extension QuickTableViewRowWithConditions where Self: RawRepresentable, Self.RawValue == Int {
+    init(row: Int, container: Container) {
+        var row = row
+        let _conditionalRows = Self.conditionalRows(container)
         for (conditionalRow, test) in _conditionalRows {
-            if section >= conditionalRow.rawValue && !test {
-                section += 1
+            if row >= conditionalRow.rawValue && !test {
+                row += 1
             }
         }
-        self.init(rawValue: section)!
+        self.init(rawValue: row)!
     }
 
-    static func count(container container: Container) -> Int {
-        var count = lastSection.rawValue + 1
-        let _conditionalRows = conditionalSections(container)
+    static func count(container: Container) -> Int {
+        var count = lastRow.rawValue + 1
+        let _conditionalRows = conditionalRows(container)
         for (_, test) in _conditionalRows {
             if !test {
                 count -= 1
