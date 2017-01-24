@@ -129,7 +129,7 @@ final class HouseViewController: BaseTableViewController, UITableViewDelegate, U
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let section = HouseSection(rawValue: indexPath.section)!
-        let cell: QuickTableViewCellDefault = tableView.dequeueReusableCellWithIndexPath(indexPath)!
+        let cell: QuickTableViewCellDefault = tableView.dequeueReusableCellWithIndexPath(indexPath)
 
         switch section {
         case .Bedroom:

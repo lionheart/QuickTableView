@@ -17,10 +17,10 @@ import UIKit
 
 public extension QuickTableViewRow where Self: RawRepresentable, Self.RawValue == Int {
     init(at indexPath: IndexPath) {
-        self.init((indexPath as NSIndexPath).row)
+        self.init(at: indexPath.row)
     }
 
-    init(_ row: Int) {
+    init(at row: Int) {
         self.init(rawValue: row)!
     }
 
@@ -32,18 +32,19 @@ public extension QuickTableViewRow where Self: RawRepresentable, Self.RawValue =
 public extension QuickTableViewRowWithConditions where Self: RawRepresentable, Self.RawValue == Int {
     init(row: Int, container: Container) {
         var row = row
-        let _conditionalRows = Self.conditionalRows(container)
+        let _conditionalRows = Self.conditionalRows(forContainer: container)
         for (conditionalRow, test) in _conditionalRows {
             if row >= conditionalRow.rawValue && !test {
                 row += 1
             }
         }
+
         self.init(rawValue: row)!
     }
 
     static func count(container: Container) -> Int {
         var count = lastRow.rawValue + 1
-        let _conditionalRows = conditionalRows(container)
+        let _conditionalRows = conditionalRows(forContainer: container)
         for (_, test) in _conditionalRows {
             if !test {
                 count -= 1

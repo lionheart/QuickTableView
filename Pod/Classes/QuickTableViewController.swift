@@ -35,8 +35,7 @@ public enum QuickTableViewRowBuilder {
     public func onSelection(_ handler: @escaping QuickTableViewHandler) -> QuickTableViewRowBuilder {
         if case .rowWithHandler(let row, _) = self {
             return .rowWithHandler(row, handler)
-        }
-        else {
+        } else {
             return .rowWithHandler(self, handler)
         }
     }
@@ -178,12 +177,11 @@ public enum QuickTableViewSectionBuilder: ExpressibleByArrayLiteral {
     }
 
     var name: String? {
-        if case .title(let title, _) = self {
-            return title
-        }
-        else {
+        guard case .title(let title, _) = self else {
             return nil
         }
+
+        return title
     }
 
     var rows: [QuickTableViewRowBuilder] {
@@ -238,7 +236,7 @@ open class QuickTableViewController<Container: QuickTableViewContainer>: BaseTab
     }
 
     open func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let section = Container.sections[(indexPath as NSIndexPath).section]
+        let section = Container.sections[indexPath.section]
         let row = section.rows[(indexPath as NSIndexPath).row]
         let cell = tableView.dequeueReusableCell(withIdentifier: row.type.identifier, for: indexPath)
         return row.prepareCell(cell)
@@ -247,11 +245,10 @@ open class QuickTableViewController<Container: QuickTableViewContainer>: BaseTab
     open func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
 
-        let section = Container.sections[(indexPath as NSIndexPath).section]
-        if case .rowWithHandler(_, let handler) = section[(indexPath as NSIndexPath).row] {
+        let section = Container.sections[indexPath.section]
+        if case .rowWithHandler(_, let handler) = section[indexPath.row] {
             handler(self)
-        }
-        else if case .rowWithHandler2(_, let handler) = section[(indexPath as NSIndexPath).row] {
+        } else if case .rowWithHandler2(_, let handler) = section[indexPath.row] {
             let rect = rectForRowAtIndexPath(indexPath)
             let newRect = view.convert(rect, to: view)
             let maxX = newRect.maxX
