@@ -37,7 +37,7 @@ open class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTable
     public init(style: UITableViewStyle = .grouped) {
         super.init(nibName: nil, bundle: nil)
 
-        edgesForExtendedLayout = UIRectEdge()
+        edgesForExtendedLayout = []
         definesPresentationContext = true
 
         tableView = UITableView(frame: CGRect.zero, style: style)
@@ -85,7 +85,7 @@ open class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTable
         parent?.dismiss(animated: true, completion: nil)
     }
 
-    open func rectForRowAtIndexPath(_ indexPath: IndexPath) -> CGRect {
+    open func rectForRow(at indexPath: IndexPath) -> CGRect {
         let rect = tableView.rectForRow(at: indexPath)
         return tableView.convert(rect, to: view)
     }
