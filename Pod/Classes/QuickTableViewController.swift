@@ -249,7 +249,7 @@ open class QuickTableViewController<Container: QuickTableViewContainer>: BaseTab
         if case .rowWithHandler(_, let handler) = section[indexPath.row] {
             handler(self)
         } else if case .rowWithHandler2(_, let handler) = section[indexPath.row] {
-            let rect = rectForRowAtIndexPath(indexPath)
+            let rect = rectForRow(at: indexPath)
             let newRect = view.convert(rect, to: view)
             let maxX = newRect.maxX
             let midY = newRect.midY
