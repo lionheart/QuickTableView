@@ -1,6 +1,6 @@
 {
   "name": "QuickTableView",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "summary": "Helper classes and utilities that help speed up tableview creation and management in Swift.",
   "description": "QuickTableView provides two helper classes, SimpleTableViewController and BaseTableViewController, that drastically simplify table view creation in Swift.",
   "homepage": "https://github.com/lionheart/QuickTableView",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/lionheart/QuickTableView.git",
-    "tag": "2.1.2"
+    "tag": "2.2.0"
   },
   "social_media_url": "https://twitter.com/lionheartsw",
   "platforms": {
