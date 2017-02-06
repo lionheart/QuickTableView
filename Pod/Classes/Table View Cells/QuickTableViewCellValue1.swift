@@ -15,8 +15,8 @@
 //
 //
 
-open class QuickTableViewCellValue1: UITableViewCell, QuickTableViewCellIdentifiable {
-    open static var identifier: String = "QuickTableViewCellValue1CellIdentifier"
+open class QuickTableViewCellValue1: UITableViewCell, QuickTableViewCellIdentifiableFixedHeight {
+    public static var identifier: String = "QuickTableViewCellValue1CellIdentifier"
 
     public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .value1, reuseIdentifier: reuseIdentifier)

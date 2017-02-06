@@ -21,6 +21,10 @@ public protocol QuickTableViewCellIdentifiable {
     static var identifier: String { get }
 }
 
+public protocol QuickTableViewCellIdentifiableFixedHeight: QuickTableViewCellIdentifiable { }
+
+public protocol QuickTableViewCellIdentifiableAutomaticHeight: QuickTableViewCellIdentifiable { }
+
 public protocol QuickTableViewContainer {
     static var sections: [QuickTableViewSectionBuilder] { get }
     static var style: UITableViewStyle { get }
