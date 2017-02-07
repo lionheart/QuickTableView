@@ -1,0 +1,7 @@
+This was the key to fixing an import issue.
+
+"development pods with dependency fails to build"
+"no such module cocoapods"
+
+See http://stackoverflow.com/questions/29313160/creating-a-pod-that-relies-on-another-pod
+See http://stackoverflow.com/questions/31065447/no-such-module-when-i-use-cocoapods
