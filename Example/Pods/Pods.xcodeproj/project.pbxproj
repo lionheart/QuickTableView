@@ -57,7 +57,7 @@
 		74FD712F3B503891B6BD9E5CD287E481 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A39BEE82F5E31D14B0AD95789AD8B1C /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		76036D32625A56D480D84AA46961EF91 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7A3106AA5935D062AFD74AADF7EF2E /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78F3DE174B4F8D368EF8EEFD7EE62087 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F74AB12B5FA248E2E420910D826CF35 /* BeVoid.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		794227BB04DE3B9F97EC15F225C9B4B5 /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A67A65FB6B7635C8BB56ED9C357C31C /* KeyboardAdjuster.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		794227BB04DE3B9F97EC15F225C9B4B5 /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A67A65FB6B7635C8BB56ED9C357C31C /* KeyboardAdjuster.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		7B286A0802C710B48F689160889CF6FE /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5E19371CCF1B9C87AEDD337900A374 /* ExampleGroup.swift */; };
 		7C55A12334C831824C9346D2F67B0FF7 /* Pods-QuickTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9CB15E60ADD6ECDEE6947131D707CA /* Pods-QuickTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D6269A3CFE53C28DAA6B92E8FC017A7 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C897DF39AAD0C28366D5E33401C7FD /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -1614,7 +1614,7 @@
 				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		3E0ACB0797BCB48E28859E2336B7FEB9 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */ = {
 			isa = XCConfigurationList;
@@ -1623,7 +1623,7 @@
 				0A710B784031B9BE96274F158562DE70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4B3E5F4A4B203B91B39B0C90588272F3 /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Tests" */ = {
 			isa = XCConfigurationList;
@@ -1632,7 +1632,7 @@
 				B1E1FDEC3B9AA935058136C02D1C0DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		55A645AEF5544AE006EF1617915BCC80 /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Example" */ = {
 			isa = XCConfigurationList;
@@ -1641,7 +1641,7 @@
 				C472E82EFE55A5EEF14AD0E00ECB33B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		58EC67D110514B58EEEE750246340375 /* Build configuration list for PBXNativeTarget "QuickTableView" */ = {
 			isa = XCConfigurationList;
@@ -1650,7 +1650,7 @@
 				69F09B83A3256AAC1856B2ACECB8A7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		B1DBAFB75A3AF98C8C6B0863BDC7A2E3 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
@@ -1659,7 +1659,7 @@
 				04020B9E0797A7C9CA7A101EA9312572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		BE2EA3FE76B679252BA55018BF1A949C /* Build configuration list for PBXNativeTarget "Quick" */ = {
 			isa = XCConfigurationList;
@@ -1668,7 +1668,7 @@
 				D3E08C434ABEA0858707A24E9B250316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
