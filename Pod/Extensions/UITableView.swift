@@ -14,13 +14,13 @@
 //  limitations under the License.
 
 public extension UITableView {
-    func registerClasses(_ cellClasses: [QuickTableViewCellIdentifiableFixedHeight.Type]) {
+    func registerClasses<T: QuickTableViewCellIdentifiableFixedHeight>(_ cellClasses: [T.Type]) {
         for cellClass in cellClasses {
             registerClass(cellClass)
         }
     }
 
-    func registerClasses(_ cellClasses: [QuickTableViewCellIdentifiableAutomaticHeight.Type], withEstimatedRowHeight estimatedRowHeight: CGFloat = 44) {
+    func registerClasses<T: QuickTableViewCellIdentifiableAutomaticHeight>(_ cellClasses: [T.Type], withEstimatedRowHeight estimatedRowHeight: CGFloat = 44) {
         for cellClass in cellClasses {
             registerClass(cellClass)
         }
