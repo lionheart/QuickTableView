@@ -42,6 +42,16 @@ public extension QuickTableViewRowWithConditions where Self: RawRepresentable, S
         self.init(rawValue: row)!
     }
 
+    static func index(row: Self, container: Container) -> Int? {
+        for i in 0..<count(container: container) {
+            if row == Self(row: i, container: container) {
+                return i
+            }
+        }
+
+        return nil
+    }
+
     static func count(container: Container) -> Int {
         var count = lastRow.rawValue + 1
         let _conditionalRows = conditionalRows(forContainer: container)
