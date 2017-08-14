@@ -30,6 +30,10 @@ public extension QuickTableViewSection where Self: RawRepresentable, Self.RawVal
 }
 
 public extension QuickTableViewSectionWithConditions where Self: RawRepresentable, Self.RawValue == Int {
+    init(at indexPath: IndexPath, container: Container) {
+        self.init(section: indexPath.section, container: container)
+    }
+
     init(section: Int, container: Container) {
         var section = section
         let _conditionalRows = Self.conditionalSections(forContainer: container)
