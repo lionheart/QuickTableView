@@ -31,7 +31,7 @@ public extension QuickTableViewRow where Self: RawRepresentable, Self.RawValue =
 
 public extension QuickTableViewRowWithConditions where Self: RawRepresentable, Self.RawValue == Int {
     init(at indexPath: IndexPath, container: Container) {
-        self.init(section: indexPath.row, container: container)
+        self.init(row: indexPath.row, container: container)
     }
 
     init(row: Int, container: Container) {
