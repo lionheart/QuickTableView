@@ -1,5 +1,5 @@
 language: objective-c
 xcode_workspace: Example/QuickTableView.xcworkspace
 xcode_scheme: QuickTableView-Example
-osx_image: xcode9.0
+osx_image: xcode9
 
