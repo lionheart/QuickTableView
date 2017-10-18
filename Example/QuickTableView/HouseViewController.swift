@@ -8,7 +8,7 @@
 
 import QuickTableView
 
-enum HouseSection: Int {
+enum HouseSection: Int, QuickTableViewSection {
     case Bedroom
     case LivingRoom
     case Kitchen
@@ -38,11 +38,9 @@ enum HouseSection: Int {
             return HouseLivingRoomRow.count
         }
     }
-
-    static var count: Int { return Kitchen.rawValue + 1 }
 }
 
-enum HouseBedroomRow: Int {
+enum HouseBedroomRow: Int, QuickTableViewRow {
     case Bed
     case SideTable
     case Dresser
@@ -59,11 +57,9 @@ enum HouseBedroomRow: Int {
             return "Dresser"
         }
     }
-
-    static var count: Int { return Dresser.rawValue + 1 }
 }
 
-enum HouseLivingRoomRow: Int {
+enum HouseLivingRoomRow: Int, QuickTableViewRow {
     case Rug
     case Couch
     case CoffeeTable
@@ -80,11 +76,9 @@ enum HouseLivingRoomRow: Int {
             return "Coffee Table"
         }
     }
-
-    static var count: Int { return CoffeeTable.rawValue + 1 }
 }
 
-enum HouseKitchenRow: Int {
+enum HouseKitchenRow: Int, QuickTableViewRow {
     case Island
     case CoffeeMachine
     case Sink
@@ -101,22 +95,28 @@ enum HouseKitchenRow: Int {
             return "Sink"
         }
     }
-
-    static var count: Int { return Sink.rawValue + 1 }
 }
 
-final class HouseViewController: BaseTableViewController, UITableViewDelegate, UITableViewDataSource {
+final class HouseViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Base Table"
         tableView.registerClass(QuickTableViewCellDefault.self)
     }
+}
 
-    // MARK: -
+// MARK: - UITableViewDelegate
+extension HouseViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+}
 
+// MARK: - UITableViewDataSource
+extension HouseViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return HouseSection(rawValue: section)!.title
+        return HouseSection(at: section).title
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -124,14 +124,13 @@ final class HouseViewController: BaseTableViewController, UITableViewDelegate, U
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return HouseSection(rawValue: section)!.count
+        return HouseSection(at: section).count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let section = HouseSection(rawValue: indexPath.section)!
-        let cell: QuickTableViewCellDefault = tableView.dequeueReusableCell(forIndexPath: indexPath)
+        let cell: QuickTableViewCellDefault = tableView.dequeueReusableCell(for: indexPath)
 
-        switch section {
+        switch HouseSection(at: indexPath) {
         case .Bedroom:
             let row = HouseBedroomRow(rawValue: indexPath.row)!
             cell.textLabel?.text = row.text

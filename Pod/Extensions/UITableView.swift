@@ -40,7 +40,7 @@ public extension UITableView {
         register(cellClass, forCellReuseIdentifier: identifier)
     }
 
-    func dequeueReusableCell<T>(forIndexPath indexPath: IndexPath) -> T where T: QuickTableViewCellIdentifiable {
+    func dequeueReusableCell<T>(for indexPath: IndexPath) -> T where T: QuickTableViewCellIdentifiable {
         return dequeueReusableCell(withIdentifier: T.identifier, for: indexPath) as! T
     }
 }

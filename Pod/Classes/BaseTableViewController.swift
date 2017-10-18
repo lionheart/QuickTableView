@@ -48,7 +48,7 @@ open class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTable
 
     @available(*, unavailable)
     required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
     }
 
     override open func viewWillAppear(_ animated: Bool) {
