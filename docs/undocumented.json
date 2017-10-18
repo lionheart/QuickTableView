@@ -436,29 +436,36 @@
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewRow.swift",
-      "line": 33,
+      "line": 31,
+      "symbol": "QuickTableViewRow.lastRow",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewRow.swift",
+      "line": 46,
       "symbol": "QuickTableViewRowWithConditions.init(at:container:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewRow.swift",
-      "line": 37,
+      "line": 50,
       "symbol": "QuickTableViewRowWithConditions.init(row:container:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewRow.swift",
-      "line": 49,
+      "line": 62,
       "symbol": "QuickTableViewRowWithConditions.index(row:container:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewRow.swift",
-      "line": 59,
-      "symbol": "QuickTableViewRowWithConditions.count(container:)",
+      "line": 72,
+      "symbol": "QuickTableViewRowWithConditions.count(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
@@ -485,28 +492,35 @@
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewSection.swift",
-      "line": 33,
+      "line": 31,
+      "symbol": "QuickTableViewSection.lastSection",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewSection.swift",
+      "line": 46,
       "symbol": "QuickTableViewSectionWithConditions.init(at:container:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewSection.swift",
-      "line": 37,
+      "line": 50,
       "symbol": "QuickTableViewSectionWithConditions.init(section:container:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewSection.swift",
-      "line": 48,
+      "line": 61,
       "symbol": "QuickTableViewSectionWithConditions.index(section:container:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewSection.swift",
-      "line": 58,
+      "line": 71,
       "symbol": "QuickTableViewSectionWithConditions.count(container:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
@@ -535,7 +549,7 @@
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/UITableView.swift",
       "line": 43,
-      "symbol": "UITableView.dequeueReusableCell(forIndexPath:)",
+      "symbol": "UITableView.dequeueReusableCell(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -646,65 +660,37 @@
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
-      "line": 39,
-      "symbol": "QuickTableViewSection.lastSection",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
-      "line": 42,
+      "line": 40,
       "symbol": "QuickTableViewSectionWithConditions",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
-      "line": 44,
-      "symbol": "QuickTableViewSectionWithConditions.conditionalSections(forContainer:)",
+      "line": 42,
+      "symbol": "QuickTableViewSectionWithConditions.conditionalSections(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
       "line": 45,
-      "symbol": "QuickTableViewSectionWithConditions.lastSection",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
-      "line": 48,
       "symbol": "QuickTableViewRow",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
-      "line": 49,
-      "symbol": "QuickTableViewRow.lastRow",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
-      "line": 52,
+      "line": 47,
       "symbol": "QuickTableViewRowWithConditions",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
-      "line": 54,
-      "symbol": "QuickTableViewRowWithConditions.conditionalRows(forContainer:)",
+      "line": 49,
+      "symbol": "QuickTableViewRowWithConditions.conditionalRows(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/dan/Projects/QuickTableView/Pod/Protocols/QuickTableViewProtocols.swift",
-      "line": 55,
-      "symbol": "QuickTableViewRowWithConditions.lastRow",
-      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     }
   ],
