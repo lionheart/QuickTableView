@@ -59,7 +59,7 @@ public extension QuickTableViewSectionWithConditions where Self: RawRepresentabl
     }
 
     static func index(section: Self, container: Container) -> Int? {
-        for i in 0..<count(container: container) {
+        for i in 0..<count(for: container) {
             if section == Self(section: i, container: container) {
                 return i
             }
@@ -68,7 +68,7 @@ public extension QuickTableViewSectionWithConditions where Self: RawRepresentabl
         return nil
     }
 
-    static func count(container: Container) -> Int {
+    static func count(for container: Container) -> Int {
         var count = lastSection.rawValue + 1
         let _conditionalRows = conditionalSections(for: container)
         for (_, test) in _conditionalRows {
