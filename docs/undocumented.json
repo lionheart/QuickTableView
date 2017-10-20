@@ -3,90 +3,83 @@
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
       "line": 29,
-      "symbol": "BaseTableViewController.keyboardAdjusterConstraint",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 30,
       "symbol": "BaseTableViewController.tableViewTopConstraint",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 31,
+      "line": 30,
       "symbol": "BaseTableViewController.tableViewLeftConstraint",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 32,
+      "line": 31,
       "symbol": "BaseTableViewController.tableViewRightConstraint",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 34,
-      "symbol": "BaseTableViewController.keyboardAdjusterAnimated",
+      "line": 33,
+      "symbol": "BaseTableViewController.keyboardAdjustmentHelper",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 35,
+      "line": 34,
       "symbol": "BaseTableViewController.tableView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 37,
+      "line": 36,
       "symbol": "BaseTableViewController.init(style:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 54,
+      "line": 62,
       "symbol": "BaseTableViewController.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 59,
+      "line": 67,
       "symbol": "BaseTableViewController.viewWillDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 64,
+      "line": 72,
       "symbol": "BaseTableViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 80,
+      "line": 88,
       "symbol": "BaseTableViewController.leftBarButtonItemDidTouchUpInside(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 84,
+      "line": 92,
       "symbol": "BaseTableViewController.rightBarButtonItemDidTouchUpInside(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Classes/BaseTableViewController.swift",
-      "line": 88,
+      "line": 96,
       "symbol": "BaseTableViewController.rectForRow(at:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -521,34 +514,20 @@
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/QuickTableViewSection.swift",
       "line": 71,
-      "symbol": "QuickTableViewSectionWithConditions.count(container:)",
+      "symbol": "QuickTableViewSectionWithConditions.count(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/UITableView.swift",
-      "line": 18,
-      "symbol": "UITableView.registerClasses(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/UITableView.swift",
-      "line": 25,
-      "symbol": "UITableView.registerClasses(_:withEstimatedRowHeight:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/UITableView.swift",
-      "line": 34,
+      "line": 17,
       "symbol": "UITableView.registerClass(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/QuickTableView/Pod/Extensions/UITableView.swift",
-      "line": 43,
+      "line": 26,
       "symbol": "UITableView.dequeueReusableCell(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
