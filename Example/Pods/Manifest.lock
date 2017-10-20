@@ -1,9 +1,9 @@
 PODS:
-  - KeyboardAdjuster (1.4.1)
+  - KeyboardAdjuster (2.0.0)
   - Nimble (7.0.2)
   - Quick (1.2.0)
-  - QuickTableView (2.3.4):
-    - KeyboardAdjuster (~> 1.4)
+  - QuickTableView (2.5.0):
+    - KeyboardAdjuster (~> 2)
 
 DEPENDENCIES:
   - Nimble (~> 7.0)
@@ -15,10 +15,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KeyboardAdjuster: 666736e102cee8e4a6aa45264077cff4383a4baf
+  KeyboardAdjuster: 1b965ebd6c84091196116860263e0a5de85a6c6b
   Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  QuickTableView: be2bf61c792dfb53287bd92560ee04eaf1db6a88
+  QuickTableView: 176ad47c85947a2169e87a336bc9c2cb47be78da
 
 PODFILE CHECKSUM: f176918bbb4bf55d00de826d54304929da31ea70
 
