@@ -1,5 +1,7 @@
+script:
+  - set -o pipefail && xcodebuild test -workspace Example/QuickTableView.xcworkspace -scheme QuickTableView-Example -destination 'platform=iOS Simulator,name=iPhone X' | xcpretty
+  - pod lib lint
+
 language: objective-c
-xcode_workspace: Example/QuickTableView.xcworkspace
-xcode_scheme: QuickTableView-Example
-osx_image: xcode9
+osx_image: xcode9.1
 
