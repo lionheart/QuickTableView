@@ -85,11 +85,11 @@ open class BaseTableViewController: UIViewController, KeyboardAdjuster, HasTable
     }
 
     // MARK: -
-    open func leftBarButtonItemDidTouchUpInside(_ sender: AnyObject?) {
+    @objc open func leftBarButtonItemDidTouchUpInside(_ sender: AnyObject?) {
         parent?.dismiss(animated: true, completion: nil)
     }
 
-    open func rightBarButtonItemDidTouchUpInside(_ sender: AnyObject?) {
+    @objc open func rightBarButtonItemDidTouchUpInside(_ sender: AnyObject?) {
         parent?.dismiss(animated: true, completion: nil)
     }
 
