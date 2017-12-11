@@ -8,6 +8,9 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     <style type='text/css'>body { font-family: -apple-system !important; }</style>
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
 
@@ -21,6 +24,12 @@
           QuickTableView Docs
         </a>
          (2% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
       </p>
     
         <p class="header-col header-col--secondary">
@@ -65,7 +74,7 @@
             </ul>
           </li>
           <li class="nav-group-name">
-            <a class="nav-group-name-link" href="../Enums.html">Enums</a>
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Enums/QuickTableViewRowBuilder.html">QuickTableViewRowBuilder</a>
@@ -129,19 +138,16 @@
                 </div>
               </div>
             <p>A base table view with built-in support for keyboard display and same initialization defaults.</p>
-
 <div class="aside aside-author">
     <p class="aside-title">Author</p>
     Daniel Loewenherz
 
 </div>
-
 <div class="aside aside-copyright">
     <p class="aside-title">Copyright</p>
     ©2016 Lionheart Software LLC
 
 </div>
-
 <div class="aside aside-date">
     <p class="aside-title">Date</p>
     April 12, 2016
@@ -175,12 +181,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">tableViewTopConstraint</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -205,12 +211,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">tableViewLeftConstraint</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -235,12 +241,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">tableViewRightConstraint</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -265,12 +271,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">keyboardAdjustmentHelper</span> <span class="o">=</span> <span class="kt">KeyboardAdjustmentHelper</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -295,12 +301,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -325,12 +331,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">style</span><span class="p">:</span> <span class="kt">UITableViewStyle</span> <span class="o">=</span> <span class="o">.</span><span class="n">grouped</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L36-L55">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L36-L55">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -355,12 +361,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L62-L65">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L62-L65">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -385,12 +391,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L67-L70">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L67-L70">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -415,12 +421,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L72-L85">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L72-L85">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -449,12 +455,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">leftBarButtonItemDidTouchUpInside</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L88-L90">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L88-L90">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -479,12 +485,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">rightBarButtonItemDidTouchUpInside</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L92-L94">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L92-L94">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -509,12 +515,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">BaseTableViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">KeyboardAdjuster</span><span class="p">,</span> <span class="kt"><a href="../Protocols/HasTableView.html">HasTableView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">rectForRow</span><span class="p">(</span><span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/BaseTableViewController.swift#L96-L99">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/BaseTableViewController.swift#L96-L99">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -528,7 +534,7 @@
     </div>
     <section class="footer">
       <p>&copy; 2016-2017 Lionheart Software LLC</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>

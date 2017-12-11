@@ -8,6 +8,9 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     <style type='text/css'>body { font-family: -apple-system !important; }</style>
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
 
@@ -21,6 +24,12 @@
           QuickTableView Docs
         </a>
          (2% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
       </p>
     
         <p class="header-col header-col--secondary">
@@ -65,7 +74,7 @@
             </ul>
           </li>
           <li class="nav-group-name">
-            <a class="nav-group-name-link" href="../Enums.html">Enums</a>
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Enums/QuickTableViewRowBuilder.html">QuickTableViewRowBuilder</a>
@@ -122,6 +131,12 @@
         <section class="section">
           <div class="section-content">
             <h1>QuickTableViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">QuickTableViewController</span><span class="o">&lt;</span><span class="kt">Container</span><span class="p">:</span> <span class="kt"><a href="../Protocols/QuickTableViewContainer.html">QuickTableViewContainer</a></span><span class="o">&gt;</span><span class="p">:</span> <span class="kt"><a href="../Classes/BaseTableViewController.html">BaseTableViewController</a></span><span class="p">,</span> <span class="kt">UITableViewDataSource</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span></code></pre>
+
+                </div>
+              </div>
             <p>Undocumented</p>
 
           </div>
@@ -147,8 +162,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L203-L210">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L203-L210">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -169,8 +192,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L212-L224">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L212-L224">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -191,8 +222,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">numberOfSections</span><span class="p">(</span><span class="k">in</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L226-L228">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L226-L228">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -213,8 +252,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">numberOfRowsInSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L230-L232">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L230-L232">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -235,8 +282,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">titleForHeaderInSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L234-L236">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L234-L236">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -257,8 +312,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">cellForRowAt</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UITableViewCell</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L238-L243">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L238-L243">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -279,8 +342,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">didSelectRowAt</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L245-L258">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L245-L258">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -301,8 +372,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">rightBarButtonItemDidTouchUpInside</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L260-L262">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L260-L262">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -323,8 +402,16 @@
                         <p>Undocumented</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">leftBarButtonItemDidTouchUpInside</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.1/Pod/Classes/QuickTableViewController.swift#L264-L266">Show on GitHub</a>
+                        <a href="https://github.com/lionheart/QuickTableView/tree/2.5.2/Pod/Classes/QuickTableViewController.swift#L264-L266">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -338,7 +425,7 @@
     </div>
     <section class="footer">
       <p>&copy; 2016-2017 Lionheart Software LLC</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>
