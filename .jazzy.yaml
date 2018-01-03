@@ -1,7 +1,7 @@
 author: "Lionheart Software"
 author_url: "https://lionheartsw.com"
 github_url: "https://github.com/lionheart/QuickTableView"
-github_file_prefix: "https://github.com/lionheart/QuickTableView/tree/2.5.2"
+github_file_prefix: "https://github.com/lionheart/QuickTableView/tree/2.6.0"
 xcodebuild_arguments: ["-workspace", "Example/QuickTableView.xcworkspace", "-scheme", "QuickTableView-Example"]
 readme: "README.md"
 copyright: "&copy; 2016-2017 Lionheart Software LLC"
