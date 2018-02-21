@@ -16,12 +16,10 @@ limitations under the License.
 
 ![](meta/repo-banner.png)
 
-<center>
-  [![CI Status][ci-badge]][travis-repo-url]
-  [![Version][version-badge]][cocoapods-repo-url]
-  [![License][license-badge]][cocoapods-repo-url]
-  [![Platform][platform-badge]][cocoapods-repo-url]
-</center>
+[![CI Status][ci-badge]][travis-repo-url]
+[![Version][version-badge]][cocoapods-repo-url]
+[![License][license-badge]][cocoapods-repo-url]
+[![Platform][platform-badge]][cocoapods-repo-url]
 
 QuickTableView is a toolset to make interacting with `UITableView` in Swift fast and easy. If you've ever dreaded writing the boilerplate required to make even the simplest tableview, you're going to love it.
 
