@@ -23,9 +23,9 @@ limitations under the License.
 
 QuickTableView is a toolset to make interacting with `UITableView` in Swift fast and easy. If you've ever dreaded writing the boilerplate required to make even the simplest tableview, you're going to love it.
 
-LionheartExtensions uses [Semantic Versioning][semver-url].
+QuickTableView uses [Semantic Versioning][semver-url].
 
-Please read the [documentation][doc-url] for further information.
+Please read the [documentation][doc-url] for more information.
 
 ## What's Included
 
