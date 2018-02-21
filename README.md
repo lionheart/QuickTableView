@@ -1,4 +1,4 @@
-# QuickTableView
+![](meta/repo-banner.png)
 
 [![CI Status](https://img.shields.io/travis/lionheart/QuickTableView.svg?style=flat)](https://travis-ci.org/lionheart/QuickTableView)
 [![Version](https://img.shields.io/cocoapods/v/QuickTableView.svg?style=flat)](http://cocoapods.org/pods/QuickTableView)
