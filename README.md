@@ -67,6 +67,6 @@ QuickTableView is available under the Apache 2.0 license. See the [LICENSE](LICE
 [semver-url]: http://www.semver.org
 [travis-repo-url]: https://travis-ci.org/lionheart/QuickTableView
 [cocoapods-url]: http://cocoapods.org
-[cocaopods-repo-url]: http://cocoapods.org/pods/QuickTableView
+[cocoapods-repo-url]: http://cocoapods.org/pods/QuickTableView
 [doc-url]: https://code.lionheart.software/QuickTableView/
 
