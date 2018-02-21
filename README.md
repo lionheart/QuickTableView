@@ -16,12 +16,16 @@ limitations under the License.
 
 ![](meta/repo-banner.png)
 
-[![CI Status](https://img.shields.io/travis/lionheart/QuickTableView.svg?style=flat)](https://travis-ci.org/lionheart/QuickTableView)
-[![Version](https://img.shields.io/cocoapods/v/QuickTableView.svg?style=flat)](http://cocoapods.org/pods/QuickTableView)
-[![License](https://img.shields.io/cocoapods/l/QuickTableView.svg?style=flat)](http://cocoapods.org/pods/QuickTableView)
-[![Platform](https://img.shields.io/cocoapods/p/QuickTableView.svg?style=flat)](http://cocoapods.org/pods/QuickTableView)
+[![CI Status][ci-badge]][travis-repo-url]
+[![Version][version-badge]][cocoapods-repo-url]
+[![License][license-badge]][cocoapods-repo-url]
+[![Platform][platform-badge]][cocoapods-repo-url]
 
 QuickTableView is a toolset to make interacting with `UITableView` in Swift fast and easy. If you've ever dreaded writing the boilerplate required to make even the simplest tableview, you're going to love it.
+
+LionheartExtensions uses [Semantic Versioning][semver-url].
+
+Please read the [documentation][doc-url] for further information.
 
 ## What's Included
 
@@ -36,7 +40,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-QuickTableView is available through [CocoaPods](http://cocoapods.org). To install
+QuickTableView is available through [CocoaPods][cocoapods-url]. To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -50,3 +54,19 @@ Dan Loewenherz, dan@lionheartsw.com
 ## License
 
 QuickTableView is available under the Apache 2.0 license. See the [LICENSE](LICENSE) file for more info.
+
+<!-- Images -->
+
+[ci-badge]: https://img.shields.io/travis/lionheart/QuickTableView.svg?style=flat
+[version-badge]: https://img.shields.io/cocoapods/v/QuickTableView.svg?style=flat
+[license-badge]: https://img.shields.io/cocoapods/l/QuickTableView.svg?style=flat
+[platform-badge]: https://img.shields.io/cocoapods/p/QuickTableView.svg?style=flat
+
+<!-- Links -->
+
+[semver-url]: http://www.semver.org
+[travis-repo-url]: https://travis-ci.org/lionheart/QuickTableView
+[cocoapods-url]: http://cocoapods.org
+[cocaopods-repo-url]: http://cocoapods.org/pods/QuickTableView
+[doc-url]: https://code.lionheart.software/QuickTableView/
+
