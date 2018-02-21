@@ -23,8 +23,12 @@ limitations under the License.
 
 QuickTableView is a toolset to make interacting with `UITableView` in Swift fast and easy. If you've ever dreaded writing the boilerplate required to make even the simplest tableview, you're going to love it.
 
-## 
+## What's Included
 
+* [x] `UITableViewCell` subclasses for common cell types and built-in Auto Layout support.
+* [x] A drop-in replacement for `UITableViewController` with built-in support for keyboard appearance.
+* [x] A clean, enum-based approach to `UITableView` row and section management.
+* [x] Much, much more!
 
 ## Usage
 
