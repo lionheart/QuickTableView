@@ -1,6 +1,7 @@
 script:
   - set -o pipefail && xcodebuild test -workspace Example/QuickTableView.xcworkspace -scheme QuickTableView-Example -destination 'platform=iOS Simulator,name=iPhone X' | bundle exec xcpretty
-  - pod lib lint
+  - bundle exec pod install --repo-update
+  - bundle exec pod lib lint
 
 before_install:
   - gem update --system
