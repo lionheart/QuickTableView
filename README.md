@@ -15,6 +15,7 @@ limitations under the License.
 -->
 
 ![](meta/repo-banner.png)
+[![](meta/repo-banner-bottom.png)][lionheart-url]
 
 [![CI Status][ci-badge]][travis-repo-url]
 [![Version][version-badge]][cocoapods-repo-url]
@@ -69,4 +70,5 @@ QuickTableView is available under the Apache 2.0 license. See the [LICENSE](LICE
 [cocoapods-url]: http://cocoapods.org
 [cocoapods-repo-url]: http://cocoapods.org/pods/QuickTableView
 [doc-url]: https://code.lionheart.software/QuickTableView/
+[lionheart-url]: https://lionheartsw.com/
 
