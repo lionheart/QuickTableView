@@ -1,3 +1,5 @@
+# vim: ft=ruby
+
 Pod::Spec.new do |s|
   s.name             = "QuickTableView"
   s.version          =  "2.6.1"
@@ -10,6 +12,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/lionheartsw'
 
   s.platform     = :ios, '10.3'
+  s.swift_version = '4.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*', 'Pod/Extensions/**/*', 'Pod/Protocols/**/*'
