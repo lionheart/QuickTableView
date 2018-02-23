@@ -22,7 +22,10 @@ badge.svg
 css/highlight.css
 css/jazzy.css
 docsets/QuickTableView.tgz
+filelist
 filelist-local
+filelist-local-md5
+filelist-md5
 filelist-remote
 filelist-remote-md5
 img/carat.png
