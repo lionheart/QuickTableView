@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/lionheartsw'
 
   s.platform     = :ios, '10.3'
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*', 'Pod/Extensions/**/*', 'Pod/Protocols/**/*'
 
   s.frameworks = 'UIKit'
-  s.ios.dependency 'KeyboardAdjuster', '~> 3'
+  s.ios.dependency 'KeyboardAdjuster', '~> 4'
 end
