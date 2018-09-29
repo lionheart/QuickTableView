@@ -20,7 +20,7 @@ struct ViewControllerContainer: QuickTableViewContainer {
             })
         ])
     ]
-    static var style: UITableViewStyle = .plain
+    static var style: UITableView.Style = .plain
     static var shouldAutoResizeCells: Bool = false
 }
 

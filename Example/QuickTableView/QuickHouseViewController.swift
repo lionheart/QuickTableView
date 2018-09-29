@@ -26,7 +26,7 @@ struct HouseContainer: QuickTableViewContainer {
             .default("Sink"),
         ]),
     ]
-    static var style: UITableViewStyle = .plain
+    static var style: UITableView.Style = .plain
     static var shouldAutoResizeCells: Bool = true
 }
 
