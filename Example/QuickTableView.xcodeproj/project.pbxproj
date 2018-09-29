@@ -226,7 +226,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				765A82A4C4961C1A33EBAE84 /* [CP] Embed Pods Frameworks */,
-				712B09DCF14D5FD02DD6C1F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +245,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				2F2EE5251E504135CABA19A9 /* [CP] Embed Pods Frameworks */,
-				6A0CC7C750EA2DA44EEF9850 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -370,36 +368,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A0CC7C750EA2DA44EEF9850 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		712B09DCF14D5FD02DD6C1F1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		765A82A4C4961C1A33EBAE84 /* [CP] Embed Pods Frameworks */ = {
