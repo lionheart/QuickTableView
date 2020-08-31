@@ -16,7 +16,7 @@
   "platforms": {
     "ios": "10.3"
   },
-  "swift_version": "4.2",
+  "swift_versions": "4.2",
   "requires_arc": true,
   "source_files": [
     "Pod/Classes/**/*",
@@ -30,5 +30,6 @@
         "~> 4"
       ]
     }
-  }
+  },
+  "swift_version": "4.2"
 }

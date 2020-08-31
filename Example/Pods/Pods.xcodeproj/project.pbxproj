@@ -7,807 +7,778 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F900F03B9992A1E969A8A065B9BABFA /* KeyboardAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4EFF38F0E776FCBE1C267EDBA7972 /* KeyboardAdjuster.swift */; };
-		0FB43DE47046B98F9DA39B4DE2F08AB5 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498BB602749D8E00561BD15D6C249BDD /* BaseTableViewController.swift */; };
-		110DE0385C5467B3A20B9A7400DE6E75 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F80B0BADC4DF29BD4D48813F6F73BBA /* QuickSpecBase.m */; };
-		1178605F12B04F364596F6D4C24AB183 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282BAC30EC078F7405FE3564FC2BEFDB /* Filter.swift */; };
-		27AE76C0B40E6AD066DECFBEE78C7590 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E936F7C3AB23534E6D33D54E6D242F /* DSL.swift */; };
-		288235A4F8EA0CBB9250BD062821CE12 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B50F6A194318BA66C161677D7863E9 /* NSBundle+CurrentTestBundle.swift */; };
-		2DECC0F21FCA54677AD92B152C23336D /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F8584E9BBD16C5E77C23A7F9BFBB8 /* ExampleGroup.swift */; };
-		32D15CFBEEF0288463660CADE4E1A2C7 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B68E8220D76A23A247D4F5374818DB /* Quick-dummy.m */; };
-		3C7E917DA00DD7779FC477A957C58E2A /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80B5F3676E2B4CE25B834EB9991DD /* QCKDSL.m */; };
-		3FC9E5BB70C1ED9C1323E854E3001506 /* QuickTableViewCellValue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D638A4B65597855729C20450CFE7E /* QuickTableViewCellValue2.swift */; };
-		432E08023FDB9EA2634DCC96041D0796 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E419A7A3804BB5CC3ECE72CD169B12F /* SuiteHooks.swift */; };
-		4B87215DA205E6A8B3F63DB844C60581 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D5994C9FDD90EA3B6FA2796008211 /* QuickConfiguration.m */; };
-		4D5DF00C4E7FDAAB09C7E8B5F7D8EF05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631236471652A8EE8B0BA66A4169D1A /* Foundation.framework */; };
-		5001377D9D624DE1FDC16046BDC032FD /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB8AFDFE2E16A843B71C9A4F8602AA2 /* World.swift */; };
-		50F4E3F903D018E8848911B55A2ED2C7 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B3CCA53BA05E9037359BEE42C7172A /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		559E3C96FD9FD0B875A27D39E2ECDB93 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320A8689B41B8007E9917DE80A6BAAA /* Example.swift */; };
-		563D26E1C753EC03DE260ED2F4F223A9 /* KeyboardAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53736DD3256C07E455F7B953620630 /* KeyboardAdjuster-dummy.m */; };
-		56DC84D2435308D68A314E085F049D53 /* QuickTableViewCellValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FF096BCEE7AE1D983E1F6F58E8C6D /* QuickTableViewCellValue1.swift */; };
-		56F69AF91EF4894C44A46F7BB9EDFD10 /* QuickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519154B1A863F9DAD32F03A8B0DD9972 /* QuickTableViewController.swift */; };
-		57CAD617873B690250EE8F373E24353B /* QuickTableViewCellSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5568BFE43779F95221E8E101EA027629 /* QuickTableViewCellSubtitle.swift */; };
-		58E48F9D4F9A5E2BFF31566323E481A6 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBB097A09C1B2B0A7F171C4C906B0E /* Closures.swift */; };
-		5AB72296D8D28B17593E4E5483ACE7E0 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0872D580EA9FC2DBE299B4153894F4A5 /* XCTestSuite+QuickTestSuiteBuilder.m */; };
-		5E4508D19618A392861C277C1D57575E /* QuickTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE21E2B8A90D039C54C4D27069D0C4 /* QuickTableView-dummy.m */; };
-		5E471542952F77EC7F25AAF989C75BED /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D72E1D778F6EA5CA9232127AD8F7D2 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68618F52794AEB7F6292E14F2DAD85EB /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7267BE425A9539434A3AC087ED84F33 /* QuickTestSuite.swift */; };
-		68EA34999FEF45FDF7F864A7CD5C43CA /* Pods-QuickTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D506186264346DDD8C5D31B2700CFF31 /* Pods-QuickTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E43E7666E3BCB805A0DCE8E2507F9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631236471652A8EE8B0BA66A4169D1A /* Foundation.framework */; };
-		765451CADF6D91E7493A635EE0EE4362 /* QuickTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D0A200184A1CB3DDF13E072CF60838 /* QuickTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A66A4473C87589D983149B0BEBD681B /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346042B6CEA75C3F8472101074B35FD /* Callsite.swift */; };
-		7BCB2C72011BD64CA5C29DBAF85C913E /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA11DDE01719223FBFE3618C6F9EB06 /* ExampleHooks.swift */; };
-		7F04B02C4BB870615BC6CC1D22E8BDFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631236471652A8EE8B0BA66A4169D1A /* Foundation.framework */; };
-		8055DEE66EF53C51E2EE242C1CC9B002 /* QuickTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973A9B2C8E45C2D6BB428A7FF51FE270 /* QuickTableViewProtocols.swift */; };
-		8874EFF30CEEB8FCC5CA28464CADE76B /* NSString+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8B98902B13873D899BD0B30994617 /* NSString+C99ExtendedIdentifier.swift */; };
-		945F9E7249CF52A94830B3A3B5D8071A /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A67A65FB6B7635C8BB56ED9C357C31C /* KeyboardAdjuster.framework */; };
-		96E71CBF42EB80F0A1DED1556A714DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631236471652A8EE8B0BA66A4169D1A /* Foundation.framework */; };
-		A2255B7BE87E636D7EC0C12875643B7F /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B1E634A5816D82359979561DF584D /* Behavior.swift */; };
-		A2B1E8750C9D9FC10208406456E8425F /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA2173411487D7715CE8DC2C61FE035 /* ErrorUtility.swift */; };
-		A45F46412999A34A0BBBD0804C6074AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631236471652A8EE8B0BA66A4169D1A /* Foundation.framework */; };
-		A4E707FECDF9ECC119CED3955B07C1C0 /* QuickTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FA4D6DC5473C02DAB159449C631227 /* QuickTableViewRow.swift */; };
-		ABF58C8B4C821C674D94187103A9C85B /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E69BE618281505B731778641BBD11A /* URL+FileName.swift */; };
-		AD4860ECB93696F82CE08EC03282DE7D /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8641CE624EDC91E80CA583CD24B6A /* HooksPhase.swift */; };
-		AE3319C3A9989CCD827C445078D696C0 /* Pods-QuickTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08C9A828D42C8742E27CB325B591E4DB /* Pods-QuickTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B583430BB82076FBDF9E2EFFC8A7C56D /* Pods-QuickTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B700826B493D0952D767D00B5EEA3866 /* Pods-QuickTableView_Example-dummy.m */; };
-		B80AD8E66AF2CAFA7F220C1A361D04FE /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F87BED06EA19DC95DE9152EE982C53BD /* QuickSpec.m */; };
-		B8F049787EFE8A66F1A16D17FA84DCE4 /* Pods-QuickTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA7672B46D6076A6EC66F75D5F1438F /* Pods-QuickTableView_Tests-dummy.m */; };
-		B988B43AC716857A04283C2D260C6C20 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B681CA5A7A8188A7C5939E51A159FF82 /* QuickSelectedTestSuiteBuilder.swift */; };
-		BEEE38F2D0768E513AB6795051B118B4 /* QuickTableViewCellDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD10CDF30EF096B8FDD319630399FBB /* QuickTableViewCellDefault.swift */; };
-		C2E17E41F5D5A6F8FE70D04468CA14E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E10744C18C1501914F97949C5752DA /* UIKit.framework */; };
-		CBD6F1DF9D5263E4ED8340BE492D7266 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB24CB788EAFFDDCC24CD572071EF7 /* UITableView.swift */; };
-		CCE07D7E67F5929B027048C865AA5CA1 /* QuickTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A404BACF87170222407F4CEFEE627AD /* QuickTableViewSection.swift */; };
-		CEA591B473AB6ADA2AF30057C55670C8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420BF77BAD8697687767D18A68B3911 /* Configuration.swift */; };
-		DC213A0E78484B5980C460BB005D0DB1 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76D34E7C2955642F66D885367D8214 /* ExampleMetadata.swift */; };
-		DC3F4DA14CDFF524B696BF49E6883417 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0606423667ADD5659EEDFD39F873D910 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA726D36E9E4E072C7B6D86FFC71C481 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40C13098532957152E20EBFD60462 /* World+DSL.swift */; };
-		EEAA66C27B767C0D69567E4BB27CE6D6 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFAE36186DE03CCA9CF6822046C2575 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6CDB83321D09DE04A27DC35ADAFB3BA /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAC98CD9B26450B08C567B468436545 /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F8BD01D676F096FD05BE2725AB2070FB /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = EB01C30268A46626629D032147EBE1C8 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB0F22A1BCF2534A8CF8306A5DB6091C /* KeyboardAdjuster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D0A1EF55B2855CE4BC916FDD86321B /* KeyboardAdjuster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBF897B4BFBF088A927CD37E38A3A7E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452ACC689B2B3DADA34E79C114AE960D /* XCTest.framework */; };
+		018228C4760DF4F8B80630BC9ACCB39E /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DAFCCBA590D6029E739414D2B6F990 /* DSL.swift */; };
+		02DD7FC6A855D0675EA8B3BE66C99BBB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161FD509F0FF7DD1AAA89EA3C9A249BD /* XCTest.framework */; };
+		10C8810E574F925B5CD3449B6DBE6EC0 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F654E08C240FC972CEE07EB5435E6F /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14ECE81218F5F5C9BEF00819A7C078EC /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C699BE86ADDFF02EE553B2EDF3A907F /* Closures.swift */; };
+		163C2D9C86D8AA40817453CC2F41F5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA47D9DDC671F6B06F3DE061D87243D /* Foundation.framework */; };
+		1A8DF79F5EF3D69864A84173E7C9810E /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = E41BD2FC9C143CCF07239D97D43E9112 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209F98BB7B328893FB64BA0393B4BD57 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F3AC924E9A433D08A2EDF2FDB6EEB /* HooksPhase.swift */; };
+		22B5B4ED0824E7BAF2091AAD6238A73F /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D52266DB5912B6628064C23608522AC7 /* QuickSpecBase.m */; };
+		245FE2FBBDF2D565779F58BE7FD12C21 /* Pods-QuickTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9E453308B0D18194A420CEB48F19A7 /* Pods-QuickTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0B5199CDB717CA9F680579900ABF15 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3562BAB68B66E3683D3D402DB6ABE9 /* QuickSpec.m */; };
+		33DF034023F1D7F3730CFB2C66220102 /* QuickTableViewCellValue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BFDA4F6834EADA17430FCADEDAC4F9 /* QuickTableViewCellValue2.swift */; };
+		37E327FA532A5932D2DE191B8EA5A93C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC09C0A322F1783903A5B80D3689D1 /* UITableView.swift */; };
+		39382B0A1EF090D15BA6C89FC3DCB099 /* QuickTestObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500C08780D62F637D83803E7075A341 /* QuickTestObservation.swift */; };
+		3A6CA383262AE689992D7B8E30840D6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA47D9DDC671F6B06F3DE061D87243D /* Foundation.framework */; };
+		3D6A581E79FD9EAC1A948D8BC53F1EB0 /* QuickConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C663750BF7BEF6CDFE1DFAD94A9DD08 /* QuickConfiguration.swift */; };
+		432F78D574EFBFB9A9E3C0FCCFF4F933 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8883D71BD1C4ADB7B6CB59F60613495 /* BaseTableViewController.swift */; };
+		4ADE5FC9505A3BF7DF17AF9756585116 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9327E229FF8CBF0CB1343C8791C276 /* QCKDSL.m */; };
+		4E1DBC9FF76D6AD924D1356260438074 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75A3D5912C613ABE27DDA2878AEFDED /* QuickSelectedTestSuiteBuilder.swift */; };
+		4FBB6BD14616774200790706A1267013 /* QuickTableViewCellValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE044053A35D8296CD960E76879DA1D /* QuickTableViewCellValue1.swift */; };
+		512AAF465EE936155DD9BBA92368928E /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DCEA94DDCAB0A6412841CB616B5DE4 /* Quick-dummy.m */; };
+		532373040CF9801E3F8A01050DBE375E /* Pods-QuickTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE89FAE8E64238E24443436DB75466EF /* Pods-QuickTableView_Example-dummy.m */; };
+		58A884856B7E64EE3C204D9EDAA14045 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498311384AAED58BACB1076F03DF6CB /* Behavior.swift */; };
+		59BF9ABA8BB14E0E4E345D13AB6D49FB /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC81231557C65FF1EE54EDCAC39CA1 /* ExampleMetadata.swift */; };
+		5EA0861EF5178E77A58E620C9FF60F8A /* QuickTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCBB0C44BC0FBB0BC8FF2BCE47D43D /* QuickTableViewRow.swift */; };
+		7153CE52EA9C88E22F0BA1EBD3B028ED /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167D3FAC766398B02B304E07733BD6F9 /* KeyboardAdjuster.framework */; };
+		7536DD99ACEDE673713161E597B7B447 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE6DE4EFEAD53F7D322B64870E2F20 /* ExampleHooks.swift */; };
+		76E7C7CDAA543C791A714B991F595F2B /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A317A2294F37359F457CEB9D037B28 /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A5B08536988B5ECCDFED97D864CCD7A /* QuickTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA48B0710A1EF700E5308B4FE45473D /* QuickTableView-dummy.m */; };
+		7AC8CCCC8E3CD429AE65583FF9194802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA47D9DDC671F6B06F3DE061D87243D /* Foundation.framework */; };
+		7CE6049975894E447F2D4071C74F6F8F /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD3C9D8AF56724D63BEA1F441B9F9E0 /* Callsite.swift */; };
+		7EB28FEC3D0ABA1A2A6CFE57C400F74D /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 469580F38904EFF9A5AED0819120C148 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F98196D71B0801CAC14646E395BE45B /* KeyboardAdjuster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F00E830C63BF86DF94EEE93431E8E9 /* KeyboardAdjuster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80487AC5455F4312AEB43B81D7988016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA47D9DDC671F6B06F3DE061D87243D /* Foundation.framework */; };
+		874D7AE7972486C1BEEC7D0ED363F42C /* QuickTableViewCellDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9BD40603140E22E8E53DDBD530669 /* QuickTableViewCellDefault.swift */; };
+		887AF8C809D60140319DE71D6427F370 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57AB741D63449F422AE14A65EE752E /* NSBundle+CurrentTestBundle.swift */; };
+		8AD8EB11995EA448F5A5C00487F78A97 /* KeyboardAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5B03240AE943A1C4400B632C6B065 /* KeyboardAdjuster-dummy.m */; };
+		8E4A2F4A1EF16B63817A516CC2743619 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24794D4673317AF7A656860C6EE225DC /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9231B70907F130F31CF5717C502B780C /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5274D68A179BB23088C3776A0C1F626 /* ExampleGroup.swift */; };
+		94B18F2CFF543F6B2E43E84630C337E2 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1F5012A4C8FBD68B10246EE4BFEAC /* SuiteHooks.swift */; };
+		9E874C00792FA983399C03EC00AE326D /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA8474D5F7A286C2DB1BD92C18A4C1 /* XCTestSuite+QuickTestSuiteBuilder.m */; };
+		9FB5F3B3AAF3103848313FACD0CACBCD /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 581F5E133099BB3757897E451CCD6436 /* QuickConfiguration.m */; };
+		A35159AD5A7A49BA9093F29B63DBD30D /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C3A06AC65F3AC84CB7D580DA3FCBA7 /* String+C99ExtendedIdentifier.swift */; };
+		A6CE2E672C8EB4DF57485428AFD64A3C /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04FFFC05475B057D5E46875BDB05F5 /* URL+FileName.swift */; };
+		A7F5B07BF96955EFDC9106335235EDB2 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58BEFD18B280EF29AF936E1AED5AFA /* QuickTestSuite.swift */; };
+		AEC48E187BEFFAB08ABC15B09F4C1283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA47D9DDC671F6B06F3DE061D87243D /* Foundation.framework */; };
+		AF60C00928A7AFE04E374B620EEA5F49 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9140D278E3C0F239352D56BBDFC12D /* Filter.swift */; };
+		B1C0C32E5690937D2662C122CD87E325 /* KeyboardAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826EA91921104289B0A39480C01FAE6 /* KeyboardAdjuster.swift */; };
+		B48508EB39EE315F5A00429EEA69DD63 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC8669BBC0FC882C2C35B6B65C67EF8 /* Configuration.swift */; };
+		BCD695382BA7DF85D3DC6ED8F38FFC4D /* QuickTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB59A65F7D08E9D37C78201F533F33 /* QuickTableViewSection.swift */; };
+		BE56C54CD29F23A1C631645390E8569D /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F320349F1357DEB6577091355FED0E /* ErrorUtility.swift */; };
+		BFEBC90223F66B0FF770B92B1C670BCF /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2805E335D4E1C0CACDC7B9531CB9416E /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9E716023868A97D2F5B19934D93045E /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44EC794851CF99B858BCCD878F0649 /* World+DSL.swift */; };
+		CACD5F90A72C58BB3DEA705BF9F813BC /* QuickTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40564CA27068A5B6494326DCABEF4F3D /* QuickTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBCA81B0F0383E785C6ACE23D1E1B93D /* QuickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A44B3D8A48BA7D005C4BBE825CCFC /* QuickTableViewController.swift */; };
+		D2C041844A0EB4EB2E8C7B9DAA748EEB /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8B9152E72D06701DAD57EC935589A /* Example.swift */; };
+		DC0A1923180042089B1753821606292E /* Pods-QuickTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D854008DE65FF2894D510CB3D78C50E9 /* Pods-QuickTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC7C12C799AF7A049B753F4535883589 /* Pods-QuickTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE8C629730E8F5512E6EC657FBD0B /* Pods-QuickTableView_Tests-dummy.m */; };
+		EEB5FA6EB25C2AF5C735E72196D592D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DC9C6C3C1AA7DFE6BAE5C178A9D619 /* UIKit.framework */; };
+		F01995755687FA91F51A15ED8FD9D125 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B5F09358DBCD9AB66FA2F313961E86 /* World.swift */; };
+		F066200DD255FB60685B75A59C3CEA17 /* QuickTableViewCellSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8287B62E7FC6EBDE22898BDE0650E91C /* QuickTableViewCellSubtitle.swift */; };
+		FDEF8B22EC1EB4C8F9CC00F439AEEA83 /* QuickTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13FDE503C24E56ACCF2A5A2BC805E7 /* QuickTableViewProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F0B0DF7FCB706A7386886789E3FF0AC /* PBXContainerItemProxy */ = {
+		048E6B347DFCCBEC990D2027C92BB95C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D8E7C179C3FCB9B58A055109B8F9F419;
-			remoteInfo = KeyboardAdjuster;
-		};
-		49052E494552D806168A6C057257326F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 390D133C67EE9F3D293445972C41D51A;
-			remoteInfo = "Pods-QuickTableView_Example";
-		};
-		7E92E0189FFFEE61C9703CB65528C116 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AA36F32B81890ED7DFBF56B237C2D21;
-			remoteInfo = QuickTableView;
-		};
-		8BBBAB720379B617EC64ADA0EEEC8A18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF7EF176B93FDA73F465330F7161854D;
+			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
 			remoteInfo = Quick;
 		};
-		E4F32FF6D05995355AC41D7BBD0D0C8B /* PBXContainerItemProxy */ = {
+		25AEB3010676FD8F69D15689DAD2FE70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D8E7C179C3FCB9B58A055109B8F9F419;
+			remoteGlobalIDString = C111B28D6F915B3A15276825E0597E6F;
+			remoteInfo = QuickTableView;
+		};
+		55DB83FB5D1BB44C440E545A02E993EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D8522B8AE30172E49ADAD292380971;
 			remoteInfo = KeyboardAdjuster;
+		};
+		A6C9A09A76CCE1010075D5B40CBBB37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D8522B8AE30172E49ADAD292380971;
+			remoteInfo = KeyboardAdjuster;
+		};
+		FC36007A4265AF441C4F84D07A7363CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D10E2D0160C10BDCD3E66323268D28;
+			remoteInfo = "Pods-QuickTableView_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003E2A4989018AC132731EFF42620C00 /* QuickTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewController.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewController.html; sourceTree = "<group>"; };
-		00DBB097A09C1B2B0A7F171C4C906B0E /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
-		01E69BE618281505B731778641BBD11A /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
-		0606423667ADD5659EEDFD39F873D910 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
-		0807AB647EAEF287C076A2EC6089CE49 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
-		0872D580EA9FC2DBE299B4153894F4A5 /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
-		08C9A828D42C8742E27CB325B591E4DB /* Pods-QuickTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickTableView_Example-umbrella.h"; sourceTree = "<group>"; };
-		0EB871FA374C1653FDFA570FD2EA55E5 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-md5"; sourceTree = "<group>"; };
-		14B70A5392493276CE01F829339B97C5 /* QuickTableViewContainer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewContainer.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewContainer.html; sourceTree = "<group>"; };
-		1743E9718E5C40F0391560B77B489778 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
-		174A70DD8303C78648CA0D948C4CA1CD /* QuickTableViewSectionWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionWithConditions.html; path = docs/Protocols/QuickTableViewSectionWithConditions.html; sourceTree = "<group>"; };
-		185D505B817004EF071280C78C613208 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18C06B268C677480C6D35306550AA166 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-local-md5"; sourceTree = "<group>"; };
-		195CE3A72A6B0CD624E4F511DC7B9824 /* QuickTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewController.html; path = docs/Classes/QuickTableViewController.html; sourceTree = "<group>"; };
-		19F7A4065A9C671D4B16F4B946F3BA5E /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
-		1B573F3490D51A7A99C384EF3971456F /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
-		1DAFB5801D756BD9FAF7616C875C518A /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
-		1DFAE36186DE03CCA9CF6822046C2575 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
-		21BDE5D35DBC623172A9E59169CC5DE3 /* HasTableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HasTableView.html; path = docs/Protocols/HasTableView.html; sourceTree = "<group>"; };
-		22FCD4E94632DA6A6E3D1B5B5F15BB98 /* QuickTableViewCellValue2.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue2.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellValue2.html; sourceTree = "<group>"; };
-		2346042B6CEA75C3F8472101074B35FD /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
-		237EEDEA4A888B648B3E0AA763F0BF8F /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		249ACD2B3F2A01CA2EC0D04EA9990C26 /* QuickTableViewCellSubtitle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellSubtitle.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellSubtitle.html; sourceTree = "<group>"; };
-		25E8B3353B7BE47051C65E0FE8121FC1 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
-		282BAC30EC078F7405FE3564FC2BEFDB /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
-		2A404BACF87170222407F4CEFEE627AD /* QuickTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewSection.swift; sourceTree = "<group>"; };
-		2AFE1E0CA10F602F0E55E2A433DCF2C8 /* QuickTableViewRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRow.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewRow.html; sourceTree = "<group>"; };
-		2C13ACE07EF6B4E7458034B5E90CF7B5 /* Pods-QuickTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2DA11DDE01719223FBFE3618C6F9EB06 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
-		2DF8E4E537DD659A5712967CD28462F4 /* QuickTableView.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableView.tgz; path = docs/docsets/QuickTableView.tgz; sourceTree = "<group>"; };
-		2EAAAE95B87CAEE998EECBE709074ECB /* Pods-QuickTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuickTableView_Tests.modulemap"; sourceTree = "<group>"; };
-		32003884DA83DC7BDBB53B374057E5FD /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QuickTableView.framework; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		344C6E250AEABF675455AF41089BF6E8 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
-		34EB558AA8CF48AB44D8DEE0781BC479 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
-		3517A06AC37DC24CA6D88EA969A4ECD1 /* Pods-QuickTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickTableView_Example-resources.sh"; sourceTree = "<group>"; };
-		36F165D649959909E3DBDC5DBD508D3E /* Pods-QuickTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		37D73DE78E049097781E0947452C6FC4 /* KeyboardAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyboardAdjuster.modulemap; sourceTree = "<group>"; };
-		384190800F86528BB79754E254073FDB /* QuickTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.xcconfig; sourceTree = "<group>"; };
-		39B9F20610936F8AE343212334234EF7 /* QuickTableViewCellDefault.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellDefault.html; path = docs/Classes/QuickTableViewCellDefault.html; sourceTree = "<group>"; };
-		3BE31753D7A5ED1BEE2780D8F77E7044 /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
-		3DB8B98902B13873D899BD0B30994617 /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
-		3E419A7A3804BB5CC3ECE72CD169B12F /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
-		3E6D0F39B48B0D8E533F089A0F60DF0B /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/QuickTableView.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
-		400F01DB902ABF45CFDFA809EBEF094C /* Pods_QuickTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickTableView_Tests.framework; path = "Pods-QuickTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4061A37F2B9B2B8062A34C84FA51C430 /* Pods-QuickTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuickTableView_Example.modulemap"; sourceTree = "<group>"; };
-		413CA2FD7437D93936A921E3108ADF58 /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/img/spinner.gif; sourceTree = "<group>"; };
-		43B12A0ADCB887E9ED2E1349BE0CB040 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
-		44673F361AE05BC88B68E8BEA45A95E8 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
-		44B50F6A194318BA66C161677D7863E9 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
-		452ACC689B2B3DADA34E79C114AE960D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		45CBC0B215111BA7C0183E8D5C6DD467 /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-local"; sourceTree = "<group>"; };
-		49144F2C4C6C374A14D18BF272FAD441 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
-		498BB602749D8E00561BD15D6C249BDD /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
-		4A0F75D5F36AADD703A15F409206A9DC /* Pods_QuickTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickTableView_Example.framework; path = "Pods-QuickTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A299943437EBC1F47183798C4557851 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/filelist-local-md5"; sourceTree = "<group>"; };
-		4A7D46817468134586A180626797AEF4 /* BaseTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseTableViewController.html; path = docs/Classes/BaseTableViewController.html; sourceTree = "<group>"; };
-		4B05797210B4C1A14983035B42145A1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/QuickTableView.docset/Contents/Info.plist; sourceTree = "<group>"; };
-		4B5D638A4B65597855729C20450CFE7E /* QuickTableViewCellValue2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellValue2.swift; sourceTree = "<group>"; };
-		4CB40C13098532957152E20EBFD60462 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
-		519154B1A863F9DAD32F03A8B0DD9972 /* QuickTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewController.swift; sourceTree = "<group>"; };
-		52F0E86CFB54E6A0DF0F40381316B69A /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
-		54B68E8220D76A23A247D4F5374818DB /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
-		5568BFE43779F95221E8E101EA027629 /* QuickTableViewCellSubtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellSubtitle.swift; sourceTree = "<group>"; };
-		57947D63DD2E132778109655033DAB2B /* KeyboardAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-prefix.pch"; sourceTree = "<group>"; };
-		57A1E613065933C0D0526B19BAF3A52F /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
-		59B3CCA53BA05E9037359BEE42C7172A /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
-		59E6F21D14FB5E62D48CF6D1C39AE01F /* Pods-QuickTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A3057AE648AE27843985462B246B884 /* UITableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITableView.html; path = docs/Extensions/UITableView.html; sourceTree = "<group>"; };
-		5A7633EF7731310445750C34C35CE56C /* QuickTableViewCellValue1.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue1.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellValue1.html; sourceTree = "<group>"; };
-		5B53736DD3256C07E455F7B953620630 /* KeyboardAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardAdjuster-dummy.m"; sourceTree = "<group>"; };
-		5D2BBE6FBA01505DB35D7F4BDB8318DC /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
-		5D2D5994C9FDD90EA3B6FA2796008211 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
-		5E641051969F97FF8CF5FB40B6CA8815 /* QuickTableViewCellIdentifiable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellIdentifiable.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewCellIdentifiable.html; sourceTree = "<group>"; };
-		5EAD39C6BF60FF569E325E254EF6EF55 /* BaseTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseTableViewController.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/BaseTableViewController.html; sourceTree = "<group>"; };
-		5F61E86EAF119CB96431686BD287ECBD /* QuickTableViewRowWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowWithConditions.html; path = docs/Protocols/QuickTableViewRowWithConditions.html; sourceTree = "<group>"; };
-		602F8584E9BBD16C5E77C23A7F9BFBB8 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
-		62BE607923B5999712DDA9A722D52EEB /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
-		6320A8689B41B8007E9917DE80A6BAAA /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
-		6A82B4F3FB1284C171B0717A6B95FEFE /* QuickTableViewRowWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowWithConditions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewRowWithConditions.html; sourceTree = "<group>"; };
-		6D41A1DE43BD41453F4089F5D86ECB5E /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
-		6F5A0251535F49C7D9F3A21A46D01917 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
-		6F73D6EDDA5CFB3E32E6713973131467 /* Pods-QuickTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7101847A6B8A1B7C2316C8C2853ECC23 /* QuickTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QuickTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		72F1C352F7115E8BADB057CCE718EEE4 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
-		73FB1693EDCB1DB4DD6955F5806F9B8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7669FF1CDBFDF402D631C4A42363D8A2 /* QuickTableViewSection.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSection.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewSection.html; sourceTree = "<group>"; };
-		76D41515AFE6993BF7111BA135188AA6 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
-		76FA4D6DC5473C02DAB159449C631227 /* QuickTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewRow.swift; sourceTree = "<group>"; };
-		79C4EFF38F0E776FCBE1C267EDBA7972 /* KeyboardAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAdjuster.swift; path = Pod/Classes/KeyboardAdjuster.swift; sourceTree = "<group>"; };
-		7A67A65FB6B7635C8BB56ED9C357C31C /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B0A583F52A87C10B9A8F611912229EF /* QuickTableViewRowBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowBuilder.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums/QuickTableViewRowBuilder.html; sourceTree = "<group>"; };
-		7B0D7EB775E399382F0EB4AE2B97BF9E /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
-		7CF5E7DA3720A8F9CB3602EAD28AD7CA /* QuickTableViewCellIdentifiable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellIdentifiable.html; path = docs/Protocols/QuickTableViewCellIdentifiable.html; sourceTree = "<group>"; };
-		87DD716BF5AEA502D651A31FBDB0C57F /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/filelist-local"; sourceTree = "<group>"; };
-		89AA487A7ACD337D57EE7B197FB77E29 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
-		89FB68673D3C91EE44C68D249D99FCEF /* QuickTableViewCellValue2.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue2.html; path = docs/Classes/QuickTableViewCellValue2.html; sourceTree = "<group>"; };
-		8A715684A300054E25F5C21DE460EF7D /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
-		8F80B0BADC4DF29BD4D48813F6F73BBA /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickSpecBase/QuickSpecBase.m; sourceTree = "<group>"; };
-		902E0E9DAEFF1E2915676E1CFBC4D26F /* Pods-QuickTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94E936F7C3AB23534E6D33D54E6D242F /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
-		963A5584213803B9870EB95901190F55 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
-		96C3D52BCF1141AB581B4ACCD7F89D7B /* Pods-QuickTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		973A9B2C8E45C2D6BB428A7FF51FE270 /* QuickTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewProtocols.swift; sourceTree = "<group>"; };
-		988017D66AE80BC0E0368057844B7E04 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
-		988C81DA586AFEAE3A8A64416F8291FB /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/filelist; sourceTree = "<group>"; };
-		9A94B12ACAB33B3C1E235B12619B1636 /* QuickTableViewRowBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowBuilder.html; path = docs/Enums/QuickTableViewRowBuilder.html; sourceTree = "<group>"; };
-		9AB29E3F82DEE2CBA1D57474B3116B5F /* KeyboardAdjuster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.xcconfig; sourceTree = "<group>"; };
-		9AC86D207EAC8A02C5B9469D2FFD94E5 /* Pods-QuickTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9E15C325C0A8D8EFFE3767AB370CCA89 /* QuickTableViewCellValue1.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue1.html; path = docs/Classes/QuickTableViewCellValue1.html; sourceTree = "<group>"; };
-		9F76D34E7C2955642F66D885367D8214 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
-		A420BF77BAD8697687767D18A68B3911 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
-		A47F0B845730C7AF15C55E3404A95D7B /* QuickTableViewCellDefault.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellDefault.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellDefault.html; sourceTree = "<group>"; };
-		A8B8641CE624EDC91E80CA583CD24B6A /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
-		A8D0A200184A1CB3DDF13E072CF60838 /* QuickTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-umbrella.h"; sourceTree = "<group>"; };
-		A8D72E1D778F6EA5CA9232127AD8F7D2 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
-		AC5ED1A9350524AD596BE3190B5DA249 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist; sourceTree = "<group>"; };
-		AE2A56ECEA862780F70C022CB293044E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEAC98CD9B26450B08C567B468436545 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
-		B2AEDECA4619268A83F9BFDA3BCBF96A /* QuickTableViewContainer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewContainer.html; path = docs/Protocols/QuickTableViewContainer.html; sourceTree = "<group>"; };
-		B2FF4892A3EFCF964DB359855A8B328E /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
-		B3EA92EE46E4DD8040E3768C229602C7 /* QuickTableViewSectionBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionBuilder.html; path = docs/Enums/QuickTableViewSectionBuilder.html; sourceTree = "<group>"; };
-		B5A5047443664950641165B999D2B31A /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
-		B631236471652A8EE8B0BA66A4169D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B681CA5A7A8188A7C5939E51A159FF82 /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
-		B700826B493D0952D767D00B5EEA3866 /* Pods-QuickTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickTableView_Example-dummy.m"; sourceTree = "<group>"; };
-		B7267BE425A9539434A3AC087ED84F33 /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
-		BA529A69ED61C7ABB159FC36C5FBC21C /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
-		BE1903F25BF652AEA3BDE586ECC0D575 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
-		C15A47AE9E7B565D02FD180A52E66EB0 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
-		C37D275968C2D814CDDAB43E83931ABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C381AC81BFFB85F1FE6EC84A4B7D0436 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
-		C7D0A1EF55B2855CE4BC916FDD86321B /* KeyboardAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-umbrella.h"; sourceTree = "<group>"; };
-		C9BE21E2B8A90D039C54C4D27069D0C4 /* QuickTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuickTableView-dummy.m"; sourceTree = "<group>"; };
-		CAD997F0E50507F45E063A861DED9320 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CBC1B7EB8AAD130910FA585538D47D8A /* QuickTableViewSectionWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionWithConditions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewSectionWithConditions.html; sourceTree = "<group>"; };
-		CCA80B5F3676E2B4CE25B834EB9991DD /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
-		CD6F1B3FEAD591D7656DFD48DAC0CF0F /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
-		D2EEB6DE894B5CD0DBC902FC5A4896B1 /* Pods-QuickTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D32837176D7AD2E3B50C58D70EF5526C /* HasTableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HasTableView.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/HasTableView.html; sourceTree = "<group>"; };
-		D42F8E3B86C1ABC08790492D8DE74012 /* UITableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITableView.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Extensions/UITableView.html; sourceTree = "<group>"; };
-		D4EBF955422DC66988923F5D8C31F17F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D506186264346DDD8C5D31B2700CFF31 /* Pods-QuickTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D6EB5345A12D364E18B8921C47881BFE /* Pods-QuickTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D751D263A15D54F0F2E34FC5FCE23850 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
-		D7C4B5A756ED80DEB135F1646D10AE4B /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
-		DBB0CE25B92292839450EB78D79173E5 /* QuickTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-prefix.pch"; sourceTree = "<group>"; };
-		DCA2173411487D7715CE8DC2C61FE035 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
-		DD4714976C6556955C4A9D8DA4F4CC28 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
-		DDD10CDF30EF096B8FDD319630399FBB /* QuickTableViewCellDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellDefault.swift; sourceTree = "<group>"; };
-		E1E0CA41E3435F6EF2146EA9D4663B05 /* Pods-QuickTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E1EB24CB788EAFFDDCC24CD572071EF7 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
-		E20A14DD0C03E75CA40C1F01AC31E8EA /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyboardAdjuster.framework; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2E10744C18C1501914F97949C5752DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E2F92C4F3CBD7BDD54D7BA15B1297F41 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
-		E2FBCEAC0304F269A6DB9CA03A1ED443 /* Pods-QuickTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickTableView_Tests-resources.sh"; sourceTree = "<group>"; };
-		EA77F6B56265A902CEDAB48B99B7446A /* QuickTableViewCellSubtitle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellSubtitle.html; path = docs/Classes/QuickTableViewCellSubtitle.html; sourceTree = "<group>"; };
-		EB01C30268A46626629D032147EBE1C8 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
-		EBB8AFDFE2E16A843B71C9A4F8602AA2 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
-		EBED6DBCBF805544E44316313D1BAA73 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/filelist-md5"; sourceTree = "<group>"; };
-		ECDE4FB7C6BC87219D64C0030C55495B /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
-		ED6B1E634A5816D82359979561DF584D /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
-		EF1FF096BCEE7AE1D983E1F6F58E8C6D /* QuickTableViewCellValue1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellValue1.swift; sourceTree = "<group>"; };
-		F0F734A51605A2434E52C96DD376E623 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F411F20B6D5398442E7DD7C7BE428692 /* QuickTableViewRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRow.html; path = docs/Protocols/QuickTableViewRow.html; sourceTree = "<group>"; };
-		F5D7E69B4471DFE8B3D38D58B70E531B /* QuickTableViewSectionBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionBuilder.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums/QuickTableViewSectionBuilder.html; sourceTree = "<group>"; };
-		F7494BD31E26453329F32C6C0FFE8F6C /* QuickTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QuickTableView.modulemap; sourceTree = "<group>"; };
-		F87BED06EA19DC95DE9152EE982C53BD /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
-		F89150E1532B748E6AEC1E49F36DE165 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/typeahead.jquery.js; sourceTree = "<group>"; };
-		FA2C3C6BCEA39CC6C42E9B25C685C0F0 /* QuickTableViewSection.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSection.html; path = docs/Protocols/QuickTableViewSection.html; sourceTree = "<group>"; };
-		FA78103213635D29ED597A7C7A9C5859 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
-		FAA7672B46D6076A6EC66F75D5F1438F /* Pods-QuickTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickTableView_Tests-dummy.m"; sourceTree = "<group>"; };
-		FB0A4815E5BCC5FAA70166020651C2E1 /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/spinner.gif; sourceTree = "<group>"; };
+		032934697846D68F9B14163B66932030 /* BaseTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseTableViewController.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/BaseTableViewController.html; sourceTree = "<group>"; };
+		03AC6A1929B778D7D8DE8EB5A78A971B /* Pods_QuickTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickTableView_Example.framework; path = "Pods-QuickTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		067D66773E868476C5EF77F358E07D65 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		07F00E830C63BF86DF94EEE93431E8E9 /* KeyboardAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-umbrella.h"; sourceTree = "<group>"; };
+		0826EA91921104289B0A39480C01FAE6 /* KeyboardAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAdjuster.swift; path = Pod/Classes/KeyboardAdjuster.swift; sourceTree = "<group>"; };
+		08F654E08C240FC972CEE07EB5435E6F /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
+		0904C6F4351998B418A191D3012E179D /* QuickTableViewCellIdentifiable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellIdentifiable.html; path = docs/Protocols/QuickTableViewCellIdentifiable.html; sourceTree = "<group>"; };
+		09551A81EC36261F4CFCF85E1D3ED750 /* QuickTableViewSectionBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionBuilder.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums/QuickTableViewSectionBuilder.html; sourceTree = "<group>"; };
+		0AC3E284D066766F01D181C704706D1A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		0BC41D3250587878519FD05B5DA7F5D8 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
+		0C67A453922F99A5E8E6B85647AD172A /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
+		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB89603E8876A29DB216D663F19F43E /* QuickTableViewCellValue2.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue2.html; path = docs/Classes/QuickTableViewCellValue2.html; sourceTree = "<group>"; };
+		0FD456EECD44C3235450F03278409C1A /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/img/spinner.gif; sourceTree = "<group>"; };
+		1350D3ED574D6DA8FE811A5B2206C5E8 /* KeyboardAdjuster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.debug.xcconfig; sourceTree = "<group>"; };
+		145E9D9CA0A591801D853C3D94C94B37 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		161FD509F0FF7DD1AAA89EA3C9A249BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		167D3FAC766398B02B304E07733BD6F9 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1699DB6CE6B3F4064D19D8C57A836FA0 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
+		1923AE1A513F8F11F7A4D120E35077A6 /* Quick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.debug.xcconfig; sourceTree = "<group>"; };
+		1C699BE86ADDFF02EE553B2EDF3A907F /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
+		1DC94F4F11163DA37F905091ED1E8539 /* QuickTableViewCellValue1.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue1.html; path = docs/Classes/QuickTableViewCellValue1.html; sourceTree = "<group>"; };
+		1EFC81231557C65FF1EE54EDCAC39CA1 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
+		1F6EDCF1D7F1659B79C878142785F752 /* Pods_QuickTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickTableView_Tests.framework; path = "Pods-QuickTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF5B03240AE943A1C4400B632C6B065 /* KeyboardAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardAdjuster-dummy.m"; sourceTree = "<group>"; };
+		21B37C8D7AC155831A7DAC2C21BE9ECC /* QuickTableViewCellIdentifiable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellIdentifiable.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewCellIdentifiable.html; sourceTree = "<group>"; };
+		22D65554B9A91DB6577EE54887DA0076 /* QuickTableViewCellValue2.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue2.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellValue2.html; sourceTree = "<group>"; };
+		237F22D77297C809F4DB50617BFF2898 /* QuickTableViewCellValue1.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue1.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellValue1.html; sourceTree = "<group>"; };
+		24794D4673317AF7A656860C6EE225DC /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
+		24B6CDCA91AEB5FAE6B6511655C6ABCD /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-md5"; sourceTree = "<group>"; };
+		25F153A0777D77A1688DA8DC7E722C47 /* KeyboardAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-prefix.pch"; sourceTree = "<group>"; };
+		260D3A854CDB47D4AEF6FA423FC75F96 /* QuickTableViewCellSubtitle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellSubtitle.html; path = docs/Classes/QuickTableViewCellSubtitle.html; sourceTree = "<group>"; };
+		26C183B6D2536B1502B619D1BEE6D33C /* QuickTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewController.html; path = docs/Classes/QuickTableViewController.html; sourceTree = "<group>"; };
+		2805E335D4E1C0CACDC7B9531CB9416E /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
+		28FE6DE4EFEAD53F7D322B64870E2F20 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
+		2A962D234D4817A20C05BE4EE236468B /* QuickTableViewRowWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowWithConditions.html; path = docs/Protocols/QuickTableViewRowWithConditions.html; sourceTree = "<group>"; };
+		2B4FFD1B6FF587E47B5DB5DE5779991F /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
+		2C663750BF7BEF6CDFE1DFAD94A9DD08 /* QuickConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickConfiguration.swift; path = Sources/Quick/Configuration/QuickConfiguration.swift; sourceTree = "<group>"; };
+		2D3562BAB68B66E3683D3D402DB6ABE9 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
+		2D5F3AC924E9A433D08A2EDF2FDB6EEB /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
+		2EB24334C42B59C4A2D55DBA247BBAF2 /* Pods-QuickTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuickTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		2F80A133AC5200F8995BA3F93C0CAC55 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		302E07B93D8A3A017BC92287A215171A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		337197E551E9DDCE73751AECCD503B70 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		345D49C3E3EB6BA78591D537C1E8C61F /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
+		372885484F8B443C6E72A6D8A33A3C4F /* Pods-QuickTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B13FDE503C24E56ACCF2A5A2BC805E7 /* QuickTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewProtocols.swift; sourceTree = "<group>"; };
+		3BDA8474D5F7A286C2DB1BD92C18A4C1 /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
+		40564CA27068A5B6494326DCABEF4F3D /* QuickTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-umbrella.h"; sourceTree = "<group>"; };
+		40F320349F1357DEB6577091355FED0E /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
+		412AB26515121758B13A9CF2F5111419 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/filelist; sourceTree = "<group>"; };
+		469580F38904EFF9A5AED0819120C148 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
+		47AFFB5A8CE306AC9607EBAB9D464663 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		48C9BD40603140E22E8E53DDBD530669 /* QuickTableViewCellDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellDefault.swift; sourceTree = "<group>"; };
+		491C0124BEDAC5274DFDA481D91F5656 /* HasTableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HasTableView.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/HasTableView.html; sourceTree = "<group>"; };
+		49D26661DAC52785EF417F58E3BB97FA /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
+		4A30C6AB0DD7D3E7E6DC93D2C0C330ED /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		4AF2588ED21600190FAF8F85A275F2FE /* Pods-QuickTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4B47F41A60203E4ACA8DB79D18E206F3 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		4C7CDAA219CB00CC8F91527B255981F9 /* QuickTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.release.xcconfig; sourceTree = "<group>"; };
+		4EC8669BBC0FC882C2C35B6B65C67EF8 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		4F8F0A5BE787063AC0C259559AD4215D /* QuickTableViewRowWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowWithConditions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewRowWithConditions.html; sourceTree = "<group>"; };
+		4F9E453308B0D18194A420CEB48F19A7 /* Pods-QuickTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		521EBEEFA26FBA393FF9502375C5DE73 /* QuickTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewController.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewController.html; sourceTree = "<group>"; };
+		52BFDA4F6834EADA17430FCADEDAC4F9 /* QuickTableViewCellValue2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellValue2.swift; sourceTree = "<group>"; };
+		53299699421EC9690BEE24B128F7435A /* QuickTableViewContainer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewContainer.html; path = docs/Protocols/QuickTableViewContainer.html; sourceTree = "<group>"; };
+		53DC9C6C3C1AA7DFE6BAE5C178A9D619 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		54DEF1E68B8D0310926CACAD6D3E20D3 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/typeahead.jquery.js; sourceTree = "<group>"; };
+		581F5E133099BB3757897E451CCD6436 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
+		584C1D7748B56E4A9E97DC201A09EBC2 /* Pods-QuickTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5B04FFFC05475B057D5E46875BDB05F5 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
+		5B073DC43548AE20E708E411ADC597A3 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/QuickTableView.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		5BEFCDE675B1058D9193D9014E778999 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		5C0C029C7A07B32D0DA7EB8D54908CEF /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		5D0F74C8FAF902B0AB75FE0271E6818F /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-local"; sourceTree = "<group>"; };
+		5DC26CBBB12F704E102130BF83FAF72B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/QuickTableView.docset/Contents/Info.plist; sourceTree = "<group>"; };
+		609743AA0D8DF52B14FCA1455976CD87 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		60A3E8A594163D62EB01BA4994C584AB /* BaseTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseTableViewController.html; path = docs/Classes/BaseTableViewController.html; sourceTree = "<group>"; };
+		64F75EBEB7D5FBF7117889157B1D95F7 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
+		65A60CE71BEDE437B431D54DD5FF1088 /* QuickTableViewSectionBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionBuilder.html; path = docs/Enums/QuickTableViewSectionBuilder.html; sourceTree = "<group>"; };
+		6705D254AD9AA918FB75215F0AA19CDF /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		684286350530EA6C3F790C428CE8A505 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
+		68953F589F0A249C30E0F7449CEFFFEB /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		68BE94A5CE4CEE427EE6112D3F017699 /* QuickTableViewRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRow.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewRow.html; sourceTree = "<group>"; };
+		6E9327E229FF8CBF0CB1343C8791C276 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
+		6EE7ED73CD020EF2CD31A2ECDF064159 /* KeyboardAdjuster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeyboardAdjuster-Info.plist"; sourceTree = "<group>"; };
+		6FB1F5012A4C8FBD68B10246EE4BFEAC /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
+		70BF02EFDA14214B569B83EB2352BDA4 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist; sourceTree = "<group>"; };
+		7126314961F123B6891303E66D37D35E /* KeyboardAdjuster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.release.xcconfig; sourceTree = "<group>"; };
+		71FE45B8D38EDFC0BC314CBA2904F955 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		722836D1EB819C3A71CC31AE56536659 /* Pods-QuickTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		72DB699FAB0BFD6B05115AFC96917D5D /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyboardAdjuster.framework; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DCEA94DDCAB0A6412841CB616B5DE4 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
+		7498311384AAED58BACB1076F03DF6CB /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
+		74EC09C0A322F1783903A5B80D3689D1 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		7508C874F25FEE7642E46A36887B4318 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
+		7605FA9A04EECB5E9094B98C3036C6D2 /* Pods-QuickTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76A8B9152E72D06701DAD57EC935589A /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
+		791C4D90E5328BBB12C725EB002B062C /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
+		794C8F027F3B1AC36CB374ABEB26FA1A /* Pods-QuickTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B3E10326A8A54D11C1CC6A590C6C299 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
+		7D57AB741D63449F422AE14A65EE752E /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
+		7D81E2905893EA33BA27C99BA6F5502F /* Pods-QuickTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuickTableView_Example.modulemap"; sourceTree = "<group>"; };
+		8287B62E7FC6EBDE22898BDE0650E91C /* QuickTableViewCellSubtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellSubtitle.swift; sourceTree = "<group>"; };
+		834BF3C71D640820DBF8BF9C74945631 /* Pods-QuickTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Example-Info.plist"; sourceTree = "<group>"; };
+		87BABCE4653A232C58F28CFFAB2E0919 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
+		88A4F9799DABE75EA6332537CC7A1CDF /* QuickTableViewRowBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowBuilder.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums/QuickTableViewRowBuilder.html; sourceTree = "<group>"; };
+		89A563213E363A5A2CD22EA616C47437 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+		8BD4182014E5664796D1EB5243BC149D /* UITableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITableView.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Extensions/UITableView.html; sourceTree = "<group>"; };
+		8F2865742C414CC7A9D7E008C3FAEE8C /* QuickTableViewSectionWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionWithConditions.html; path = docs/Protocols/QuickTableViewSectionWithConditions.html; sourceTree = "<group>"; };
+		9135A82367DE4762A0F288F697B555BF /* Pods-QuickTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9136022A8583C22591F3C39340F21162 /* QuickTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.debug.xcconfig; sourceTree = "<group>"; };
+		92363C2742364E3584E830FCEA1FAF9B /* Quick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.release.xcconfig; sourceTree = "<group>"; };
+		9500C08780D62F637D83803E7075A341 /* QuickTestObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestObservation.swift; path = Sources/Quick/QuickTestObservation.swift; sourceTree = "<group>"; };
+		972B50758DBBA6A95F5168B093498F77 /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QuickTableView.framework; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6B8A69CBA7B497F8DE5B6E357B8856 /* QuickTableView.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableView.tgz; path = docs/docsets/QuickTableView.tgz; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21A4FA7F8AA89A1A492B166A2C78117 /* QuickTableViewRowBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowBuilder.html; path = docs/Enums/QuickTableViewRowBuilder.html; sourceTree = "<group>"; };
+		A6409E1EB72B351A5B66BE61AFB1C328 /* Pods-QuickTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A7240EF17EE0C420FE45181DDA1150DC /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		A9489F9681718E03FA73D31EEF29B7B2 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/filelist-local-md5"; sourceTree = "<group>"; };
+		A94FA55691D2DDFD4F6F40E575DA3192 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		A990FD0F43ACE75EC2457B707F8A779C /* QuickTableViewSection.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSection.html; path = docs/Protocols/QuickTableViewSection.html; sourceTree = "<group>"; };
+		AA7A537F33EFBD657320D008181E36F1 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
+		B0C3A06AC65F3AC84CB7D580DA3FCBA7 /* String+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+C99ExtendedIdentifier.swift"; path = "Sources/Quick/String+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
+		B159FC283D857CE316146704BD310ECC /* QuickTableViewSection.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSection.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewSection.html; sourceTree = "<group>"; };
+		B27671ADF854B53B9CCE30AD45234133 /* Pods-QuickTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B288A94060DB36F601C523BA60CA0D06 /* Pods-QuickTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2DAFCCBA590D6029E739414D2B6F990 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		B4A317A2294F37359F457CEB9D037B28 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickObjCRuntime/include/QuickSpecBase.h; sourceTree = "<group>"; };
+		B75A3D5912C613ABE27DDA2878AEFDED /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
+		B7C3311DB9FFF379AFDFA534553CED69 /* QuickTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-prefix.pch"; sourceTree = "<group>"; };
+		BA58BEFD18B280EF29AF936E1AED5AFA /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
+		BCADDA0F3BF693744FB54B9A9F759AAA /* Pods-QuickTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Tests-Info.plist"; sourceTree = "<group>"; };
+		BCCFE064EFD8401A3A37A12525C529A0 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		BD5C0D956CD67D7ADF76ACF574C75905 /* Quick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quick-Info.plist"; sourceTree = "<group>"; };
+		BE4423E6CB4F36B5ED03B09B379C80B9 /* QuickTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QuickTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE6935A5B505BFB9A609CCAAC94533B6 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/filelist-md5"; sourceTree = "<group>"; };
+		C11A57B562E12A40AD3E8163CF1CC488 /* HasTableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HasTableView.html; path = docs/Protocols/HasTableView.html; sourceTree = "<group>"; };
+		C2DF168B1B7B98F625087F821F65002D /* QuickTableViewCellDefault.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellDefault.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellDefault.html; sourceTree = "<group>"; };
+		C473318ED7782491D29C514FC99E51A4 /* UITableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITableView.html; path = docs/Extensions/UITableView.html; sourceTree = "<group>"; };
+		C4C2FBCE770BEDC1A5B1B5584730B15A /* QuickTableViewCellDefault.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellDefault.html; path = docs/Classes/QuickTableViewCellDefault.html; sourceTree = "<group>"; };
+		C56A44B3D8A48BA7D005C4BBE825CCFC /* QuickTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewController.swift; sourceTree = "<group>"; };
+		CAED157BF364524E2C9F1628D70D7312 /* QuickTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QuickTableView.modulemap; sourceTree = "<group>"; };
+		CCA47D9DDC671F6B06F3DE061D87243D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0B5F09358DBCD9AB66FA2F313961E86 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
+		D14EE8C629730E8F5512E6EC657FBD0B /* Pods-QuickTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		D52266DB5912B6628064C23608522AC7 /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickObjCRuntime/QuickSpecBase.m; sourceTree = "<group>"; };
+		D5274D68A179BB23088C3776A0C1F626 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		D854008DE65FF2894D510CB3D78C50E9 /* Pods-QuickTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		D8883D71BD1C4ADB7B6CB59F60613495 /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		D8EB59A65F7D08E9D37C78201F533F33 /* QuickTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewSection.swift; sourceTree = "<group>"; };
+		D9817A349DEE33B183FB4924E0FBE090 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DB4139371B903AAC9ACCD6CD2CA9A1B6 /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
+		DE2C80EF428A8D140B2ACC8335368CAE /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
+		DE89FAE8E64238E24443436DB75466EF /* Pods-QuickTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickTableView_Example-dummy.m"; sourceTree = "<group>"; };
+		E05353B6C9C8C998697BB1759F00D2AC /* QuickTableViewCellSubtitle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellSubtitle.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellSubtitle.html; sourceTree = "<group>"; };
+		E21593E2ED4DEC820CE400454B200B66 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
+		E2CCBB0C44BC0FBB0BC8FF2BCE47D43D /* QuickTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewRow.swift; sourceTree = "<group>"; };
+		E41BD2FC9C143CCF07239D97D43E9112 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
+		E515A7AD56582501BA8023C9D450286B /* KeyboardAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyboardAdjuster.modulemap; sourceTree = "<group>"; };
+		E6FB6B4731566ABDB6EC05A64B3A730A /* QuickTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QuickTableView-Info.plist"; sourceTree = "<group>"; };
+		E7C9F0DE6CD1E9A230FA1C494DDFBA7A /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-local-md5"; sourceTree = "<group>"; };
+		EAE044053A35D8296CD960E76879DA1D /* QuickTableViewCellValue1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellValue1.swift; sourceTree = "<group>"; };
+		EB9140D278E3C0F239352D56BBDFC12D /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
+		EDA48B0710A1EF700E5308B4FE45473D /* QuickTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuickTableView-dummy.m"; sourceTree = "<group>"; };
+		EE09B7A1687BF3D84043BBEFD73C5812 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
+		EE0F91EEA78C284BA5F88303A441C0F1 /* QuickTableViewSectionWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionWithConditions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewSectionWithConditions.html; sourceTree = "<group>"; };
+		EF1799B946FA2AA3E372BF0A2B529E27 /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/spinner.gif; sourceTree = "<group>"; };
+		F2568EA680369ADAA30C282B7F5162E9 /* QuickTableViewRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRow.html; path = docs/Protocols/QuickTableViewRow.html; sourceTree = "<group>"; };
+		F415A4514EF7194D8E5043162D07A9A8 /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/filelist-local"; sourceTree = "<group>"; };
+		F7B02F89A7849829FCDA83A78DCF13C6 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
+		F7D98A00282D515BF84D96A23015AC97 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		FA44EC794851CF99B858BCCD878F0649 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
+		FCFB0D1790F5DF5186989C5CAC3636CA /* QuickTableViewContainer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewContainer.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewContainer.html; sourceTree = "<group>"; };
+		FFD3C9D8AF56724D63BEA1F441B9F9E0 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14345FA36F0B2D71463AA5FCF53D160F /* Frameworks */ = {
+		19A27134F59E44D6A43F0A4B1EB3B544 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45F46412999A34A0BBBD0804C6074AA /* Foundation.framework in Frameworks */,
+				3A6CA383262AE689992D7B8E30840D6E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		798F1B92EAD275A6AE8D4C5592526ED2 /* Frameworks */ = {
+		1FB41F3B817F50C08A530AB486E92A06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E43E7666E3BCB805A0DCE8E2507F9E2 /* Foundation.framework in Frameworks */,
-				945F9E7249CF52A94830B3A3B5D8071A /* KeyboardAdjuster.framework in Frameworks */,
-				C2E17E41F5D5A6F8FE70D04468CA14E5 /* UIKit.framework in Frameworks */,
+				163C2D9C86D8AA40817453CC2F41F5BE /* Foundation.framework in Frameworks */,
+				02DD7FC6A855D0675EA8B3BE66C99BBB /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A62747318C7C7798A33D91059276EF99 /* Frameworks */ = {
+		B9C24CAE4F3ACBA50A8596EB1C47C977 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D5DF00C4E7FDAAB09C7E8B5F7D8EF05 /* Foundation.framework in Frameworks */,
-				FBF897B4BFBF088A927CD37E38A3A7E9 /* XCTest.framework in Frameworks */,
+				AEC48E187BEFFAB08ABC15B09F4C1283 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7D85C8AAE0CFAC524727902071AD555 /* Frameworks */ = {
+		DB6EC3B3D1331B7313614FFF10409D11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F04B02C4BB870615BC6CC1D22E8BDFD /* Foundation.framework in Frameworks */,
+				80487AC5455F4312AEB43B81D7988016 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD2A29FEF2A2DDE3EED08D619102670C /* Frameworks */ = {
+		EA25C71BF29614F5B1D4205140A2E8DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E71CBF42EB80F0A1DED1556A714DA7 /* Foundation.framework in Frameworks */,
+				7AC8CCCC8E3CD429AE65583FF9194802 /* Foundation.framework in Frameworks */,
+				7153CE52EA9C88E22F0BA1EBD3B028ED /* KeyboardAdjuster.framework in Frameworks */,
+				EEB5FA6EB25C2AF5C735E72196D592D2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0058068AF715F4767C95BBCCC80E0F0A /* Pod */ = {
+		0F65DB677FBE7896862E0A55C8E8F56F /* KeyboardAdjuster */ = {
 			isa = PBXGroup;
 			children = (
-				963A5584213803B9870EB95901190F55 /* badge.svg */,
-				5D2BBE6FBA01505DB35D7F4BDB8318DC /* badge.svg */,
-				5EAD39C6BF60FF569E325E254EF6EF55 /* BaseTableViewController.html */,
-				4A7D46817468134586A180626797AEF4 /* BaseTableViewController.html */,
-				25E8B3353B7BE47051C65E0FE8121FC1 /* carat.png */,
-				344C6E250AEABF675455AF41089BF6E8 /* carat.png */,
-				89AA487A7ACD337D57EE7B197FB77E29 /* Classes.html */,
-				D7C4B5A756ED80DEB135F1646D10AE4B /* Classes.html */,
-				19F7A4065A9C671D4B16F4B946F3BA5E /* dash.png */,
-				988017D66AE80BC0E0368057844B7E04 /* dash.png */,
-				3E6D0F39B48B0D8E533F089A0F60DF0B /* docSet.dsidx */,
-				62BE607923B5999712DDA9A722D52EEB /* Enums.html */,
-				0807AB647EAEF287C076A2EC6089CE49 /* Enums.html */,
-				BE1903F25BF652AEA3BDE586ECC0D575 /* Extensions.html */,
-				8A715684A300054E25F5C21DE460EF7D /* Extensions.html */,
-				988C81DA586AFEAE3A8A64416F8291FB /* filelist */,
-				AC5ED1A9350524AD596BE3190B5DA249 /* filelist */,
-				87DD716BF5AEA502D651A31FBDB0C57F /* filelist-local */,
-				45CBC0B215111BA7C0183E8D5C6DD467 /* filelist-local */,
-				18C06B268C677480C6D35306550AA166 /* filelist-local-md5 */,
-				4A299943437EBC1F47183798C4557851 /* filelist-local-md5 */,
-				EBED6DBCBF805544E44316313D1BAA73 /* filelist-md5 */,
-				0EB871FA374C1653FDFA570FD2EA55E5 /* filelist-md5 */,
-				D751D263A15D54F0F2E34FC5FCE23850 /* gh.png */,
-				B2FF4892A3EFCF964DB359855A8B328E /* gh.png */,
-				D32837176D7AD2E3B50C58D70EF5526C /* HasTableView.html */,
-				21BDE5D35DBC623172A9E59169CC5DE3 /* HasTableView.html */,
-				ECDE4FB7C6BC87219D64C0030C55495B /* highlight.css */,
-				C381AC81BFFB85F1FE6EC84A4B7D0436 /* highlight.css */,
-				FA78103213635D29ED597A7C7A9C5859 /* index.html */,
-				1B573F3490D51A7A99C384EF3971456F /* index.html */,
-				4B05797210B4C1A14983035B42145A1B /* Info.plist */,
-				49144F2C4C6C374A14D18BF272FAD441 /* jazzy.css */,
-				76D41515AFE6993BF7111BA135188AA6 /* jazzy.css */,
-				1743E9718E5C40F0391560B77B489778 /* jazzy.js */,
-				BA529A69ED61C7ABB159FC36C5FBC21C /* jazzy.js */,
-				C15A47AE9E7B565D02FD180A52E66EB0 /* jazzy.search.js */,
-				6F5A0251535F49C7D9F3A21A46D01917 /* jazzy.search.js */,
-				44673F361AE05BC88B68E8BEA45A95E8 /* jquery.min.js */,
-				34EB558AA8CF48AB44D8DEE0781BC479 /* jquery.min.js */,
-				F0F734A51605A2434E52C96DD376E623 /* LICENSE */,
-				57A1E613065933C0D0526B19BAF3A52F /* lunr.min.js */,
-				B5A5047443664950641165B999D2B31A /* lunr.min.js */,
-				43B12A0ADCB887E9ED2E1349BE0CB040 /* Protocols.html */,
-				52F0E86CFB54E6A0DF0F40381316B69A /* Protocols.html */,
-				7101847A6B8A1B7C2316C8C2853ECC23 /* QuickTableView.podspec */,
-				2DF8E4E537DD659A5712967CD28462F4 /* QuickTableView.tgz */,
-				39B9F20610936F8AE343212334234EF7 /* QuickTableViewCellDefault.html */,
-				A47F0B845730C7AF15C55E3404A95D7B /* QuickTableViewCellDefault.html */,
-				5E641051969F97FF8CF5FB40B6CA8815 /* QuickTableViewCellIdentifiable.html */,
-				7CF5E7DA3720A8F9CB3602EAD28AD7CA /* QuickTableViewCellIdentifiable.html */,
-				EA77F6B56265A902CEDAB48B99B7446A /* QuickTableViewCellSubtitle.html */,
-				249ACD2B3F2A01CA2EC0D04EA9990C26 /* QuickTableViewCellSubtitle.html */,
-				5A7633EF7731310445750C34C35CE56C /* QuickTableViewCellValue1.html */,
-				9E15C325C0A8D8EFFE3767AB370CCA89 /* QuickTableViewCellValue1.html */,
-				89FB68673D3C91EE44C68D249D99FCEF /* QuickTableViewCellValue2.html */,
-				22FCD4E94632DA6A6E3D1B5B5F15BB98 /* QuickTableViewCellValue2.html */,
-				B2AEDECA4619268A83F9BFDA3BCBF96A /* QuickTableViewContainer.html */,
-				14B70A5392493276CE01F829339B97C5 /* QuickTableViewContainer.html */,
-				003E2A4989018AC132731EFF42620C00 /* QuickTableViewController.html */,
-				195CE3A72A6B0CD624E4F511DC7B9824 /* QuickTableViewController.html */,
-				F411F20B6D5398442E7DD7C7BE428692 /* QuickTableViewRow.html */,
-				2AFE1E0CA10F602F0E55E2A433DCF2C8 /* QuickTableViewRow.html */,
-				9A94B12ACAB33B3C1E235B12619B1636 /* QuickTableViewRowBuilder.html */,
-				7B0A583F52A87C10B9A8F611912229EF /* QuickTableViewRowBuilder.html */,
-				6A82B4F3FB1284C171B0717A6B95FEFE /* QuickTableViewRowWithConditions.html */,
-				5F61E86EAF119CB96431686BD287ECBD /* QuickTableViewRowWithConditions.html */,
-				FA2C3C6BCEA39CC6C42E9B25C685C0F0 /* QuickTableViewSection.html */,
-				7669FF1CDBFDF402D631C4A42363D8A2 /* QuickTableViewSection.html */,
-				F5D7E69B4471DFE8B3D38D58B70E531B /* QuickTableViewSectionBuilder.html */,
-				B3EA92EE46E4DD8040E3768C229602C7 /* QuickTableViewSectionBuilder.html */,
-				CBC1B7EB8AAD130910FA585538D47D8A /* QuickTableViewSectionWithConditions.html */,
-				174A70DD8303C78648CA0D948C4CA1CD /* QuickTableViewSectionWithConditions.html */,
-				CAD997F0E50507F45E063A861DED9320 /* README.md */,
-				6D41A1DE43BD41453F4089F5D86ECB5E /* search.json */,
-				1DAFB5801D756BD9FAF7616C875C518A /* search.json */,
-				413CA2FD7437D93936A921E3108ADF58 /* spinner.gif */,
-				FB0A4815E5BCC5FAA70166020651C2E1 /* spinner.gif */,
-				F89150E1532B748E6AEC1E49F36DE165 /* typeahead.jquery.js */,
-				E2F92C4F3CBD7BDD54D7BA15B1297F41 /* typeahead.jquery.js */,
-				D42F8E3B86C1ABC08790492D8DE74012 /* UITableView.html */,
-				5A3057AE648AE27843985462B246B884 /* UITableView.html */,
-				7B0D7EB775E399382F0EB4AE2B97BF9E /* undocumented.json */,
-				DD4714976C6556955C4A9D8DA4F4CC28 /* undocumented.json */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		0B8250C289E4A4E86BB5C521EF4624D2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE2A56ECEA862780F70C022CB293044E /* Info.plist */,
-				CD6F1B3FEAD591D7656DFD48DAC0CF0F /* Quick.modulemap */,
-				3BE31753D7A5ED1BEE2780D8F77E7044 /* Quick.xcconfig */,
-				54B68E8220D76A23A247D4F5374818DB /* Quick-dummy.m */,
-				72F1C352F7115E8BADB057CCE718EEE4 /* Quick-prefix.pch */,
-				0606423667ADD5659EEDFD39F873D910 /* Quick-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Quick";
-			sourceTree = "<group>";
-		};
-		15214E5F7602F4A9E3BD0ADE2F3077A8 /* Pods-QuickTableView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D4EBF955422DC66988923F5D8C31F17F /* Info.plist */,
-				2EAAAE95B87CAEE998EECBE709074ECB /* Pods-QuickTableView_Tests.modulemap */,
-				59E6F21D14FB5E62D48CF6D1C39AE01F /* Pods-QuickTableView_Tests-acknowledgements.markdown */,
-				2C13ACE07EF6B4E7458034B5E90CF7B5 /* Pods-QuickTableView_Tests-acknowledgements.plist */,
-				FAA7672B46D6076A6EC66F75D5F1438F /* Pods-QuickTableView_Tests-dummy.m */,
-				9AC86D207EAC8A02C5B9469D2FFD94E5 /* Pods-QuickTableView_Tests-frameworks.sh */,
-				E2FBCEAC0304F269A6DB9CA03A1ED443 /* Pods-QuickTableView_Tests-resources.sh */,
-				D506186264346DDD8C5D31B2700CFF31 /* Pods-QuickTableView_Tests-umbrella.h */,
-				D6EB5345A12D364E18B8921C47881BFE /* Pods-QuickTableView_Tests.debug.xcconfig */,
-				36F165D649959909E3DBDC5DBD508D3E /* Pods-QuickTableView_Tests.release.xcconfig */,
-			);
-			name = "Pods-QuickTableView_Tests";
-			path = "Target Support Files/Pods-QuickTableView_Tests";
-			sourceTree = "<group>";
-		};
-		1DE0F6491C28C6A05B96440DDBE77326 /* Pods-QuickTableView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				185D505B817004EF071280C78C613208 /* Info.plist */,
-				4061A37F2B9B2B8062A34C84FA51C430 /* Pods-QuickTableView_Example.modulemap */,
-				96C3D52BCF1141AB581B4ACCD7F89D7B /* Pods-QuickTableView_Example-acknowledgements.markdown */,
-				902E0E9DAEFF1E2915676E1CFBC4D26F /* Pods-QuickTableView_Example-acknowledgements.plist */,
-				B700826B493D0952D767D00B5EEA3866 /* Pods-QuickTableView_Example-dummy.m */,
-				6F73D6EDDA5CFB3E32E6713973131467 /* Pods-QuickTableView_Example-frameworks.sh */,
-				3517A06AC37DC24CA6D88EA969A4ECD1 /* Pods-QuickTableView_Example-resources.sh */,
-				08C9A828D42C8742E27CB325B591E4DB /* Pods-QuickTableView_Example-umbrella.h */,
-				E1E0CA41E3435F6EF2146EA9D4663B05 /* Pods-QuickTableView_Example.debug.xcconfig */,
-				D2EEB6DE894B5CD0DBC902FC5A4896B1 /* Pods-QuickTableView_Example.release.xcconfig */,
-			);
-			name = "Pods-QuickTableView_Example";
-			path = "Target Support Files/Pods-QuickTableView_Example";
-			sourceTree = "<group>";
-		};
-		22514B46F330E69A90D4250D4BEAF73D /* KeyboardAdjuster */ = {
-			isa = PBXGroup;
-			children = (
-				79C4EFF38F0E776FCBE1C267EDBA7972 /* KeyboardAdjuster.swift */,
-				77E96CCC24AD5CE93C29A5316B36D4C4 /* Support Files */,
+				0826EA91921104289B0A39480C01FAE6 /* KeyboardAdjuster.swift */,
+				5CB78F49B382C386E53496A124F53B03 /* Support Files */,
 			);
 			name = KeyboardAdjuster;
 			path = KeyboardAdjuster;
 			sourceTree = "<group>";
 		};
-		232E87A2EAD1F0F7064C1F24B3EA2969 /* Extensions */ = {
+		19962FBAD7ECEC4D4AC600DE4AECA332 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				76FA4D6DC5473C02DAB159449C631227 /* QuickTableViewRow.swift */,
-				2A404BACF87170222407F4CEFEE627AD /* QuickTableViewSection.swift */,
-				E1EB24CB788EAFFDDCC24CD572071EF7 /* UITableView.swift */,
+				0F65DB677FBE7896862E0A55C8E8F56F /* KeyboardAdjuster */,
+				C8440728B5BBAE67C44F5BA1E3558975 /* Quick */,
 			);
-			name = Extensions;
-			path = Pod/Extensions;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		411A76E484EAD1DCD3059213348334A7 /* Development Pods */ = {
+		3AEF9DC55EE34A96B04C5D43218EDA53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F250E74B9799DD4D0D6A54B4DE0D9CF0 /* QuickTableView */,
+				167D3FAC766398B02B304E07733BD6F9 /* KeyboardAdjuster.framework */,
+				4E86C99606A62971E5C51895A90683DA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49C0B2F677DCFA24D7A0E5D619A121FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				791C4D90E5328BBB12C725EB002B062C /* Quick.modulemap */,
+				72DCEA94DDCAB0A6412841CB616B5DE4 /* Quick-dummy.m */,
+				BD5C0D956CD67D7ADF76ACF574C75905 /* Quick-Info.plist */,
+				0BC41D3250587878519FD05B5DA7F5D8 /* Quick-prefix.pch */,
+				24794D4673317AF7A656860C6EE225DC /* Quick-umbrella.h */,
+				1923AE1A513F8F11F7A4D120E35077A6 /* Quick.debug.xcconfig */,
+				92363C2742364E3584E830FCEA1FAF9B /* Quick.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Quick";
+			sourceTree = "<group>";
+		};
+		4C10C58D6032D1EE493158B4D7F76E4F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				64F75EBEB7D5FBF7117889157B1D95F7 /* badge.svg */,
+				2F80A133AC5200F8995BA3F93C0CAC55 /* badge.svg */,
+				032934697846D68F9B14163B66932030 /* BaseTableViewController.html */,
+				60A3E8A594163D62EB01BA4994C584AB /* BaseTableViewController.html */,
+				345D49C3E3EB6BA78591D537C1E8C61F /* carat.png */,
+				71FE45B8D38EDFC0BC314CBA2904F955 /* carat.png */,
+				A94FA55691D2DDFD4F6F40E575DA3192 /* Classes.html */,
+				5C0C029C7A07B32D0DA7EB8D54908CEF /* Classes.html */,
+				A7240EF17EE0C420FE45181DDA1150DC /* dash.png */,
+				1699DB6CE6B3F4064D19D8C57A836FA0 /* dash.png */,
+				5B073DC43548AE20E708E411ADC597A3 /* docSet.dsidx */,
+				DE2C80EF428A8D140B2ACC8335368CAE /* Enums.html */,
+				145E9D9CA0A591801D853C3D94C94B37 /* Enums.html */,
+				87BABCE4653A232C58F28CFFAB2E0919 /* Extensions.html */,
+				49D26661DAC52785EF417F58E3BB97FA /* Extensions.html */,
+				412AB26515121758B13A9CF2F5111419 /* filelist */,
+				70BF02EFDA14214B569B83EB2352BDA4 /* filelist */,
+				F415A4514EF7194D8E5043162D07A9A8 /* filelist-local */,
+				5D0F74C8FAF902B0AB75FE0271E6818F /* filelist-local */,
+				E7C9F0DE6CD1E9A230FA1C494DDFBA7A /* filelist-local-md5 */,
+				A9489F9681718E03FA73D31EEF29B7B2 /* filelist-local-md5 */,
+				BE6935A5B505BFB9A609CCAAC94533B6 /* filelist-md5 */,
+				24B6CDCA91AEB5FAE6B6511655C6ABCD /* filelist-md5 */,
+				2B4FFD1B6FF587E47B5DB5DE5779991F /* gh.png */,
+				F7B02F89A7849829FCDA83A78DCF13C6 /* gh.png */,
+				491C0124BEDAC5274DFDA481D91F5656 /* HasTableView.html */,
+				C11A57B562E12A40AD3E8163CF1CC488 /* HasTableView.html */,
+				5BEFCDE675B1058D9193D9014E778999 /* highlight.css */,
+				4B47F41A60203E4ACA8DB79D18E206F3 /* highlight.css */,
+				609743AA0D8DF52B14FCA1455976CD87 /* index.html */,
+				47AFFB5A8CE306AC9607EBAB9D464663 /* index.html */,
+				5DC26CBBB12F704E102130BF83FAF72B /* Info.plist */,
+				4A30C6AB0DD7D3E7E6DC93D2C0C330ED /* jazzy.css */,
+				F7D98A00282D515BF84D96A23015AC97 /* jazzy.css */,
+				067D66773E868476C5EF77F358E07D65 /* jazzy.js */,
+				68953F589F0A249C30E0F7449CEFFFEB /* jazzy.js */,
+				7B3E10326A8A54D11C1CC6A590C6C299 /* jazzy.search.js */,
+				EE09B7A1687BF3D84043BBEFD73C5812 /* jazzy.search.js */,
+				AA7A537F33EFBD657320D008181E36F1 /* jquery.min.js */,
+				89A563213E363A5A2CD22EA616C47437 /* jquery.min.js */,
+				D9817A349DEE33B183FB4924E0FBE090 /* LICENSE */,
+				DB4139371B903AAC9ACCD6CD2CA9A1B6 /* lunr.min.js */,
+				0C67A453922F99A5E8E6B85647AD172A /* lunr.min.js */,
+				337197E551E9DDCE73751AECCD503B70 /* Protocols.html */,
+				684286350530EA6C3F790C428CE8A505 /* Protocols.html */,
+				BE4423E6CB4F36B5ED03B09B379C80B9 /* QuickTableView.podspec */,
+				9A6B8A69CBA7B497F8DE5B6E357B8856 /* QuickTableView.tgz */,
+				C4C2FBCE770BEDC1A5B1B5584730B15A /* QuickTableViewCellDefault.html */,
+				C2DF168B1B7B98F625087F821F65002D /* QuickTableViewCellDefault.html */,
+				21B37C8D7AC155831A7DAC2C21BE9ECC /* QuickTableViewCellIdentifiable.html */,
+				0904C6F4351998B418A191D3012E179D /* QuickTableViewCellIdentifiable.html */,
+				260D3A854CDB47D4AEF6FA423FC75F96 /* QuickTableViewCellSubtitle.html */,
+				E05353B6C9C8C998697BB1759F00D2AC /* QuickTableViewCellSubtitle.html */,
+				237F22D77297C809F4DB50617BFF2898 /* QuickTableViewCellValue1.html */,
+				1DC94F4F11163DA37F905091ED1E8539 /* QuickTableViewCellValue1.html */,
+				0FB89603E8876A29DB216D663F19F43E /* QuickTableViewCellValue2.html */,
+				22D65554B9A91DB6577EE54887DA0076 /* QuickTableViewCellValue2.html */,
+				53299699421EC9690BEE24B128F7435A /* QuickTableViewContainer.html */,
+				FCFB0D1790F5DF5186989C5CAC3636CA /* QuickTableViewContainer.html */,
+				521EBEEFA26FBA393FF9502375C5DE73 /* QuickTableViewController.html */,
+				26C183B6D2536B1502B619D1BEE6D33C /* QuickTableViewController.html */,
+				F2568EA680369ADAA30C282B7F5162E9 /* QuickTableViewRow.html */,
+				68BE94A5CE4CEE427EE6112D3F017699 /* QuickTableViewRow.html */,
+				A21A4FA7F8AA89A1A492B166A2C78117 /* QuickTableViewRowBuilder.html */,
+				88A4F9799DABE75EA6332537CC7A1CDF /* QuickTableViewRowBuilder.html */,
+				4F8F0A5BE787063AC0C259559AD4215D /* QuickTableViewRowWithConditions.html */,
+				2A962D234D4817A20C05BE4EE236468B /* QuickTableViewRowWithConditions.html */,
+				A990FD0F43ACE75EC2457B707F8A779C /* QuickTableViewSection.html */,
+				B159FC283D857CE316146704BD310ECC /* QuickTableViewSection.html */,
+				09551A81EC36261F4CFCF85E1D3ED750 /* QuickTableViewSectionBuilder.html */,
+				65A60CE71BEDE437B431D54DD5FF1088 /* QuickTableViewSectionBuilder.html */,
+				EE0F91EEA78C284BA5F88303A441C0F1 /* QuickTableViewSectionWithConditions.html */,
+				8F2865742C414CC7A9D7E008C3FAEE8C /* QuickTableViewSectionWithConditions.html */,
+				302E07B93D8A3A017BC92287A215171A /* README.md */,
+				BCCFE064EFD8401A3A37A12525C529A0 /* search.json */,
+				6705D254AD9AA918FB75215F0AA19CDF /* search.json */,
+				0FD456EECD44C3235450F03278409C1A /* spinner.gif */,
+				EF1799B946FA2AA3E372BF0A2B529E27 /* spinner.gif */,
+				54DEF1E68B8D0310926CACAD6D3E20D3 /* typeahead.jquery.js */,
+				E21593E2ED4DEC820CE400454B200B66 /* typeahead.jquery.js */,
+				8BD4182014E5664796D1EB5243BC149D /* UITableView.html */,
+				C473318ED7782491D29C514FC99E51A4 /* UITableView.html */,
+				0AC3E284D066766F01D181C704706D1A /* undocumented.json */,
+				7508C874F25FEE7642E46A36887B4318 /* undocumented.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4E86C99606A62971E5C51895A90683DA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CCA47D9DDC671F6B06F3DE061D87243D /* Foundation.framework */,
+				53DC9C6C3C1AA7DFE6BAE5C178A9D619 /* UIKit.framework */,
+				161FD509F0FF7DD1AAA89EA3C9A249BD /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		565D6709DD92C8B92C9D9A9B38439BD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6309A2F89A2B25F30599B7EAFECD72C /* QuickTableView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		442217EEFE0FA15AFEA88EC6D1B522E1 /* Targets Support Files */ = {
+		5CB78F49B382C386E53496A124F53B03 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DE0F6491C28C6A05B96440DDBE77326 /* Pods-QuickTableView_Example */,
-				15214E5F7602F4A9E3BD0ADE2F3077A8 /* Pods-QuickTableView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5432AD7457A9C83E31ED8DFEBDD2D2BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E20A14DD0C03E75CA40C1F01AC31E8EA /* KeyboardAdjuster.framework */,
-				4A0F75D5F36AADD703A15F409206A9DC /* Pods_QuickTableView_Example.framework */,
-				400F01DB902ABF45CFDFA809EBEF094C /* Pods_QuickTableView_Tests.framework */,
-				237EEDEA4A888B648B3E0AA763F0BF8F /* Quick.framework */,
-				32003884DA83DC7BDBB53B374057E5FD /* QuickTableView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		66C9AB2D2496A14BE4239A5E1BFB7423 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				498BB602749D8E00561BD15D6C249BDD /* BaseTableViewController.swift */,
-				519154B1A863F9DAD32F03A8B0DD9972 /* QuickTableViewController.swift */,
-				7BEAF3462E498BF763A8B89AD3B75D1C /* Table View Cells */,
-			);
-			name = Classes;
-			path = Pod/Classes;
-			sourceTree = "<group>";
-		};
-		68BAA4F4711EF35A031CB432EC1F4169 /* Quick */ = {
-			isa = PBXGroup;
-			children = (
-				ED6B1E634A5816D82359979561DF584D /* Behavior.swift */,
-				2346042B6CEA75C3F8472101074B35FD /* Callsite.swift */,
-				00DBB097A09C1B2B0A7F171C4C906B0E /* Closures.swift */,
-				A420BF77BAD8697687767D18A68B3911 /* Configuration.swift */,
-				94E936F7C3AB23534E6D33D54E6D242F /* DSL.swift */,
-				DCA2173411487D7715CE8DC2C61FE035 /* ErrorUtility.swift */,
-				6320A8689B41B8007E9917DE80A6BAAA /* Example.swift */,
-				602F8584E9BBD16C5E77C23A7F9BFBB8 /* ExampleGroup.swift */,
-				2DA11DDE01719223FBFE3618C6F9EB06 /* ExampleHooks.swift */,
-				9F76D34E7C2955642F66D885367D8214 /* ExampleMetadata.swift */,
-				282BAC30EC078F7405FE3564FC2BEFDB /* Filter.swift */,
-				A8B8641CE624EDC91E80CA583CD24B6A /* HooksPhase.swift */,
-				44B50F6A194318BA66C161677D7863E9 /* NSBundle+CurrentTestBundle.swift */,
-				3DB8B98902B13873D899BD0B30994617 /* NSString+C99ExtendedIdentifier.swift */,
-				59B3CCA53BA05E9037359BEE42C7172A /* QCKDSL.h */,
-				CCA80B5F3676E2B4CE25B834EB9991DD /* QCKDSL.m */,
-				1DFAE36186DE03CCA9CF6822046C2575 /* Quick.h */,
-				EB01C30268A46626629D032147EBE1C8 /* QuickConfiguration.h */,
-				5D2D5994C9FDD90EA3B6FA2796008211 /* QuickConfiguration.m */,
-				B681CA5A7A8188A7C5939E51A159FF82 /* QuickSelectedTestSuiteBuilder.swift */,
-				A8D72E1D778F6EA5CA9232127AD8F7D2 /* QuickSpec.h */,
-				F87BED06EA19DC95DE9152EE982C53BD /* QuickSpec.m */,
-				AEAC98CD9B26450B08C567B468436545 /* QuickSpecBase.h */,
-				8F80B0BADC4DF29BD4D48813F6F73BBA /* QuickSpecBase.m */,
-				B7267BE425A9539434A3AC087ED84F33 /* QuickTestSuite.swift */,
-				3E419A7A3804BB5CC3ECE72CD169B12F /* SuiteHooks.swift */,
-				01E69BE618281505B731778641BBD11A /* URL+FileName.swift */,
-				EBB8AFDFE2E16A843B71C9A4F8602AA2 /* World.swift */,
-				4CB40C13098532957152E20EBFD60462 /* World+DSL.swift */,
-				0872D580EA9FC2DBE299B4153894F4A5 /* XCTestSuite+QuickTestSuiteBuilder.m */,
-				0B8250C289E4A4E86BB5C521EF4624D2 /* Support Files */,
-			);
-			name = Quick;
-			path = Quick;
-			sourceTree = "<group>";
-		};
-		77E96CCC24AD5CE93C29A5316B36D4C4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				73FB1693EDCB1DB4DD6955F5806F9B8C /* Info.plist */,
-				37D73DE78E049097781E0947452C6FC4 /* KeyboardAdjuster.modulemap */,
-				9AB29E3F82DEE2CBA1D57474B3116B5F /* KeyboardAdjuster.xcconfig */,
-				5B53736DD3256C07E455F7B953620630 /* KeyboardAdjuster-dummy.m */,
-				57947D63DD2E132778109655033DAB2B /* KeyboardAdjuster-prefix.pch */,
-				C7D0A1EF55B2855CE4BC916FDD86321B /* KeyboardAdjuster-umbrella.h */,
+				E515A7AD56582501BA8023C9D450286B /* KeyboardAdjuster.modulemap */,
+				1FF5B03240AE943A1C4400B632C6B065 /* KeyboardAdjuster-dummy.m */,
+				6EE7ED73CD020EF2CD31A2ECDF064159 /* KeyboardAdjuster-Info.plist */,
+				25F153A0777D77A1688DA8DC7E722C47 /* KeyboardAdjuster-prefix.pch */,
+				07F00E830C63BF86DF94EEE93431E8E9 /* KeyboardAdjuster-umbrella.h */,
+				1350D3ED574D6DA8FE811A5B2206C5E8 /* KeyboardAdjuster.debug.xcconfig */,
+				7126314961F123B6891303E66D37D35E /* KeyboardAdjuster.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KeyboardAdjuster";
 			sourceTree = "<group>";
 		};
-		7BEAF3462E498BF763A8B89AD3B75D1C /* Table View Cells */ = {
+		6BB9ACC8CA354993DF895831DBCBB85D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				DDD10CDF30EF096B8FDD319630399FBB /* QuickTableViewCellDefault.swift */,
-				5568BFE43779F95221E8E101EA027629 /* QuickTableViewCellSubtitle.swift */,
-				EF1FF096BCEE7AE1D983E1F6F58E8C6D /* QuickTableViewCellValue1.swift */,
-				4B5D638A4B65597855729C20450CFE7E /* QuickTableViewCellValue2.swift */,
+				E2CCBB0C44BC0FBB0BC8FF2BCE47D43D /* QuickTableViewRow.swift */,
+				D8EB59A65F7D08E9D37C78201F533F33 /* QuickTableViewSection.swift */,
+				74EC09C0A322F1783903A5B80D3689D1 /* UITableView.swift */,
 			);
-			name = "Table View Cells";
-			path = "Table View Cells";
+			name = Extensions;
+			path = Pod/Extensions;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		719789B7153DC357E9FC1322C9E2206C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				411A76E484EAD1DCD3059213348334A7 /* Development Pods */,
-				C70B7977CAEC24A2B55099446A76AECF /* Frameworks */,
-				979D5EDA6149016CCD980AAAAA2895DF /* Pods */,
-				5432AD7457A9C83E31ED8DFEBDD2D2BB /* Products */,
-				442217EEFE0FA15AFEA88EC6D1B522E1 /* Targets Support Files */,
+				D8883D71BD1C4ADB7B6CB59F60613495 /* BaseTableViewController.swift */,
+				C56A44B3D8A48BA7D005C4BBE825CCFC /* QuickTableViewController.swift */,
+				E83EC4C080D0461111647128BADACB3C /* Table View Cells */,
 			);
+			name = Classes;
+			path = Pod/Classes;
 			sourceTree = "<group>";
 		};
-		979D5EDA6149016CCD980AAAAA2895DF /* Pods */ = {
+		823F0E7E35E3D4E7458703C7BACCAC07 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				22514B46F330E69A90D4250D4BEAF73D /* KeyboardAdjuster */,
-				68BAA4F4711EF35A031CB432EC1F4169 /* Quick */,
+				F912E2D20E4E57FE809F402C49ADC15C /* Pods-QuickTableView_Example */,
+				FFE4EB01BD21A571167DE42192AD5C28 /* Pods-QuickTableView_Tests */,
 			);
-			name = Pods;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C70B7977CAEC24A2B55099446A76AECF /* Frameworks */ = {
+		8E2B551B6EE5D874A55A38C55DF89CE0 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				7A67A65FB6B7635C8BB56ED9C357C31C /* KeyboardAdjuster.framework */,
-				F90D676EE0366D96A3510868D5F316A3 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E3B4EFABC913FAB6A2D7A726946E7330 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				973A9B2C8E45C2D6BB428A7FF51FE270 /* QuickTableViewProtocols.swift */,
+				3B13FDE503C24E56ACCF2A5A2BC805E7 /* QuickTableViewProtocols.swift */,
 			);
 			name = Protocols;
 			path = Pod/Protocols;
 			sourceTree = "<group>";
 		};
-		EA9C68D55902BBEC8A804E44A19AD291 /* Support Files */ = {
+		9D739C5FBA18DA714CE483AA21B04B3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C37D275968C2D814CDDAB43E83931ABF /* Info.plist */,
-				F7494BD31E26453329F32C6C0FFE8F6C /* QuickTableView.modulemap */,
-				384190800F86528BB79754E254073FDB /* QuickTableView.xcconfig */,
-				C9BE21E2B8A90D039C54C4D27069D0C4 /* QuickTableView-dummy.m */,
-				DBB0CE25B92292839450EB78D79173E5 /* QuickTableView-prefix.pch */,
-				A8D0A200184A1CB3DDF13E072CF60838 /* QuickTableView-umbrella.h */,
+				72DB699FAB0BFD6B05115AFC96917D5D /* KeyboardAdjuster.framework */,
+				03AC6A1929B778D7D8DE8EB5A78A971B /* Pods_QuickTableView_Example.framework */,
+				1F6EDCF1D7F1659B79C878142785F752 /* Pods_QuickTableView_Tests.framework */,
+				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
+				972B50758DBBA6A95F5168B093498F77 /* QuickTableView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8440728B5BBAE67C44F5BA1E3558975 /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				7498311384AAED58BACB1076F03DF6CB /* Behavior.swift */,
+				FFD3C9D8AF56724D63BEA1F441B9F9E0 /* Callsite.swift */,
+				1C699BE86ADDFF02EE553B2EDF3A907F /* Closures.swift */,
+				4EC8669BBC0FC882C2C35B6B65C67EF8 /* Configuration.swift */,
+				B2DAFCCBA590D6029E739414D2B6F990 /* DSL.swift */,
+				40F320349F1357DEB6577091355FED0E /* ErrorUtility.swift */,
+				76A8B9152E72D06701DAD57EC935589A /* Example.swift */,
+				D5274D68A179BB23088C3776A0C1F626 /* ExampleGroup.swift */,
+				28FE6DE4EFEAD53F7D322B64870E2F20 /* ExampleHooks.swift */,
+				1EFC81231557C65FF1EE54EDCAC39CA1 /* ExampleMetadata.swift */,
+				EB9140D278E3C0F239352D56BBDFC12D /* Filter.swift */,
+				2D5F3AC924E9A433D08A2EDF2FDB6EEB /* HooksPhase.swift */,
+				7D57AB741D63449F422AE14A65EE752E /* NSBundle+CurrentTestBundle.swift */,
+				E41BD2FC9C143CCF07239D97D43E9112 /* QCKDSL.h */,
+				6E9327E229FF8CBF0CB1343C8791C276 /* QCKDSL.m */,
+				08F654E08C240FC972CEE07EB5435E6F /* Quick.h */,
+				2805E335D4E1C0CACDC7B9531CB9416E /* QuickConfiguration.h */,
+				581F5E133099BB3757897E451CCD6436 /* QuickConfiguration.m */,
+				2C663750BF7BEF6CDFE1DFAD94A9DD08 /* QuickConfiguration.swift */,
+				B75A3D5912C613ABE27DDA2878AEFDED /* QuickSelectedTestSuiteBuilder.swift */,
+				469580F38904EFF9A5AED0819120C148 /* QuickSpec.h */,
+				2D3562BAB68B66E3683D3D402DB6ABE9 /* QuickSpec.m */,
+				B4A317A2294F37359F457CEB9D037B28 /* QuickSpecBase.h */,
+				D52266DB5912B6628064C23608522AC7 /* QuickSpecBase.m */,
+				9500C08780D62F637D83803E7075A341 /* QuickTestObservation.swift */,
+				BA58BEFD18B280EF29AF936E1AED5AFA /* QuickTestSuite.swift */,
+				B0C3A06AC65F3AC84CB7D580DA3FCBA7 /* String+C99ExtendedIdentifier.swift */,
+				6FB1F5012A4C8FBD68B10246EE4BFEAC /* SuiteHooks.swift */,
+				5B04FFFC05475B057D5E46875BDB05F5 /* URL+FileName.swift */,
+				D0B5F09358DBCD9AB66FA2F313961E86 /* World.swift */,
+				FA44EC794851CF99B858BCCD878F0649 /* World+DSL.swift */,
+				3BDA8474D5F7A286C2DB1BD92C18A4C1 /* XCTestSuite+QuickTestSuiteBuilder.m */,
+				49C0B2F677DCFA24D7A0E5D619A121FF /* Support Files */,
+			);
+			name = Quick;
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		CD32B4B7372019EA99B2C340E4C7EDE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAED157BF364524E2C9F1628D70D7312 /* QuickTableView.modulemap */,
+				EDA48B0710A1EF700E5308B4FE45473D /* QuickTableView-dummy.m */,
+				E6FB6B4731566ABDB6EC05A64B3A730A /* QuickTableView-Info.plist */,
+				B7C3311DB9FFF379AFDFA534553CED69 /* QuickTableView-prefix.pch */,
+				40564CA27068A5B6494326DCABEF4F3D /* QuickTableView-umbrella.h */,
+				9136022A8583C22591F3C39340F21162 /* QuickTableView.debug.xcconfig */,
+				4C7CDAA219CB00CC8F91527B255981F9 /* QuickTableView.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/QuickTableView";
 			sourceTree = "<group>";
 		};
-		F250E74B9799DD4D0D6A54B4DE0D9CF0 /* QuickTableView */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				66C9AB2D2496A14BE4239A5E1BFB7423 /* Classes */,
-				232E87A2EAD1F0F7064C1F24B3EA2969 /* Extensions */,
-				0058068AF715F4767C95BBCCC80E0F0A /* Pod */,
-				E3B4EFABC913FAB6A2D7A726946E7330 /* Protocols */,
-				EA9C68D55902BBEC8A804E44A19AD291 /* Support Files */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				565D6709DD92C8B92C9D9A9B38439BD7 /* Development Pods */,
+				3AEF9DC55EE34A96B04C5D43218EDA53 /* Frameworks */,
+				19962FBAD7ECEC4D4AC600DE4AECA332 /* Pods */,
+				9D739C5FBA18DA714CE483AA21B04B3B /* Products */,
+				823F0E7E35E3D4E7458703C7BACCAC07 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E83EC4C080D0461111647128BADACB3C /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				48C9BD40603140E22E8E53DDBD530669 /* QuickTableViewCellDefault.swift */,
+				8287B62E7FC6EBDE22898BDE0650E91C /* QuickTableViewCellSubtitle.swift */,
+				EAE044053A35D8296CD960E76879DA1D /* QuickTableViewCellValue1.swift */,
+				52BFDA4F6834EADA17430FCADEDAC4F9 /* QuickTableViewCellValue2.swift */,
+			);
+			name = "Table View Cells";
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		F6309A2F89A2B25F30599B7EAFECD72C /* QuickTableView */ = {
+			isa = PBXGroup;
+			children = (
+				719789B7153DC357E9FC1322C9E2206C /* Classes */,
+				6BB9ACC8CA354993DF895831DBCBB85D /* Extensions */,
+				4C10C58D6032D1EE493158B4D7F76E4F /* Pod */,
+				8E2B551B6EE5D874A55A38C55DF89CE0 /* Protocols */,
+				CD32B4B7372019EA99B2C340E4C7EDE3 /* Support Files */,
 			);
 			name = QuickTableView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F90D676EE0366D96A3510868D5F316A3 /* iOS */ = {
+		F912E2D20E4E57FE809F402C49ADC15C /* Pods-QuickTableView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B631236471652A8EE8B0BA66A4169D1A /* Foundation.framework */,
-				E2E10744C18C1501914F97949C5752DA /* UIKit.framework */,
-				452ACC689B2B3DADA34E79C114AE960D /* XCTest.framework */,
+				7D81E2905893EA33BA27C99BA6F5502F /* Pods-QuickTableView_Example.modulemap */,
+				7605FA9A04EECB5E9094B98C3036C6D2 /* Pods-QuickTableView_Example-acknowledgements.markdown */,
+				794C8F027F3B1AC36CB374ABEB26FA1A /* Pods-QuickTableView_Example-acknowledgements.plist */,
+				DE89FAE8E64238E24443436DB75466EF /* Pods-QuickTableView_Example-dummy.m */,
+				4AF2588ED21600190FAF8F85A275F2FE /* Pods-QuickTableView_Example-frameworks.sh */,
+				834BF3C71D640820DBF8BF9C74945631 /* Pods-QuickTableView_Example-Info.plist */,
+				D854008DE65FF2894D510CB3D78C50E9 /* Pods-QuickTableView_Example-umbrella.h */,
+				B27671ADF854B53B9CCE30AD45234133 /* Pods-QuickTableView_Example.debug.xcconfig */,
+				584C1D7748B56E4A9E97DC201A09EBC2 /* Pods-QuickTableView_Example.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-QuickTableView_Example";
+			path = "Target Support Files/Pods-QuickTableView_Example";
+			sourceTree = "<group>";
+		};
+		FFE4EB01BD21A571167DE42192AD5C28 /* Pods-QuickTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2EB24334C42B59C4A2D55DBA247BBAF2 /* Pods-QuickTableView_Tests.modulemap */,
+				372885484F8B443C6E72A6D8A33A3C4F /* Pods-QuickTableView_Tests-acknowledgements.markdown */,
+				9135A82367DE4762A0F288F697B555BF /* Pods-QuickTableView_Tests-acknowledgements.plist */,
+				D14EE8C629730E8F5512E6EC657FBD0B /* Pods-QuickTableView_Tests-dummy.m */,
+				A6409E1EB72B351A5B66BE61AFB1C328 /* Pods-QuickTableView_Tests-frameworks.sh */,
+				BCADDA0F3BF693744FB54B9A9F759AAA /* Pods-QuickTableView_Tests-Info.plist */,
+				4F9E453308B0D18194A420CEB48F19A7 /* Pods-QuickTableView_Tests-umbrella.h */,
+				B288A94060DB36F601C523BA60CA0D06 /* Pods-QuickTableView_Tests.debug.xcconfig */,
+				722836D1EB819C3A71CC31AE56536659 /* Pods-QuickTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-QuickTableView_Tests";
+			path = "Target Support Files/Pods-QuickTableView_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6EEF596F9DB51CBBD004302C6CB93BCD /* Headers */ = {
+		6FEC9208E83214CF42F2411472DF1131 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB0F22A1BCF2534A8CF8306A5DB6091C /* KeyboardAdjuster-umbrella.h in Headers */,
+				245FE2FBBDF2D565779F58BE7FD12C21 /* Pods-QuickTableView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		762F3805C4EF318B849261F0DDAA3EDF /* Headers */ = {
+		789BF2A9515D75DE2B2453A4B5637A9D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F4E3F903D018E8848911B55A2ED2C7 /* QCKDSL.h in Headers */,
-				DC3F4DA14CDFF524B696BF49E6883417 /* Quick-umbrella.h in Headers */,
-				EEAA66C27B767C0D69567E4BB27CE6D6 /* Quick.h in Headers */,
-				F8BD01D676F096FD05BE2725AB2070FB /* QuickConfiguration.h in Headers */,
-				5E471542952F77EC7F25AAF989C75BED /* QuickSpec.h in Headers */,
-				F6CDB83321D09DE04A27DC35ADAFB3BA /* QuickSpecBase.h in Headers */,
+				1A8DF79F5EF3D69864A84173E7C9810E /* QCKDSL.h in Headers */,
+				8E4A2F4A1EF16B63817A516CC2743619 /* Quick-umbrella.h in Headers */,
+				10C8810E574F925B5CD3449B6DBE6EC0 /* Quick.h in Headers */,
+				BFEBC90223F66B0FF770B92B1C670BCF /* QuickConfiguration.h in Headers */,
+				7EB28FEC3D0ABA1A2A6CFE57C400F74D /* QuickSpec.h in Headers */,
+				76E7C7CDAA543C791A714B991F595F2B /* QuickSpecBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83DE9DB1C47E0F3EC15311FA6EEF27A7 /* Headers */ = {
+		AA243C474FD02597703E0BE6971A28B0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				765451CADF6D91E7493A635EE0EE4362 /* QuickTableView-umbrella.h in Headers */,
+				DC0A1923180042089B1753821606292E /* Pods-QuickTableView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EC54E7236A9600B1CB8F2F744D3C6A1 /* Headers */ = {
+		E30F2F80792F11478D5893A9F986C958 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3319C3A9989CCD827C445078D696C0 /* Pods-QuickTableView_Example-umbrella.h in Headers */,
+				7F98196D71B0801CAC14646E395BE45B /* KeyboardAdjuster-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93075387D92EB28B80FB0F847DA16AB7 /* Headers */ = {
+		F040F1A256502A14BE7DD8D057591CE3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68EA34999FEF45FDF7F864A7CD5C43CA /* Pods-QuickTableView_Tests-umbrella.h in Headers */,
+				CACD5F90A72C58BB3DEA705BF9F813BC /* QuickTableView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AA36F32B81890ED7DFBF56B237C2D21 /* QuickTableView */ = {
+		06D10E2D0160C10BDCD3E66323268D28 /* Pods-QuickTableView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C51283429277A51512F3A82696B41E9 /* Build configuration list for PBXNativeTarget "QuickTableView" */;
+			buildConfigurationList = 7D9DFB06A697632108ABE5F14C1592B4 /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Example" */;
 			buildPhases = (
-				83DE9DB1C47E0F3EC15311FA6EEF27A7 /* Headers */,
-				7A8C5A9DB393D40BC5F79D82B1F33736 /* Sources */,
-				798F1B92EAD275A6AE8D4C5592526ED2 /* Frameworks */,
-				F8F48483A81AEF9CD4B6B79961ACA6BE /* Resources */,
+				AA243C474FD02597703E0BE6971A28B0 /* Headers */,
+				18FBC9AA23CFD0738182D2CD3BFDAB56 /* Sources */,
+				DB6EC3B3D1331B7313614FFF10409D11 /* Frameworks */,
+				DCD19302D76B35F836CC84DBA44C71CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5FFE28FEE0738BA67437179A16666039 /* PBXTargetDependency */,
-			);
-			name = QuickTableView;
-			productName = QuickTableView;
-			productReference = 32003884DA83DC7BDBB53B374057E5FD /* QuickTableView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		390D133C67EE9F3D293445972C41D51A /* Pods-QuickTableView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56510972AE6187BCA085DB569583834E /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Example" */;
-			buildPhases = (
-				8EC54E7236A9600B1CB8F2F744D3C6A1 /* Headers */,
-				92359A69A6BBE8B8FDCEDA68A2F1BFC7 /* Sources */,
-				FD2A29FEF2A2DDE3EED08D619102670C /* Frameworks */,
-				C40CDE82983AE7700AB969C471A60E70 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90C4D6FD8D363F2DA01C7707AB4159A5 /* PBXTargetDependency */,
-				758038D3BC0A797895FEBC542556D2DC /* PBXTargetDependency */,
+				0652F2D06AEBAC0374FCBE90CC16DE8A /* PBXTargetDependency */,
+				4C997BEBE67A93459629C94D0BAFB5E0 /* PBXTargetDependency */,
 			);
 			name = "Pods-QuickTableView_Example";
 			productName = "Pods-QuickTableView_Example";
-			productReference = 4A0F75D5F36AADD703A15F409206A9DC /* Pods_QuickTableView_Example.framework */;
+			productReference = 03AC6A1929B778D7D8DE8EB5A78A971B /* Pods_QuickTableView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AF7EF176B93FDA73F465330F7161854D /* Quick */ = {
+		5DBE6DFE8815C8329E600B11A35B4ACE /* Pods-QuickTableView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A73FD5B09330495675F999B794A5A60A /* Build configuration list for PBXNativeTarget "Quick" */;
+			buildConfigurationList = DFD900A09D099441D43AFCAF1B0C2EAC /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Tests" */;
 			buildPhases = (
-				762F3805C4EF318B849261F0DDAA3EDF /* Headers */,
-				74BA1F9549A21D590CC77D151D51FBF5 /* Sources */,
-				A62747318C7C7798A33D91059276EF99 /* Frameworks */,
-				C72A6E94DF544B3F0347F436B6DE3610 /* Resources */,
+				6FEC9208E83214CF42F2411472DF1131 /* Headers */,
+				6C21143B14DC5102C269BAA577F98FD7 /* Sources */,
+				B9C24CAE4F3ACBA50A8596EB1C47C977 /* Frameworks */,
+				B3B523DBE49E2A8B467D83CA46AA6D53 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = Quick;
-			productName = Quick;
-			productReference = 237EEDEA4A888B648B3E0AA763F0BF8F /* Quick.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C242D07E67E944084D7792B0D93492CF /* Pods-QuickTableView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FB0C7EE94529F12794174A0C8C696891 /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Tests" */;
-			buildPhases = (
-				93075387D92EB28B80FB0F847DA16AB7 /* Headers */,
-				2B92CDACF7578CADDF50A286A2413994 /* Sources */,
-				14345FA36F0B2D71463AA5FCF53D160F /* Frameworks */,
-				5608B105F2F6906B4D0F4876543BFC03 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9DB8EB25382FD5C8852E387289BB0AEF /* PBXTargetDependency */,
-				E0604D9A15C495EB9A3A26071B14E113 /* PBXTargetDependency */,
+				7F05701FE10927912AFD30B1C0690AB3 /* PBXTargetDependency */,
+				D289C8C800BE99B8934C9A43BA4A967B /* PBXTargetDependency */,
 			);
 			name = "Pods-QuickTableView_Tests";
 			productName = "Pods-QuickTableView_Tests";
-			productReference = 400F01DB902ABF45CFDFA809EBEF094C /* Pods_QuickTableView_Tests.framework */;
+			productReference = 1F6EDCF1D7F1659B79C878142785F752 /* Pods_QuickTableView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */ = {
+		B1D8522B8AE30172E49ADAD292380971 /* KeyboardAdjuster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02CE4F65530105149DA94C1A61B6B944 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */;
+			buildConfigurationList = 0E2ABC0423E50866BDC38BFD9BE140C0 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */;
 			buildPhases = (
-				6EEF596F9DB51CBBD004302C6CB93BCD /* Headers */,
-				1670FBC3145F3C9A3F50F7C05269EF9F /* Sources */,
-				B7D85C8AAE0CFAC524727902071AD555 /* Frameworks */,
-				DCC9FBE716E960B997CA53CBBB2CFACC /* Resources */,
+				E30F2F80792F11478D5893A9F986C958 /* Headers */,
+				E1B4EA4F8BEF663D27684DBB451724F9 /* Sources */,
+				19A27134F59E44D6A43F0A4B1EB3B544 /* Frameworks */,
+				3365E7775DD9F46841FCDD874CA41C03 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -815,69 +786,107 @@
 			);
 			name = KeyboardAdjuster;
 			productName = KeyboardAdjuster;
-			productReference = E20A14DD0C03E75CA40C1F01AC31E8EA /* KeyboardAdjuster.framework */;
+			productReference = 72DB699FAB0BFD6B05115AFC96917D5D /* KeyboardAdjuster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C111B28D6F915B3A15276825E0597E6F /* QuickTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AF5486D96974BA1A7D065FCE7193AD /* Build configuration list for PBXNativeTarget "QuickTableView" */;
+			buildPhases = (
+				F040F1A256502A14BE7DD8D057591CE3 /* Headers */,
+				30A8A6AFC03C9459AE168E526EC29B4A /* Sources */,
+				EA25C71BF29614F5B1D4205140A2E8DD /* Frameworks */,
+				8B81ACC40A9AE5FFD70E10395FD71D57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				993E1379CCDBF980E1A39090136EABFF /* PBXTargetDependency */,
+			);
+			name = QuickTableView;
+			productName = QuickTableView;
+			productReference = 972B50758DBBA6A95F5168B093498F77 /* QuickTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C82891EAB7293DBEE916B21F57E8474D /* Quick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189D56F652B0345CC3E1073543C1B391 /* Build configuration list for PBXNativeTarget "Quick" */;
+			buildPhases = (
+				789BF2A9515D75DE2B2453A4B5637A9D /* Headers */,
+				694205E4C1C5652ABC91AB6B8D119A52 /* Sources */,
+				1FB41F3B817F50C08A530AB486E92A06 /* Frameworks */,
+				295DA4774C40DBFC844D2E7BA312DE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quick;
+			productName = Quick;
+			productReference = 0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5432AD7457A9C83E31ED8DFEBDD2D2BB /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9D739C5FBA18DA714CE483AA21B04B3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */,
-				390D133C67EE9F3D293445972C41D51A /* Pods-QuickTableView_Example */,
-				C242D07E67E944084D7792B0D93492CF /* Pods-QuickTableView_Tests */,
-				AF7EF176B93FDA73F465330F7161854D /* Quick */,
-				0AA36F32B81890ED7DFBF56B237C2D21 /* QuickTableView */,
+				B1D8522B8AE30172E49ADAD292380971 /* KeyboardAdjuster */,
+				06D10E2D0160C10BDCD3E66323268D28 /* Pods-QuickTableView_Example */,
+				5DBE6DFE8815C8329E600B11A35B4ACE /* Pods-QuickTableView_Tests */,
+				C82891EAB7293DBEE916B21F57E8474D /* Quick */,
+				C111B28D6F915B3A15276825E0597E6F /* QuickTableView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5608B105F2F6906B4D0F4876543BFC03 /* Resources */ = {
+		295DA4774C40DBFC844D2E7BA312DE5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C40CDE82983AE7700AB969C471A60E70 /* Resources */ = {
+		3365E7775DD9F46841FCDD874CA41C03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C72A6E94DF544B3F0347F436B6DE3610 /* Resources */ = {
+		8B81ACC40A9AE5FFD70E10395FD71D57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCC9FBE716E960B997CA53CBBB2CFACC /* Resources */ = {
+		B3B523DBE49E2A8B467D83CA46AA6D53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8F48483A81AEF9CD4B6B79961ACA6BE /* Resources */ = {
+		DCD19302D76B35F836CC84DBA44C71CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -887,221 +896,121 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1670FBC3145F3C9A3F50F7C05269EF9F /* Sources */ = {
+		18FBC9AA23CFD0738182D2CD3BFDAB56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563D26E1C753EC03DE260ED2F4F223A9 /* KeyboardAdjuster-dummy.m in Sources */,
-				0F900F03B9992A1E969A8A065B9BABFA /* KeyboardAdjuster.swift in Sources */,
+				532373040CF9801E3F8A01050DBE375E /* Pods-QuickTableView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B92CDACF7578CADDF50A286A2413994 /* Sources */ = {
+		30A8A6AFC03C9459AE168E526EC29B4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8F049787EFE8A66F1A16D17FA84DCE4 /* Pods-QuickTableView_Tests-dummy.m in Sources */,
+				432F78D574EFBFB9A9E3C0FCCFF4F933 /* BaseTableViewController.swift in Sources */,
+				7A5B08536988B5ECCDFED97D864CCD7A /* QuickTableView-dummy.m in Sources */,
+				874D7AE7972486C1BEEC7D0ED363F42C /* QuickTableViewCellDefault.swift in Sources */,
+				F066200DD255FB60685B75A59C3CEA17 /* QuickTableViewCellSubtitle.swift in Sources */,
+				4FBB6BD14616774200790706A1267013 /* QuickTableViewCellValue1.swift in Sources */,
+				33DF034023F1D7F3730CFB2C66220102 /* QuickTableViewCellValue2.swift in Sources */,
+				CBCA81B0F0383E785C6ACE23D1E1B93D /* QuickTableViewController.swift in Sources */,
+				FDEF8B22EC1EB4C8F9CC00F439AEEA83 /* QuickTableViewProtocols.swift in Sources */,
+				5EA0861EF5178E77A58E620C9FF60F8A /* QuickTableViewRow.swift in Sources */,
+				BCD695382BA7DF85D3DC6ED8F38FFC4D /* QuickTableViewSection.swift in Sources */,
+				37E327FA532A5932D2DE191B8EA5A93C /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74BA1F9549A21D590CC77D151D51FBF5 /* Sources */ = {
+		694205E4C1C5652ABC91AB6B8D119A52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2255B7BE87E636D7EC0C12875643B7F /* Behavior.swift in Sources */,
-				7A66A4473C87589D983149B0BEBD681B /* Callsite.swift in Sources */,
-				58E48F9D4F9A5E2BFF31566323E481A6 /* Closures.swift in Sources */,
-				CEA591B473AB6ADA2AF30057C55670C8 /* Configuration.swift in Sources */,
-				27AE76C0B40E6AD066DECFBEE78C7590 /* DSL.swift in Sources */,
-				A2B1E8750C9D9FC10208406456E8425F /* ErrorUtility.swift in Sources */,
-				559E3C96FD9FD0B875A27D39E2ECDB93 /* Example.swift in Sources */,
-				2DECC0F21FCA54677AD92B152C23336D /* ExampleGroup.swift in Sources */,
-				7BCB2C72011BD64CA5C29DBAF85C913E /* ExampleHooks.swift in Sources */,
-				DC213A0E78484B5980C460BB005D0DB1 /* ExampleMetadata.swift in Sources */,
-				1178605F12B04F364596F6D4C24AB183 /* Filter.swift in Sources */,
-				AD4860ECB93696F82CE08EC03282DE7D /* HooksPhase.swift in Sources */,
-				288235A4F8EA0CBB9250BD062821CE12 /* NSBundle+CurrentTestBundle.swift in Sources */,
-				8874EFF30CEEB8FCC5CA28464CADE76B /* NSString+C99ExtendedIdentifier.swift in Sources */,
-				3C7E917DA00DD7779FC477A957C58E2A /* QCKDSL.m in Sources */,
-				32D15CFBEEF0288463660CADE4E1A2C7 /* Quick-dummy.m in Sources */,
-				4B87215DA205E6A8B3F63DB844C60581 /* QuickConfiguration.m in Sources */,
-				B988B43AC716857A04283C2D260C6C20 /* QuickSelectedTestSuiteBuilder.swift in Sources */,
-				B80AD8E66AF2CAFA7F220C1A361D04FE /* QuickSpec.m in Sources */,
-				110DE0385C5467B3A20B9A7400DE6E75 /* QuickSpecBase.m in Sources */,
-				68618F52794AEB7F6292E14F2DAD85EB /* QuickTestSuite.swift in Sources */,
-				432E08023FDB9EA2634DCC96041D0796 /* SuiteHooks.swift in Sources */,
-				ABF58C8B4C821C674D94187103A9C85B /* URL+FileName.swift in Sources */,
-				EA726D36E9E4E072C7B6D86FFC71C481 /* World+DSL.swift in Sources */,
-				5001377D9D624DE1FDC16046BDC032FD /* World.swift in Sources */,
-				5AB72296D8D28B17593E4E5483ACE7E0 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
+				58A884856B7E64EE3C204D9EDAA14045 /* Behavior.swift in Sources */,
+				7CE6049975894E447F2D4071C74F6F8F /* Callsite.swift in Sources */,
+				14ECE81218F5F5C9BEF00819A7C078EC /* Closures.swift in Sources */,
+				B48508EB39EE315F5A00429EEA69DD63 /* Configuration.swift in Sources */,
+				018228C4760DF4F8B80630BC9ACCB39E /* DSL.swift in Sources */,
+				BE56C54CD29F23A1C631645390E8569D /* ErrorUtility.swift in Sources */,
+				D2C041844A0EB4EB2E8C7B9DAA748EEB /* Example.swift in Sources */,
+				9231B70907F130F31CF5717C502B780C /* ExampleGroup.swift in Sources */,
+				7536DD99ACEDE673713161E597B7B447 /* ExampleHooks.swift in Sources */,
+				59BF9ABA8BB14E0E4E345D13AB6D49FB /* ExampleMetadata.swift in Sources */,
+				AF60C00928A7AFE04E374B620EEA5F49 /* Filter.swift in Sources */,
+				209F98BB7B328893FB64BA0393B4BD57 /* HooksPhase.swift in Sources */,
+				887AF8C809D60140319DE71D6427F370 /* NSBundle+CurrentTestBundle.swift in Sources */,
+				4ADE5FC9505A3BF7DF17AF9756585116 /* QCKDSL.m in Sources */,
+				512AAF465EE936155DD9BBA92368928E /* Quick-dummy.m in Sources */,
+				9FB5F3B3AAF3103848313FACD0CACBCD /* QuickConfiguration.m in Sources */,
+				3D6A581E79FD9EAC1A948D8BC53F1EB0 /* QuickConfiguration.swift in Sources */,
+				4E1DBC9FF76D6AD924D1356260438074 /* QuickSelectedTestSuiteBuilder.swift in Sources */,
+				2F0B5199CDB717CA9F680579900ABF15 /* QuickSpec.m in Sources */,
+				22B5B4ED0824E7BAF2091AAD6238A73F /* QuickSpecBase.m in Sources */,
+				39382B0A1EF090D15BA6C89FC3DCB099 /* QuickTestObservation.swift in Sources */,
+				A7F5B07BF96955EFDC9106335235EDB2 /* QuickTestSuite.swift in Sources */,
+				A35159AD5A7A49BA9093F29B63DBD30D /* String+C99ExtendedIdentifier.swift in Sources */,
+				94B18F2CFF543F6B2E43E84630C337E2 /* SuiteHooks.swift in Sources */,
+				A6CE2E672C8EB4DF57485428AFD64A3C /* URL+FileName.swift in Sources */,
+				C9E716023868A97D2F5B19934D93045E /* World+DSL.swift in Sources */,
+				F01995755687FA91F51A15ED8FD9D125 /* World.swift in Sources */,
+				9E874C00792FA983399C03EC00AE326D /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A8C5A9DB393D40BC5F79D82B1F33736 /* Sources */ = {
+		6C21143B14DC5102C269BAA577F98FD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB43DE47046B98F9DA39B4DE2F08AB5 /* BaseTableViewController.swift in Sources */,
-				5E4508D19618A392861C277C1D57575E /* QuickTableView-dummy.m in Sources */,
-				BEEE38F2D0768E513AB6795051B118B4 /* QuickTableViewCellDefault.swift in Sources */,
-				57CAD617873B690250EE8F373E24353B /* QuickTableViewCellSubtitle.swift in Sources */,
-				56DC84D2435308D68A314E085F049D53 /* QuickTableViewCellValue1.swift in Sources */,
-				3FC9E5BB70C1ED9C1323E854E3001506 /* QuickTableViewCellValue2.swift in Sources */,
-				56F69AF91EF4894C44A46F7BB9EDFD10 /* QuickTableViewController.swift in Sources */,
-				8055DEE66EF53C51E2EE242C1CC9B002 /* QuickTableViewProtocols.swift in Sources */,
-				A4E707FECDF9ECC119CED3955B07C1C0 /* QuickTableViewRow.swift in Sources */,
-				CCE07D7E67F5929B027048C865AA5CA1 /* QuickTableViewSection.swift in Sources */,
-				CBD6F1DF9D5263E4ED8340BE492D7266 /* UITableView.swift in Sources */,
+				DC7C12C799AF7A049B753F4535883589 /* Pods-QuickTableView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92359A69A6BBE8B8FDCEDA68A2F1BFC7 /* Sources */ = {
+		E1B4EA4F8BEF663D27684DBB451724F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B583430BB82076FBDF9E2EFFC8A7C56D /* Pods-QuickTableView_Example-dummy.m in Sources */,
+				8AD8EB11995EA448F5A5C00487F78A97 /* KeyboardAdjuster-dummy.m in Sources */,
+				B1C0C32E5690937D2662C122CD87E325 /* KeyboardAdjuster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5FFE28FEE0738BA67437179A16666039 /* PBXTargetDependency */ = {
+		0652F2D06AEBAC0374FCBE90CC16DE8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeyboardAdjuster;
-			target = D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */;
-			targetProxy = 2F0B0DF7FCB706A7386886789E3FF0AC /* PBXContainerItemProxy */;
+			target = B1D8522B8AE30172E49ADAD292380971 /* KeyboardAdjuster */;
+			targetProxy = 55DB83FB5D1BB44C440E545A02E993EC /* PBXContainerItemProxy */;
 		};
-		758038D3BC0A797895FEBC542556D2DC /* PBXTargetDependency */ = {
+		4C997BEBE67A93459629C94D0BAFB5E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QuickTableView;
-			target = 0AA36F32B81890ED7DFBF56B237C2D21 /* QuickTableView */;
-			targetProxy = 7E92E0189FFFEE61C9703CB65528C116 /* PBXContainerItemProxy */;
+			target = C111B28D6F915B3A15276825E0597E6F /* QuickTableView */;
+			targetProxy = 25AEB3010676FD8F69D15689DAD2FE70 /* PBXContainerItemProxy */;
 		};
-		90C4D6FD8D363F2DA01C7707AB4159A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KeyboardAdjuster;
-			target = D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */;
-			targetProxy = E4F32FF6D05995355AC41D7BBD0D0C8B /* PBXContainerItemProxy */;
-		};
-		9DB8EB25382FD5C8852E387289BB0AEF /* PBXTargetDependency */ = {
+		7F05701FE10927912AFD30B1C0690AB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QuickTableView_Example";
-			target = 390D133C67EE9F3D293445972C41D51A /* Pods-QuickTableView_Example */;
-			targetProxy = 49052E494552D806168A6C057257326F /* PBXContainerItemProxy */;
+			target = 06D10E2D0160C10BDCD3E66323268D28 /* Pods-QuickTableView_Example */;
+			targetProxy = FC36007A4265AF441C4F84D07A7363CD /* PBXContainerItemProxy */;
 		};
-		E0604D9A15C495EB9A3A26071B14E113 /* PBXTargetDependency */ = {
+		993E1379CCDBF980E1A39090136EABFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyboardAdjuster;
+			target = B1D8522B8AE30172E49ADAD292380971 /* KeyboardAdjuster */;
+			targetProxy = A6C9A09A76CCE1010075D5B40CBBB37D /* PBXContainerItemProxy */;
+		};
+		D289C8C800BE99B8934C9A43BA4A967B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Quick;
-			target = AF7EF176B93FDA73F465330F7161854D /* Quick */;
-			targetProxy = 8BBBAB720379B617EC64ADA0EEEC8A18 /* PBXContainerItemProxy */;
+			target = C82891EAB7293DBEE916B21F57E8474D /* Quick */;
+			targetProxy = 048E6B347DFCCBEC990D2027C92BB95C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2992F5BAE33EBF4ED73C4132120A6224 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BE31753D7A5ED1BEE2780D8F77E7044 /* Quick.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				PRODUCT_MODULE_NAME = Quick;
-				PRODUCT_NAME = Quick;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5445103A592BED95E474604C906F42C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BE31753D7A5ED1BEE2780D8F77E7044 /* Quick.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				PRODUCT_MODULE_NAME = Quick;
-				PRODUCT_NAME = Quick;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5CBC1C5572B9F3919F11C871BA3592FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E0CA41E3435F6EF2146EA9D4663B05 /* Pods-QuickTableView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QuickTableView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		74A80190F6EE6099E873C9FF92732E78 /* Release */ = {
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1133,207 +1042,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		7E4671429DD8E7FD7BD661DD5FDBC6EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2EEB6DE894B5CD0DBC902FC5A4896B1 /* Pods-QuickTableView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QuickTableView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A319D42AFE1AF38B40182BC13DF83420 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AB29E3F82DEE2CBA1D57474B3116B5F /* KeyboardAdjuster.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
-				PRODUCT_MODULE_NAME = KeyboardAdjuster;
-				PRODUCT_NAME = KeyboardAdjuster;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D183F7CCE3F1663A7C63AA89B3436D1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36F165D649959909E3DBDC5DBD508D3E /* Pods-QuickTableView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QuickTableView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D8D16E0602A26DDCA40FE32C8E750536 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AB29E3F82DEE2CBA1D57474B3116B5F /* KeyboardAdjuster.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
-				PRODUCT_MODULE_NAME = KeyboardAdjuster;
-				PRODUCT_NAME = KeyboardAdjuster;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E22CAAD1A64A2DF3D0511DBBD4F989AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1353,22 +1061,54 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E5A9372EEAA23464E1B3140579C93FC2 /* Debug */ = {
+		20CEC2A73C59BD43947C15B740EE865D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6EB5345A12D364E18B8921C47881BFE /* Pods-QuickTableView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1350D3ED574D6DA8FE811A5B2206C5E8 /* KeyboardAdjuster.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
+				PRODUCT_MODULE_NAME = KeyboardAdjuster;
+				PRODUCT_NAME = KeyboardAdjuster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FBF4A54955F3938368198A7B32A3035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B288A94060DB36F601C523BA60CA0D06 /* Pods-QuickTableView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1379,9 +1119,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QuickTableView_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.modulemap";
@@ -1392,18 +1131,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EC0E1BC4DBD905D56289295EB80FEA74 /* Debug */ = {
+		30B057A4961B8C477EF22E02C6375B81 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384190800F86528BB79754E254073FDB /* QuickTableView.xcconfig */;
+			baseConfigurationReference = 4C7CDAA219CB00CC8F91527B255981F9 /* QuickTableView.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1415,9 +1152,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QuickTableView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/QuickTableView/QuickTableView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
 				PRODUCT_MODULE_NAME = QuickTableView;
@@ -1425,18 +1161,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		EFA415F1EEAC9BCE9C94E15A6B5304DD /* Release */ = {
+		76F277F46BD7B5547DECE49A644C8BF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384190800F86528BB79754E254073FDB /* QuickTableView.xcconfig */;
+			baseConfigurationReference = 584C1D7748B56E4A9E97DC201A09EBC2 /* Pods-QuickTableView_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1447,21 +1183,262 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QuickTableView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
-				PRODUCT_MODULE_NAME = QuickTableView;
-				PRODUCT_NAME = QuickTableView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		87B0528058C0DA92B684FBC34E66E88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92363C2742364E3584E830FCEA1FAF9B /* Quick.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				PRODUCT_MODULE_NAME = Quick;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D1767D08D1F04A2B54F9EF60AD08A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1923AE1A513F8F11F7A4D120E35077A6 /* Quick.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				PRODUCT_MODULE_NAME = Quick;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		914E57C179B766BF5F04073431E71A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7126314961F123B6891303E66D37D35E /* KeyboardAdjuster.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
+				PRODUCT_MODULE_NAME = KeyboardAdjuster;
+				PRODUCT_NAME = KeyboardAdjuster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB7D9308567B91D39E0C4CE78F2FC845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9136022A8583C22591F3C39340F21162 /* QuickTableView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickTableView/QuickTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
+				PRODUCT_MODULE_NAME = QuickTableView;
+				PRODUCT_NAME = QuickTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4D9560A2D9B1D56364FF6E21EF22B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27671ADF854B53B9CCE30AD45234133 /* Pods-QuickTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCA4FFF03F847BD19273A24882E21482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722836D1EB819C3A71CC31AE56536659 /* Pods-QuickTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1471,61 +1448,61 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02CE4F65530105149DA94C1A61B6B944 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */ = {
+		0E2ABC0423E50866BDC38BFD9BE140C0 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A319D42AFE1AF38B40182BC13DF83420 /* Debug */,
-				D8D16E0602A26DDCA40FE32C8E750536 /* Release */,
+				20CEC2A73C59BD43947C15B740EE865D /* Debug */,
+				914E57C179B766BF5F04073431E71A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		189D56F652B0345CC3E1073543C1B391 /* Build configuration list for PBXNativeTarget "Quick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E22CAAD1A64A2DF3D0511DBBD4F989AB /* Debug */,
-				74A80190F6EE6099E873C9FF92732E78 /* Release */,
+				8D1767D08D1F04A2B54F9EF60AD08A6E /* Debug */,
+				87B0528058C0DA92B684FBC34E66E88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56510972AE6187BCA085DB569583834E /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CBC1C5572B9F3919F11C871BA3592FB /* Debug */,
-				7E4671429DD8E7FD7BD661DD5FDBC6EB /* Release */,
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C51283429277A51512F3A82696B41E9 /* Build configuration list for PBXNativeTarget "QuickTableView" */ = {
+		7D9DFB06A697632108ABE5F14C1592B4 /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC0E1BC4DBD905D56289295EB80FEA74 /* Debug */,
-				EFA415F1EEAC9BCE9C94E15A6B5304DD /* Release */,
+				E4D9560A2D9B1D56364FF6E21EF22B2B /* Debug */,
+				76F277F46BD7B5547DECE49A644C8BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A73FD5B09330495675F999B794A5A60A /* Build configuration list for PBXNativeTarget "Quick" */ = {
+		D7AF5486D96974BA1A7D065FCE7193AD /* Build configuration list for PBXNativeTarget "QuickTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2992F5BAE33EBF4ED73C4132120A6224 /* Debug */,
-				5445103A592BED95E474604C906F42C1 /* Release */,
+				CB7D9308567B91D39E0C4CE78F2FC845 /* Debug */,
+				30B057A4961B8C477EF22E02C6375B81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB0C7EE94529F12794174A0C8C696891 /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Tests" */ = {
+		DFD900A09D099441D43AFCAF1B0C2EAC /* Build configuration list for PBXNativeTarget "Pods-QuickTableView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5A9372EEAA23464E1B3140579C93FC2 /* Debug */,
-				D183F7CCE3F1663A7C63AA89B3436D1A /* Release */,
+				2FBF4A54955F3938368198A7B32A3035 /* Debug */,
+				FCA4FFF03F847BD19273A24882E21482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
