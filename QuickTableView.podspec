@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "QuickTableView"
-  s.version          =  "3.0.0"
+  s.version          =  "4.0.0"
   s.summary          = "Helper classes and utilities that help speed up tableview creation and management in Swift."
   s.description      = "QuickTableView provides two helper classes, SimpleTableViewController and BaseTableViewController, that drastically simplify table view creation in Swift."
   s.homepage         = "https://github.com/lionheart/QuickTableView"
