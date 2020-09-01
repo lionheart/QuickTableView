@@ -109,132 +109,132 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		032934697846D68F9B14163B66932030 /* BaseTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseTableViewController.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/BaseTableViewController.html; sourceTree = "<group>"; };
-		03AC6A1929B778D7D8DE8EB5A78A971B /* Pods_QuickTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickTableView_Example.framework; path = "Pods-QuickTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		067D66773E868476C5EF77F358E07D65 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		032934697846D68F9B14163B66932030 /* BaseTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = BaseTableViewController.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/BaseTableViewController.html; sourceTree = "<group>"; };
+		03AC6A1929B778D7D8DE8EB5A78A971B /* Pods_QuickTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		067D66773E868476C5EF77F358E07D65 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
 		07F00E830C63BF86DF94EEE93431E8E9 /* KeyboardAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-umbrella.h"; sourceTree = "<group>"; };
 		0826EA91921104289B0A39480C01FAE6 /* KeyboardAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAdjuster.swift; path = Pod/Classes/KeyboardAdjuster.swift; sourceTree = "<group>"; };
 		08F654E08C240FC972CEE07EB5435E6F /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
-		0904C6F4351998B418A191D3012E179D /* QuickTableViewCellIdentifiable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellIdentifiable.html; path = docs/Protocols/QuickTableViewCellIdentifiable.html; sourceTree = "<group>"; };
-		09551A81EC36261F4CFCF85E1D3ED750 /* QuickTableViewSectionBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionBuilder.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums/QuickTableViewSectionBuilder.html; sourceTree = "<group>"; };
-		0AC3E284D066766F01D181C704706D1A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		0904C6F4351998B418A191D3012E179D /* QuickTableViewCellIdentifiable.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewCellIdentifiable.html; path = docs/Protocols/QuickTableViewCellIdentifiable.html; sourceTree = "<group>"; };
+		09551A81EC36261F4CFCF85E1D3ED750 /* QuickTableViewSectionBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewSectionBuilder.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums/QuickTableViewSectionBuilder.html; sourceTree = "<group>"; };
+		0AC3E284D066766F01D181C704706D1A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
 		0BC41D3250587878519FD05B5DA7F5D8 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
-		0C67A453922F99A5E8E6B85647AD172A /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
-		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FB89603E8876A29DB216D663F19F43E /* QuickTableViewCellValue2.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue2.html; path = docs/Classes/QuickTableViewCellValue2.html; sourceTree = "<group>"; };
+		0C67A453922F99A5E8E6B85647AD172A /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = lunr.min.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
+		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB89603E8876A29DB216D663F19F43E /* QuickTableViewCellValue2.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewCellValue2.html; path = docs/Classes/QuickTableViewCellValue2.html; sourceTree = "<group>"; };
 		0FD456EECD44C3235450F03278409C1A /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/img/spinner.gif; sourceTree = "<group>"; };
 		1350D3ED574D6DA8FE811A5B2206C5E8 /* KeyboardAdjuster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.debug.xcconfig; sourceTree = "<group>"; };
-		145E9D9CA0A591801D853C3D94C94B37 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		145E9D9CA0A591801D853C3D94C94B37 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
 		161FD509F0FF7DD1AAA89EA3C9A249BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		167D3FAC766398B02B304E07733BD6F9 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1699DB6CE6B3F4064D19D8C57A836FA0 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
 		1923AE1A513F8F11F7A4D120E35077A6 /* Quick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.debug.xcconfig; sourceTree = "<group>"; };
 		1C699BE86ADDFF02EE553B2EDF3A907F /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
-		1DC94F4F11163DA37F905091ED1E8539 /* QuickTableViewCellValue1.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue1.html; path = docs/Classes/QuickTableViewCellValue1.html; sourceTree = "<group>"; };
+		1DC94F4F11163DA37F905091ED1E8539 /* QuickTableViewCellValue1.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewCellValue1.html; path = docs/Classes/QuickTableViewCellValue1.html; sourceTree = "<group>"; };
 		1EFC81231557C65FF1EE54EDCAC39CA1 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
-		1F6EDCF1D7F1659B79C878142785F752 /* Pods_QuickTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickTableView_Tests.framework; path = "Pods-QuickTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6EDCF1D7F1659B79C878142785F752 /* Pods_QuickTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF5B03240AE943A1C4400B632C6B065 /* KeyboardAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardAdjuster-dummy.m"; sourceTree = "<group>"; };
-		21B37C8D7AC155831A7DAC2C21BE9ECC /* QuickTableViewCellIdentifiable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellIdentifiable.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewCellIdentifiable.html; sourceTree = "<group>"; };
-		22D65554B9A91DB6577EE54887DA0076 /* QuickTableViewCellValue2.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue2.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellValue2.html; sourceTree = "<group>"; };
-		237F22D77297C809F4DB50617BFF2898 /* QuickTableViewCellValue1.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellValue1.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellValue1.html; sourceTree = "<group>"; };
+		21B37C8D7AC155831A7DAC2C21BE9ECC /* QuickTableViewCellIdentifiable.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewCellIdentifiable.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewCellIdentifiable.html; sourceTree = "<group>"; };
+		22D65554B9A91DB6577EE54887DA0076 /* QuickTableViewCellValue2.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewCellValue2.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellValue2.html; sourceTree = "<group>"; };
+		237F22D77297C809F4DB50617BFF2898 /* QuickTableViewCellValue1.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewCellValue1.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellValue1.html; sourceTree = "<group>"; };
 		24794D4673317AF7A656860C6EE225DC /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
-		24B6CDCA91AEB5FAE6B6511655C6ABCD /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-md5"; sourceTree = "<group>"; };
+		24B6CDCA91AEB5FAE6B6511655C6ABCD /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "filelist-md5"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-md5"; sourceTree = "<group>"; };
 		25F153A0777D77A1688DA8DC7E722C47 /* KeyboardAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-prefix.pch"; sourceTree = "<group>"; };
-		260D3A854CDB47D4AEF6FA423FC75F96 /* QuickTableViewCellSubtitle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellSubtitle.html; path = docs/Classes/QuickTableViewCellSubtitle.html; sourceTree = "<group>"; };
-		26C183B6D2536B1502B619D1BEE6D33C /* QuickTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewController.html; path = docs/Classes/QuickTableViewController.html; sourceTree = "<group>"; };
+		260D3A854CDB47D4AEF6FA423FC75F96 /* QuickTableViewCellSubtitle.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewCellSubtitle.html; path = docs/Classes/QuickTableViewCellSubtitle.html; sourceTree = "<group>"; };
+		26C183B6D2536B1502B619D1BEE6D33C /* QuickTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewController.html; path = docs/Classes/QuickTableViewController.html; sourceTree = "<group>"; };
 		2805E335D4E1C0CACDC7B9531CB9416E /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		28FE6DE4EFEAD53F7D322B64870E2F20 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
-		2A962D234D4817A20C05BE4EE236468B /* QuickTableViewRowWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowWithConditions.html; path = docs/Protocols/QuickTableViewRowWithConditions.html; sourceTree = "<group>"; };
+		2A962D234D4817A20C05BE4EE236468B /* QuickTableViewRowWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewRowWithConditions.html; path = docs/Protocols/QuickTableViewRowWithConditions.html; sourceTree = "<group>"; };
 		2B4FFD1B6FF587E47B5DB5DE5779991F /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
 		2C663750BF7BEF6CDFE1DFAD94A9DD08 /* QuickConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickConfiguration.swift; path = Sources/Quick/Configuration/QuickConfiguration.swift; sourceTree = "<group>"; };
 		2D3562BAB68B66E3683D3D402DB6ABE9 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
 		2D5F3AC924E9A433D08A2EDF2FDB6EEB /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		2EB24334C42B59C4A2D55DBA247BBAF2 /* Pods-QuickTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuickTableView_Tests.modulemap"; sourceTree = "<group>"; };
-		2F80A133AC5200F8995BA3F93C0CAC55 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
-		302E07B93D8A3A017BC92287A215171A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		337197E551E9DDCE73751AECCD503B70 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		2F80A133AC5200F8995BA3F93C0CAC55 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		302E07B93D8A3A017BC92287A215171A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		337197E551E9DDCE73751AECCD503B70 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Protocols.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
 		345D49C3E3EB6BA78591D537C1E8C61F /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		372885484F8B443C6E72A6D8A33A3C4F /* Pods-QuickTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B13FDE503C24E56ACCF2A5A2BC805E7 /* QuickTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewProtocols.swift; sourceTree = "<group>"; };
 		3BDA8474D5F7A286C2DB1BD92C18A4C1 /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		40564CA27068A5B6494326DCABEF4F3D /* QuickTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-umbrella.h"; sourceTree = "<group>"; };
 		40F320349F1357DEB6577091355FED0E /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
-		412AB26515121758B13A9CF2F5111419 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/filelist; sourceTree = "<group>"; };
+		412AB26515121758B13A9CF2F5111419 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = filelist; path = docs/filelist; sourceTree = "<group>"; };
 		469580F38904EFF9A5AED0819120C148 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
-		47AFFB5A8CE306AC9607EBAB9D464663 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		47AFFB5A8CE306AC9607EBAB9D464663 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
 		48C9BD40603140E22E8E53DDBD530669 /* QuickTableViewCellDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellDefault.swift; sourceTree = "<group>"; };
-		491C0124BEDAC5274DFDA481D91F5656 /* HasTableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HasTableView.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/HasTableView.html; sourceTree = "<group>"; };
-		49D26661DAC52785EF417F58E3BB97FA /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
-		4A30C6AB0DD7D3E7E6DC93D2C0C330ED /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		491C0124BEDAC5274DFDA481D91F5656 /* HasTableView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = HasTableView.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/HasTableView.html; sourceTree = "<group>"; };
+		49D26661DAC52785EF417F58E3BB97FA /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Extensions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
+		4A30C6AB0DD7D3E7E6DC93D2C0C330ED /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
 		4AF2588ED21600190FAF8F85A275F2FE /* Pods-QuickTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4B47F41A60203E4ACA8DB79D18E206F3 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		4B47F41A60203E4ACA8DB79D18E206F3 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
 		4C7CDAA219CB00CC8F91527B255981F9 /* QuickTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.release.xcconfig; sourceTree = "<group>"; };
 		4EC8669BBC0FC882C2C35B6B65C67EF8 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
-		4F8F0A5BE787063AC0C259559AD4215D /* QuickTableViewRowWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowWithConditions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewRowWithConditions.html; sourceTree = "<group>"; };
+		4F8F0A5BE787063AC0C259559AD4215D /* QuickTableViewRowWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewRowWithConditions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewRowWithConditions.html; sourceTree = "<group>"; };
 		4F9E453308B0D18194A420CEB48F19A7 /* Pods-QuickTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		521EBEEFA26FBA393FF9502375C5DE73 /* QuickTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewController.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewController.html; sourceTree = "<group>"; };
+		521EBEEFA26FBA393FF9502375C5DE73 /* QuickTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewController.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewController.html; sourceTree = "<group>"; };
 		52BFDA4F6834EADA17430FCADEDAC4F9 /* QuickTableViewCellValue2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellValue2.swift; sourceTree = "<group>"; };
-		53299699421EC9690BEE24B128F7435A /* QuickTableViewContainer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewContainer.html; path = docs/Protocols/QuickTableViewContainer.html; sourceTree = "<group>"; };
+		53299699421EC9690BEE24B128F7435A /* QuickTableViewContainer.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewContainer.html; path = docs/Protocols/QuickTableViewContainer.html; sourceTree = "<group>"; };
 		53DC9C6C3C1AA7DFE6BAE5C178A9D619 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		54DEF1E68B8D0310926CACAD6D3E20D3 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/typeahead.jquery.js; sourceTree = "<group>"; };
+		54DEF1E68B8D0310926CACAD6D3E20D3 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = typeahead.jquery.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/typeahead.jquery.js; sourceTree = "<group>"; };
 		581F5E133099BB3757897E451CCD6436 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		584C1D7748B56E4A9E97DC201A09EBC2 /* Pods-QuickTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B04FFFC05475B057D5E46875BDB05F5 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
-		5B073DC43548AE20E708E411ADC597A3 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/QuickTableView.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
-		5BEFCDE675B1058D9193D9014E778999 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
-		5C0C029C7A07B32D0DA7EB8D54908CEF /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
-		5D0F74C8FAF902B0AB75FE0271E6818F /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-local"; sourceTree = "<group>"; };
+		5B073DC43548AE20E708E411ADC597A3 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = docSet.dsidx; path = docs/docsets/QuickTableView.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		5BEFCDE675B1058D9193D9014E778999 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		5C0C029C7A07B32D0DA7EB8D54908CEF /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		5D0F74C8FAF902B0AB75FE0271E6818F /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "filelist-local"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-local"; sourceTree = "<group>"; };
 		5DC26CBBB12F704E102130BF83FAF72B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/QuickTableView.docset/Contents/Info.plist; sourceTree = "<group>"; };
-		609743AA0D8DF52B14FCA1455976CD87 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
-		60A3E8A594163D62EB01BA4994C584AB /* BaseTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseTableViewController.html; path = docs/Classes/BaseTableViewController.html; sourceTree = "<group>"; };
-		64F75EBEB7D5FBF7117889157B1D95F7 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
-		65A60CE71BEDE437B431D54DD5FF1088 /* QuickTableViewSectionBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionBuilder.html; path = docs/Enums/QuickTableViewSectionBuilder.html; sourceTree = "<group>"; };
-		6705D254AD9AA918FB75215F0AA19CDF /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
-		684286350530EA6C3F790C428CE8A505 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
-		68953F589F0A249C30E0F7449CEFFFEB /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
-		68BE94A5CE4CEE427EE6112D3F017699 /* QuickTableViewRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRow.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewRow.html; sourceTree = "<group>"; };
+		609743AA0D8DF52B14FCA1455976CD87 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = index.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		60A3E8A594163D62EB01BA4994C584AB /* BaseTableViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = BaseTableViewController.html; path = docs/Classes/BaseTableViewController.html; sourceTree = "<group>"; };
+		64F75EBEB7D5FBF7117889157B1D95F7 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
+		65A60CE71BEDE437B431D54DD5FF1088 /* QuickTableViewSectionBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewSectionBuilder.html; path = docs/Enums/QuickTableViewSectionBuilder.html; sourceTree = "<group>"; };
+		6705D254AD9AA918FB75215F0AA19CDF /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		684286350530EA6C3F790C428CE8A505 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
+		68953F589F0A249C30E0F7449CEFFFEB /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		68BE94A5CE4CEE427EE6112D3F017699 /* QuickTableViewRow.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewRow.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewRow.html; sourceTree = "<group>"; };
 		6E9327E229FF8CBF0CB1343C8791C276 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		6EE7ED73CD020EF2CD31A2ECDF064159 /* KeyboardAdjuster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeyboardAdjuster-Info.plist"; sourceTree = "<group>"; };
 		6FB1F5012A4C8FBD68B10246EE4BFEAC /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
-		70BF02EFDA14214B569B83EB2352BDA4 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist; sourceTree = "<group>"; };
+		70BF02EFDA14214B569B83EB2352BDA4 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = filelist; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist; sourceTree = "<group>"; };
 		7126314961F123B6891303E66D37D35E /* KeyboardAdjuster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.release.xcconfig; sourceTree = "<group>"; };
 		71FE45B8D38EDFC0BC314CBA2904F955 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
 		722836D1EB819C3A71CC31AE56536659 /* Pods-QuickTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		72DB699FAB0BFD6B05115AFC96917D5D /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyboardAdjuster.framework; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DB699FAB0BFD6B05115AFC96917D5D /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DCEA94DDCAB0A6412841CB616B5DE4 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		7498311384AAED58BACB1076F03DF6CB /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
 		74EC09C0A322F1783903A5B80D3689D1 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
-		7508C874F25FEE7642E46A36887B4318 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
+		7508C874F25FEE7642E46A36887B4318 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
 		7605FA9A04EECB5E9094B98C3036C6D2 /* Pods-QuickTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		76A8B9152E72D06701DAD57EC935589A /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		791C4D90E5328BBB12C725EB002B062C /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
 		794C8F027F3B1AC36CB374ABEB26FA1A /* Pods-QuickTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7B3E10326A8A54D11C1CC6A590C6C299 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
+		7B3E10326A8A54D11C1CC6A590C6C299 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
 		7D57AB741D63449F422AE14A65EE752E /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		7D81E2905893EA33BA27C99BA6F5502F /* Pods-QuickTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuickTableView_Example.modulemap"; sourceTree = "<group>"; };
 		8287B62E7FC6EBDE22898BDE0650E91C /* QuickTableViewCellSubtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellSubtitle.swift; sourceTree = "<group>"; };
 		834BF3C71D640820DBF8BF9C74945631 /* Pods-QuickTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Example-Info.plist"; sourceTree = "<group>"; };
-		87BABCE4653A232C58F28CFFAB2E0919 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
-		88A4F9799DABE75EA6332537CC7A1CDF /* QuickTableViewRowBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowBuilder.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums/QuickTableViewRowBuilder.html; sourceTree = "<group>"; };
-		89A563213E363A5A2CD22EA616C47437 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
-		8BD4182014E5664796D1EB5243BC149D /* UITableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITableView.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Extensions/UITableView.html; sourceTree = "<group>"; };
-		8F2865742C414CC7A9D7E008C3FAEE8C /* QuickTableViewSectionWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionWithConditions.html; path = docs/Protocols/QuickTableViewSectionWithConditions.html; sourceTree = "<group>"; };
+		87BABCE4653A232C58F28CFFAB2E0919 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
+		88A4F9799DABE75EA6332537CC7A1CDF /* QuickTableViewRowBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewRowBuilder.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums/QuickTableViewRowBuilder.html; sourceTree = "<group>"; };
+		89A563213E363A5A2CD22EA616C47437 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+		8BD4182014E5664796D1EB5243BC149D /* UITableView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UITableView.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Extensions/UITableView.html; sourceTree = "<group>"; };
+		8F2865742C414CC7A9D7E008C3FAEE8C /* QuickTableViewSectionWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewSectionWithConditions.html; path = docs/Protocols/QuickTableViewSectionWithConditions.html; sourceTree = "<group>"; };
 		9135A82367DE4762A0F288F697B555BF /* Pods-QuickTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9136022A8583C22591F3C39340F21162 /* QuickTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.debug.xcconfig; sourceTree = "<group>"; };
 		92363C2742364E3584E830FCEA1FAF9B /* Quick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.release.xcconfig; sourceTree = "<group>"; };
 		9500C08780D62F637D83803E7075A341 /* QuickTestObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestObservation.swift; path = Sources/Quick/QuickTestObservation.swift; sourceTree = "<group>"; };
-		972B50758DBBA6A95F5168B093498F77 /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QuickTableView.framework; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6B8A69CBA7B497F8DE5B6E357B8856 /* QuickTableView.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableView.tgz; path = docs/docsets/QuickTableView.tgz; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A21A4FA7F8AA89A1A492B166A2C78117 /* QuickTableViewRowBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRowBuilder.html; path = docs/Enums/QuickTableViewRowBuilder.html; sourceTree = "<group>"; };
+		972B50758DBBA6A95F5168B093498F77 /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6B8A69CBA7B497F8DE5B6E357B8856 /* QuickTableView.tgz */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = QuickTableView.tgz; path = docs/docsets/QuickTableView.tgz; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21A4FA7F8AA89A1A492B166A2C78117 /* QuickTableViewRowBuilder.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewRowBuilder.html; path = docs/Enums/QuickTableViewRowBuilder.html; sourceTree = "<group>"; };
 		A6409E1EB72B351A5B66BE61AFB1C328 /* Pods-QuickTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A7240EF17EE0C420FE45181DDA1150DC /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
-		A9489F9681718E03FA73D31EEF29B7B2 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/filelist-local-md5"; sourceTree = "<group>"; };
-		A94FA55691D2DDFD4F6F40E575DA3192 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
-		A990FD0F43ACE75EC2457B707F8A779C /* QuickTableViewSection.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSection.html; path = docs/Protocols/QuickTableViewSection.html; sourceTree = "<group>"; };
-		AA7A537F33EFBD657320D008181E36F1 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
+		A9489F9681718E03FA73D31EEF29B7B2 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "filelist-local-md5"; path = "docs/filelist-local-md5"; sourceTree = "<group>"; };
+		A94FA55691D2DDFD4F6F40E575DA3192 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Classes.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		A990FD0F43ACE75EC2457B707F8A779C /* QuickTableViewSection.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewSection.html; path = docs/Protocols/QuickTableViewSection.html; sourceTree = "<group>"; };
+		AA7A537F33EFBD657320D008181E36F1 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		B0C3A06AC65F3AC84CB7D580DA3FCBA7 /* String+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+C99ExtendedIdentifier.swift"; path = "Sources/Quick/String+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
-		B159FC283D857CE316146704BD310ECC /* QuickTableViewSection.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSection.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewSection.html; sourceTree = "<group>"; };
+		B159FC283D857CE316146704BD310ECC /* QuickTableViewSection.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewSection.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewSection.html; sourceTree = "<group>"; };
 		B27671ADF854B53B9CCE30AD45234133 /* Pods-QuickTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B288A94060DB36F601C523BA60CA0D06 /* Pods-QuickTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2DAFCCBA590D6029E739414D2B6F990 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
@@ -243,14 +243,14 @@
 		B7C3311DB9FFF379AFDFA534553CED69 /* QuickTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-prefix.pch"; sourceTree = "<group>"; };
 		BA58BEFD18B280EF29AF936E1AED5AFA /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		BCADDA0F3BF693744FB54B9A9F759AAA /* Pods-QuickTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickTableView_Tests-Info.plist"; sourceTree = "<group>"; };
-		BCCFE064EFD8401A3A37A12525C529A0 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		BCCFE064EFD8401A3A37A12525C529A0 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
 		BD5C0D956CD67D7ADF76ACF574C75905 /* Quick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quick-Info.plist"; sourceTree = "<group>"; };
-		BE4423E6CB4F36B5ED03B09B379C80B9 /* QuickTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QuickTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE6935A5B505BFB9A609CCAAC94533B6 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/filelist-md5"; sourceTree = "<group>"; };
-		C11A57B562E12A40AD3E8163CF1CC488 /* HasTableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HasTableView.html; path = docs/Protocols/HasTableView.html; sourceTree = "<group>"; };
-		C2DF168B1B7B98F625087F821F65002D /* QuickTableViewCellDefault.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellDefault.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellDefault.html; sourceTree = "<group>"; };
-		C473318ED7782491D29C514FC99E51A4 /* UITableView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITableView.html; path = docs/Extensions/UITableView.html; sourceTree = "<group>"; };
-		C4C2FBCE770BEDC1A5B1B5584730B15A /* QuickTableViewCellDefault.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellDefault.html; path = docs/Classes/QuickTableViewCellDefault.html; sourceTree = "<group>"; };
+		BE4423E6CB4F36B5ED03B09B379C80B9 /* QuickTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QuickTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE6935A5B505BFB9A609CCAAC94533B6 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "filelist-md5"; path = "docs/filelist-md5"; sourceTree = "<group>"; };
+		C11A57B562E12A40AD3E8163CF1CC488 /* HasTableView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = HasTableView.html; path = docs/Protocols/HasTableView.html; sourceTree = "<group>"; };
+		C2DF168B1B7B98F625087F821F65002D /* QuickTableViewCellDefault.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewCellDefault.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellDefault.html; sourceTree = "<group>"; };
+		C473318ED7782491D29C514FC99E51A4 /* UITableView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UITableView.html; path = docs/Extensions/UITableView.html; sourceTree = "<group>"; };
+		C4C2FBCE770BEDC1A5B1B5584730B15A /* QuickTableViewCellDefault.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewCellDefault.html; path = docs/Classes/QuickTableViewCellDefault.html; sourceTree = "<group>"; };
 		C56A44B3D8A48BA7D005C4BBE825CCFC /* QuickTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewController.swift; sourceTree = "<group>"; };
 		CAED157BF364524E2C9F1628D70D7312 /* QuickTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QuickTableView.modulemap; sourceTree = "<group>"; };
 		CCA47D9DDC671F6B06F3DE061D87243D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -261,29 +261,29 @@
 		D854008DE65FF2894D510CB3D78C50E9 /* Pods-QuickTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickTableView_Example-umbrella.h"; sourceTree = "<group>"; };
 		D8883D71BD1C4ADB7B6CB59F60613495 /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		D8EB59A65F7D08E9D37C78201F533F33 /* QuickTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewSection.swift; sourceTree = "<group>"; };
-		D9817A349DEE33B183FB4924E0FBE090 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DB4139371B903AAC9ACCD6CD2CA9A1B6 /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
-		DE2C80EF428A8D140B2ACC8335368CAE /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
+		D9817A349DEE33B183FB4924E0FBE090 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DB4139371B903AAC9ACCD6CD2CA9A1B6 /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
+		DE2C80EF428A8D140B2ACC8335368CAE /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Enums.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
 		DE89FAE8E64238E24443436DB75466EF /* Pods-QuickTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickTableView_Example-dummy.m"; sourceTree = "<group>"; };
-		E05353B6C9C8C998697BB1759F00D2AC /* QuickTableViewCellSubtitle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewCellSubtitle.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellSubtitle.html; sourceTree = "<group>"; };
-		E21593E2ED4DEC820CE400454B200B66 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
+		E05353B6C9C8C998697BB1759F00D2AC /* QuickTableViewCellSubtitle.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewCellSubtitle.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Classes/QuickTableViewCellSubtitle.html; sourceTree = "<group>"; };
+		E21593E2ED4DEC820CE400454B200B66 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
 		E2CCBB0C44BC0FBB0BC8FF2BCE47D43D /* QuickTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewRow.swift; sourceTree = "<group>"; };
 		E41BD2FC9C143CCF07239D97D43E9112 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
 		E515A7AD56582501BA8023C9D450286B /* KeyboardAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyboardAdjuster.modulemap; sourceTree = "<group>"; };
 		E6FB6B4731566ABDB6EC05A64B3A730A /* QuickTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QuickTableView-Info.plist"; sourceTree = "<group>"; };
-		E7C9F0DE6CD1E9A230FA1C494DDFBA7A /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-local-md5"; sourceTree = "<group>"; };
+		E7C9F0DE6CD1E9A230FA1C494DDFBA7A /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "filelist-local-md5"; path = "docs/docsets/QuickTableView.docset/Contents/Resources/Documents/filelist-local-md5"; sourceTree = "<group>"; };
 		EAE044053A35D8296CD960E76879DA1D /* QuickTableViewCellValue1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickTableViewCellValue1.swift; sourceTree = "<group>"; };
 		EB9140D278E3C0F239352D56BBDFC12D /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		EDA48B0710A1EF700E5308B4FE45473D /* QuickTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuickTableView-dummy.m"; sourceTree = "<group>"; };
-		EE09B7A1687BF3D84043BBEFD73C5812 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
-		EE0F91EEA78C284BA5F88303A441C0F1 /* QuickTableViewSectionWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewSectionWithConditions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewSectionWithConditions.html; sourceTree = "<group>"; };
+		EE09B7A1687BF3D84043BBEFD73C5812 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.search.js; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
+		EE0F91EEA78C284BA5F88303A441C0F1 /* QuickTableViewSectionWithConditions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewSectionWithConditions.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewSectionWithConditions.html; sourceTree = "<group>"; };
 		EF1799B946FA2AA3E372BF0A2B529E27 /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/img/spinner.gif; sourceTree = "<group>"; };
-		F2568EA680369ADAA30C282B7F5162E9 /* QuickTableViewRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewRow.html; path = docs/Protocols/QuickTableViewRow.html; sourceTree = "<group>"; };
-		F415A4514EF7194D8E5043162D07A9A8 /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/filelist-local"; sourceTree = "<group>"; };
+		F2568EA680369ADAA30C282B7F5162E9 /* QuickTableViewRow.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = QuickTableViewRow.html; path = docs/Protocols/QuickTableViewRow.html; sourceTree = "<group>"; };
+		F415A4514EF7194D8E5043162D07A9A8 /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "filelist-local"; path = "docs/filelist-local"; sourceTree = "<group>"; };
 		F7B02F89A7849829FCDA83A78DCF13C6 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
-		F7D98A00282D515BF84D96A23015AC97 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		F7D98A00282D515BF84D96A23015AC97 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
 		FA44EC794851CF99B858BCCD878F0649 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
-		FCFB0D1790F5DF5186989C5CAC3636CA /* QuickTableViewContainer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickTableViewContainer.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewContainer.html; sourceTree = "<group>"; };
+		FCFB0D1790F5DF5186989C5CAC3636CA /* QuickTableViewContainer.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = QuickTableViewContainer.html; path = docs/docsets/QuickTableView.docset/Contents/Resources/Documents/Protocols/QuickTableViewContainer.html; sourceTree = "<group>"; };
 		FFD3C9D8AF56724D63BEA1F441B9F9E0 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -340,7 +340,6 @@
 				0826EA91921104289B0A39480C01FAE6 /* KeyboardAdjuster.swift */,
 				5CB78F49B382C386E53496A124F53B03 /* Support Files */,
 			);
-			name = KeyboardAdjuster;
 			path = KeyboardAdjuster;
 			sourceTree = "<group>";
 		};
@@ -590,7 +589,6 @@
 				3BDA8474D5F7A286C2DB1BD92C18A4C1 /* XCTestSuite+QuickTestSuiteBuilder.m */,
 				49C0B2F677DCFA24D7A0E5D619A121FF /* Support Files */,
 			);
-			name = Quick;
 			path = Quick;
 			sourceTree = "<group>";
 		};
@@ -629,7 +627,6 @@
 				EAE044053A35D8296CD960E76879DA1D /* QuickTableViewCellValue1.swift */,
 				52BFDA4F6834EADA17430FCADEDAC4F9 /* QuickTableViewCellValue2.swift */,
 			);
-			name = "Table View Cells";
 			path = "Table View Cells";
 			sourceTree = "<group>";
 		};
@@ -833,7 +830,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1160;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1078,7 +1075,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C7CDAA219CB00CC8F91527B255981F9 /* QuickTableView.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1110,7 +1106,6 @@
 			baseConfigurationReference = B288A94060DB36F601C523BA60CA0D06 /* Pods-QuickTableView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1142,7 +1137,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1350D3ED574D6DA8FE811A5B2206C5E8 /* KeyboardAdjuster.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1173,7 +1167,6 @@
 			baseConfigurationReference = 584C1D7748B56E4A9E97DC201A09EBC2 /* Pods-QuickTableView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1255,8 +1248,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1266,7 +1258,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92363C2742364E3584E830FCEA1FAF9B /* Quick.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1295,7 +1286,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1923AE1A513F8F11F7A4D120E35077A6 /* Quick.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1323,7 +1313,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7126314961F123B6891303E66D37D35E /* KeyboardAdjuster.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1355,7 +1344,6 @@
 			baseConfigurationReference = B27671ADF854B53B9CCE30AD45234133 /* Pods-QuickTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1387,7 +1375,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9136022A8583C22591F3C39340F21162 /* QuickTableView.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1418,7 +1405,6 @@
 			baseConfigurationReference = 722836D1EB819C3A71CC31AE56536659 /* Pods-QuickTableView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
