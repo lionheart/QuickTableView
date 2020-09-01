@@ -1074,11 +1074,12 @@
 			};
 			name = Debug;
 		};
-		20CEC2A73C59BD43947C15B740EE865D /* Debug */ = {
+		1A3CE1D428EF86277FD590757C2175C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1350D3ED574D6DA8FE811A5B2206C5E8 /* KeyboardAdjuster.debug.xcconfig */;
+			baseConfigurationReference = 4C7CDAA219CB00CC8F91527B255981F9 /* QuickTableView.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1088,20 +1089,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickTableView/QuickTableView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
-				PRODUCT_MODULE_NAME = KeyboardAdjuster;
-				PRODUCT_NAME = KeyboardAdjuster;
+				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
+				PRODUCT_MODULE_NAME = QuickTableView;
+				PRODUCT_NAME = QuickTableView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		2FBF4A54955F3938368198A7B32A3035 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1136,9 +1138,9 @@
 			};
 			name = Debug;
 		};
-		30B057A4961B8C477EF22E02C6375B81 /* Release */ = {
+		618088F4ED7C336258C85BD0CB9FC460 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C7CDAA219CB00CC8F91527B255981F9 /* QuickTableView.release.xcconfig */;
+			baseConfigurationReference = 1350D3ED574D6DA8FE811A5B2206C5E8 /* KeyboardAdjuster.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1151,21 +1153,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QuickTableView/QuickTableView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
-				PRODUCT_MODULE_NAME = QuickTableView;
-				PRODUCT_NAME = QuickTableView;
+				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
+				PRODUCT_MODULE_NAME = KeyboardAdjuster;
+				PRODUCT_NAME = KeyboardAdjuster;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		76F277F46BD7B5547DECE49A644C8BF3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1318,11 +1319,12 @@
 			};
 			name = Debug;
 		};
-		914E57C179B766BF5F04073431E71A3B /* Release */ = {
+		C4C9070F42D4736B0D4D8CD7D954DCF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7126314961F123B6891303E66D37D35E /* KeyboardAdjuster.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1347,36 +1349,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		CB7D9308567B91D39E0C4CE78F2FC845 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9136022A8583C22591F3C39340F21162 /* QuickTableView.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QuickTableView/QuickTableView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
-				PRODUCT_MODULE_NAME = QuickTableView;
-				PRODUCT_NAME = QuickTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		E4D9560A2D9B1D56364FF6E21EF22B2B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1406,6 +1378,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9D3D61B59DC95BB8F2423A655EC4103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9136022A8583C22591F3C39340F21162 /* QuickTableView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickTableView/QuickTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
+				PRODUCT_MODULE_NAME = QuickTableView;
+				PRODUCT_NAME = QuickTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1451,8 +1453,8 @@
 		0E2ABC0423E50866BDC38BFD9BE140C0 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20CEC2A73C59BD43947C15B740EE865D /* Debug */,
-				914E57C179B766BF5F04073431E71A3B /* Release */,
+				618088F4ED7C336258C85BD0CB9FC460 /* Debug */,
+				C4C9070F42D4736B0D4D8CD7D954DCF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1487,8 +1489,8 @@
 		D7AF5486D96974BA1A7D065FCE7193AD /* Build configuration list for PBXNativeTarget "QuickTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB7D9308567B91D39E0C4CE78F2FC845 /* Debug */,
-				30B057A4961B8C477EF22E02C6375B81 /* Release */,
+				E9D3D61B59DC95BB8F2423A655EC4103 /* Debug */,
+				1A3CE1D428EF86277FD590757C2175C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

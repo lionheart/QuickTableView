@@ -14,9 +14,9 @@
   },
   "social_media_url": "https://twitter.com/lionheartsw",
   "platforms": {
-    "ios": "10.3"
+    "ios": "13.6"
   },
-  "swift_versions": "4.2",
+  "swift_versions": "5",
   "requires_arc": true,
   "source_files": [
     "Pod/Classes/**/*",
@@ -27,9 +27,9 @@
   "ios": {
     "dependencies": {
       "KeyboardAdjuster": [
-        "~> 4"
+        "~> 5"
       ]
     }
   },
-  "swift_version": "4.2"
+  "swift_version": "5"
 }
