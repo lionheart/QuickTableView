@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/lionheart/QuickTableView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lionheartsw'
 
-  s.platform     = :ios, '10.3'
-  s.swift_version = '4.2'
+  s.platform     = :ios, '13.6'
+  s.swift_version = '5'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*', 'Pod/Extensions/**/*', 'Pod/Protocols/**/*'
 
   s.frameworks = 'UIKit'
-  s.ios.dependency 'KeyboardAdjuster', '~> 4'
+  s.ios.dependency 'KeyboardAdjuster', '~> 5'
 end
