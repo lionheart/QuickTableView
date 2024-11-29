@@ -15,6 +15,8 @@
 //
 //
 
+import UIKit
+
 open class QuickTableViewCellDefault: UITableViewCell, QuickTableViewCellIdentifiableFixedHeight {
     public static var identifier: String = "QuickTableViewCellDefaultCellIdentifier"
 

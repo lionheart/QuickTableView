@@ -49,7 +49,7 @@ open class BaseTableViewController: UIViewController, HasTableView {
         } else {
             // iOS 11 and below need to have auto-layout specified manually
             tableView.estimatedRowHeight = 44
-            tableView.rowHeight = UITableView.automaticDimension
+            tableView.rowHeight = UITableViewAutomaticDimension
         }
     }
 

@@ -7,6 +7,7 @@
 //
 
 import QuickTableView
+import UIKit
 
 enum HouseSection: Int, QuickTableViewSection {
     case Bedroom

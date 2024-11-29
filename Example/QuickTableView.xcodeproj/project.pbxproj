@@ -3,12 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375D3D412CFA663700379C4A /* KeyboardAdjuster in Frameworks */ = {isa = PBXBuildFile; productRef = 375D3D402CFA663700379C4A /* KeyboardAdjuster */; };
+		375D3D442CFA668F00379C4A /* QuickTableView in Frameworks */ = {isa = PBXBuildFile; productRef = 375D3D432CFA668F00379C4A /* QuickTableView */; };
 		377576E41CBD6CA200191199 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377576E31CBD6CA200191199 /* HouseViewController.swift */; };
 		379CD7A81CBDB2B60070C5AB /* QuickHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CD7A71CBDB2B60070C5AB /* QuickHouseViewController.swift */; };
+		37ACCA462CFA67B300A6AE62 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 37ACCA452CFA67B300A6AE62 /* Quick */; };
 		37C0F5941FCCFA73000DB42E /* QuickTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0F5931FCCFA73000DB42E /* QuickTableViewUITests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -16,8 +19,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		BABE5AD4217AE23EE590ADFF /* Pods_QuickTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56D6E233A6431B2F9451816 /* Pods_QuickTableView_Example.framework */; };
-		C761F9207C42E991990B1380 /* Pods_QuickTableView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ADEEB5FD227C6A3E2868D4 /* Pods_QuickTableView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27477206B61C072CFA84F3DE /* Pods-QuickTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Example.release.xcconfig"; path = "Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3473B7F999D36CDA907380A4 /* Pods-QuickTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Example.debug.xcconfig"; path = "Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		377576E31CBD6CA200191199 /* HouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		379CD7A71CBDB2B60070C5AB /* QuickHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickHouseViewController.swift; sourceTree = "<group>"; };
 		37C0F5911FCCFA73000DB42E /* QuickTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C0F5931FCCFA73000DB42E /* QuickTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTableViewUITests.swift; sourceTree = "<group>"; };
 		37C0F5951FCCFA74000DB42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37C109F91E4A604200490571 /* QuickTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTableView.framework; path = "../../../Library/Developer/Xcode/DerivedData/QuickTableView-fnrfmvzrhavgtlftlpidlfmrwieg/Build/Products/Release-iphonesimulator/QuickTableView/QuickTableView.framework"; sourceTree = "<group>"; };
-		5F84A8A0A07475AE7C8C2399 /* Pods-QuickTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QuickTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,12 +54,6 @@
 		607FACE51AFB9204008FA782 /* QuickTableView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickTableView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9B127C3B5D39A7D32FA7B234 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C03218A4A459478B0B22D6B1 /* QuickTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QuickTableView.podspec; path = ../QuickTableView.podspec; sourceTree = "<group>"; };
-		D56D6E233A6431B2F9451816 /* Pods_QuickTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9ADEEB5FD227C6A3E2868D4 /* Pods_QuickTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD0EDA6FFC1A6AB2F7B4B6AC /* Pods-QuickTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTableView_Tests.release.xcconfig"; path = "Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FBDEAF0C382DE131A2FA3C1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABE5AD4217AE23EE590ADFF /* Pods_QuickTableView_Example.framework in Frameworks */,
+				375D3D412CFA663700379C4A /* KeyboardAdjuster in Frameworks */,
+				375D3D442CFA668F00379C4A /* QuickTableView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C761F9207C42E991990B1380 /* Pods_QuickTableView_Tests.framework in Frameworks */,
+				37ACCA462CFA67B300A6AE62 /* Quick in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,13 +96,10 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for QuickTableView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				37C0F5921FCCFA73000DB42E /* QuickTableViewUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				6CD165BCDC8CA90263A22BA3 /* Frameworks */,
-				6666141D8B50FDE2E24197E6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,37 +154,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				C03218A4A459478B0B22D6B1 /* QuickTableView.podspec */,
-				FBDEAF0C382DE131A2FA3C1C /* README.md */,
-				9B127C3B5D39A7D32FA7B234 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		6666141D8B50FDE2E24197E6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3473B7F999D36CDA907380A4 /* Pods-QuickTableView_Example.debug.xcconfig */,
-				27477206B61C072CFA84F3DE /* Pods-QuickTableView_Example.release.xcconfig */,
-				5F84A8A0A07475AE7C8C2399 /* Pods-QuickTableView_Tests.debug.xcconfig */,
-				DD0EDA6FFC1A6AB2F7B4B6AC /* Pods-QuickTableView_Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		6CD165BCDC8CA90263A22BA3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				37C109F91E4A604200490571 /* QuickTableView.framework */,
-				D56D6E233A6431B2F9451816 /* Pods_QuickTableView_Example.framework */,
-				D9ADEEB5FD227C6A3E2868D4 /* Pods_QuickTableView_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,11 +179,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "QuickTableView_Example" */;
 			buildPhases = (
-				B0AD342DB3B1494E8CFBAFE5 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				5EBA397D0E22C34ADEA52466 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,11 +196,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "QuickTableView_Tests" */;
 			buildPhases = (
-				7083235788C38AE61FBE6DF1 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				5E36533A75D59781255F1A25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +250,10 @@
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
+			packageReferences = (
+				375D3D422CFA668F00379C4A /* XCLocalSwiftPackageReference "../../QuickTableView" */,
+				37ACCA442CFA67B300A6AE62 /* XCRemoteSwiftPackageReference "Quick" */,
+			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -333,91 +291,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5E36533A75D59781255F1A25 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickTableView_Tests/Pods-QuickTableView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5EBA397D0E22C34ADEA52466 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KeyboardAdjuster/KeyboardAdjuster.framework",
-				"${BUILT_PRODUCTS_DIR}/QuickTableView/QuickTableView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyboardAdjuster.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickTableView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickTableView_Example/Pods-QuickTableView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7083235788C38AE61FBE6DF1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QuickTableView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0AD342DB3B1494E8CFBAFE5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QuickTableView_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37C0F58D1FCCFA73000DB42E /* Sources */ = {
@@ -503,7 +376,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = QuickTableViewUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lionheartsw.QuickTableViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -533,7 +410,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = QuickTableViewUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lionheartsw.QuickTableViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -591,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -641,22 +522,26 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3473B7F999D36CDA907380A4 /* Pods-QuickTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63553QQ62F;
 				INFOPLIST_FILE = QuickTableView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -666,12 +551,15 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27477206B61C072CFA84F3DE /* Pods-QuickTableView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63553QQ62F;
 				INFOPLIST_FILE = QuickTableView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -681,7 +569,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F84A8A0A07475AE7C8C2399 /* Pods-QuickTableView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 63553QQ62F;
@@ -694,7 +581,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -704,7 +595,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD0EDA6FFC1A6AB2F7B4B6AC /* Pods-QuickTableView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 63553QQ62F;
@@ -713,7 +603,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -761,6 +655,49 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		375D3D422CFA668F00379C4A /* XCLocalSwiftPackageReference "../../QuickTableView" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../QuickTableView;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		375D3D3F2CFA663700379C4A /* XCRemoteSwiftPackageReference "KeyboardAdjuster" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lionheart/KeyboardAdjuster";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		37ACCA442CFA67B300A6AE62 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		375D3D402CFA663700379C4A /* KeyboardAdjuster */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 375D3D3F2CFA663700379C4A /* XCRemoteSwiftPackageReference "KeyboardAdjuster" */;
+			productName = KeyboardAdjuster;
+		};
+		375D3D432CFA668F00379C4A /* QuickTableView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QuickTableView;
+		};
+		37ACCA452CFA67B300A6AE62 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37ACCA442CFA67B300A6AE62 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

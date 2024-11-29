@@ -1,0 +1,33 @@
+{
+  "originHash" : "7e8c31fcbe762aacb9f17bea2dfc708cc878882c4f2926fc7b2b40a9e9969617",
+  "pins" : [
+    {
+      "identity" : "keyboardadjuster",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lionheart/KeyboardAdjuster",
+      "state" : {
+        "revision" : "937eca07b8e3c7d578dc42469485f8cc5068f11a",
+        "version" : "6.0.0"
+      }
+    },
+    {
+      "identity" : "nimble",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Quick/Nimble.git",
+      "state" : {
+        "revision" : "7a46a5fc86cb917f69e3daf79fcb045283d8f008",
+        "version" : "8.1.2"
+      }
+    },
+    {
+      "identity" : "quick",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Quick/Quick.git",
+      "state" : {
+        "revision" : "09b3becb37cb2163919a3842a4c5fa6ec7130792",
+        "version" : "2.2.1"
+      }
+    }
+  ],
+  "version" : 3
+}

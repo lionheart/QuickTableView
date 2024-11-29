@@ -15,6 +15,8 @@
 //
 //
 
+import UIKit
+
 open class QuickTableViewCellSubtitle: UITableViewCell, QuickTableViewCellIdentifiableFixedHeight {
     public static var identifier: String = "QuickTableViewCellSubtitleCellIdentifier"
 

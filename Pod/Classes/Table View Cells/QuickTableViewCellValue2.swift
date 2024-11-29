@@ -14,6 +14,7 @@
 //  limitations under the License.
 //
 //
+import UIKit
 
 open class QuickTableViewCellValue2: UITableViewCell, QuickTableViewCellIdentifiableFixedHeight {
     public static var identifier = "QuickTableViewCellValue2CellIdentifier"

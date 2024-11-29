@@ -205,7 +205,7 @@ open class QuickTableViewController<Container: QuickTableViewContainer>: BaseTab
 
         if Container.shouldAutoResizeCells {
             tableView.estimatedRowHeight = 44
-            tableView.rowHeight = UITableView.automaticDimension
+            tableView.rowHeight = UITableViewAutomaticDimension
         }
     }
 

@@ -6,6 +6,7 @@
 //  Copyright © 2016 CocoaPods. All rights reserved.
 //
 
+import UIKit
 import QuickTableView
 
 struct HouseContainer: QuickTableViewContainer {
