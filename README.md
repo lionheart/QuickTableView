@@ -17,7 +17,6 @@ limitations under the License.
 ![](meta/repo-banner.png)
 [![](meta/repo-banner-bottom.png)][lionheart-url]
 
-[![CI Status][ci-badge]][travis-repo-url]
 [![Version][version-badge]][cocoapods-repo-url]
 [![License][license-badge]][cocoapods-repo-url]
 [![Platform][platform-badge]][cocoapods-repo-url]
